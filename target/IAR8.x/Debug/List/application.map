@@ -1,0 +1,2731 @@
+###############################################################################
+#
+# IAR ELF Linker V8.20.2.14835/W32 for ARM                12/Feb/2020  18:07:19
+# Copyright 2007-2017 IAR Systems AB.
+#
+#    Output file  =  
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Exe\application.out
+#    Map file     =  
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\List\application.map
+#    Command line =  
+#        -f C:\Users\user\AppData\Local\Temp\EW8FF4.tmp
+#        (C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\adjust_button.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\adjust_button_pressed.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\ApplicationFontProvider.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\BitmapDatabase.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\Blue_Slider_Horizontal_Medium_Indicators_Slider_Round_nob.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\Blue_Slider_Horizontal_Medium_Slider_Round_back.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\Blue_Slider_Horizontal_Medium_Slider_Round_fill.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\Blue_Togglebars_Toggle_round_large_button_OFF.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\Blue_Togglebars_Toggle_round_large_button_ON.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\BoardConfiguration.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\CachedFont.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\croutine.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\event_groups.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\Font_verdana_20_4bpp_0.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\Font_verdana_45_4bpp_0.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\FontCache.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\FrontendApplication.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\FrontendApplicationBase.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\ft5336.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\GeneratedFont.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\GPIO.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\heap_2.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\Kerning_verdana_10_4bpp.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\Kerning_verdana_20_4bpp.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\Kerning_verdana_45_4bpp.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\LanguageGb.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\list.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\main.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\Main_Background.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\MainPresenter.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\MainView.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\MainViewBase.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\Model.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\ok_button.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\ok_button_pressed.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\OSWrappers.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\peare_gul.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\peare_hvid.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\PoolTempPresenter.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\PoolTempView.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\PoolTempViewBase.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\port.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\portasm.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\queue.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\settings_background.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\startup_stm32f746xx.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\stm32746g_discovery.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\stm32746g_discovery_lcd.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\stm32746g_discovery_qspi.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\stm32746g_discovery_sd.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\stm32746g_discovery_sdram.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\stm32746g_discovery_ts.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\STM32F746GTouchController.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\STM32F7DMA.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\STM32F7HAL.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\STM32F7Instrumentation.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\stm32f7xx_hal.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\stm32f7xx_hal_adc.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\stm32f7xx_hal_adc_ex.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\stm32f7xx_hal_can.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\stm32f7xx_hal_cec.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\stm32f7xx_hal_cortex.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\stm32f7xx_hal_crc.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\stm32f7xx_hal_crc_ex.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\stm32f7xx_hal_cryp.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\stm32f7xx_hal_cryp_ex.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\stm32f7xx_hal_dac.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\stm32f7xx_hal_dac_ex.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\stm32f7xx_hal_dcmi.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\stm32f7xx_hal_dcmi_ex.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\stm32f7xx_hal_dma.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\stm32f7xx_hal_dma2d.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\stm32f7xx_hal_dma_ex.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\stm32f7xx_hal_eth.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\stm32f7xx_hal_flash.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\stm32f7xx_hal_flash_ex.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\stm32f7xx_hal_gpio.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\stm32f7xx_hal_hash.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\stm32f7xx_hal_hash_ex.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\stm32f7xx_hal_hcd.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\stm32f7xx_hal_i2c.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\stm32f7xx_hal_i2c_ex.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\stm32f7xx_hal_i2s.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\stm32f7xx_hal_irda.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\stm32f7xx_hal_iwdg.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\stm32f7xx_hal_lptim.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\stm32f7xx_hal_ltdc.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\stm32f7xx_hal_msp_template.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\stm32f7xx_hal_nand.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\stm32f7xx_hal_nor.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\stm32f7xx_hal_pcd.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\stm32f7xx_hal_pcd_ex.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\stm32f7xx_hal_pwr.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\stm32f7xx_hal_pwr_ex.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\stm32f7xx_hal_qspi.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\stm32f7xx_hal_rcc.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\stm32f7xx_hal_rcc_ex.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\stm32f7xx_hal_rng.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\stm32f7xx_hal_rtc.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\stm32f7xx_hal_rtc_ex.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\stm32f7xx_hal_sai.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\stm32f7xx_hal_sai_ex.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\stm32f7xx_hal_sd.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\stm32f7xx_hal_sdram.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\stm32f7xx_hal_spdifrx.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\stm32f7xx_hal_spi.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\stm32f7xx_hal_sram.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\stm32f7xx_hal_tim.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\stm32f7xx_hal_tim_ex.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\stm32f7xx_hal_uart.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\stm32f7xx_hal_usart.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\stm32f7xx_hal_wwdg.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\stm32f7xx_ll_fmc.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\stm32f7xx_ll_sdmmc.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\stm32f7xx_ll_usb.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\system_stm32f7xx.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\Table_verdana_10_4bpp.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\Table_verdana_20_4bpp.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\Table_verdana_45_4bpp.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\tasks.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\Texts.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\timers.o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj\TypedTextDatabase.o
+#        -o
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Exe\application.out
+#        --redirect _Printf=_PrintfFullNoMb --redirect _Scanf=_ScanfFullNoMb
+#        --map
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\List\application.map
+#        --config C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\application.icf
+#        --semihosting
+#        C:\TouchGFXProjects\Pool_Demo\target\IAR8.x/../../touchgfx/lib/core/cortex_m7/IAR8.x/touchgfx_core.a
+#        --entry __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor                     = *
+__CPP_Exceptions              = Disabled
+__CPP_Language                = C++14
+__Heap_Handler                = Basic
+__SystemLibrary               = DLib
+__dlib_dynamic_initialization = normal
+__dlib_version                = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because no calls to memory allocation
+functions were found in the application outside of system library
+functions, and there are calls to deallocation functions in the
+application.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at 0x08000000 { ro section .intvec };
+"P1":  place in [from 0x08000000 to 0x080fffff] { ro };
+define block CSTACK with size = 1K, alignment = 8 { };
+define block HEAP with size = 256, alignment = 8 { };
+"P2":  place in [from 0x20000000 to 0x2004ffff] {
+          rw, block CSTACK, block HEAP };
+"P3":  place in [from 0x90000000 to 0x90ffffff] { section ExtFlashSection };
+initialize by copy { rw };
+
+  Section                 Kind        Address     Size  Object
+  -------                 ----        -------     ----  ------
+"A0":                                            0x1c8
+  .intvec                 ro code  0x08000000    0x1c8  startup_stm32f746xx.o [1]
+                                 - 0x080001c8    0x1c8
+
+"P1":                                          0x1197a
+  .text                   ro code  0x080001c8   0x1850  LCD16bpp.o [8]
+  .text                   ro code  0x08001a18     0x14  memset.o [6]
+  .text                   ro code  0x08001a2c    0x454  Bitmap.o [8]
+  .text                   ro code  0x08001e80     0x24  ABIassert.o [7]
+  .text                   ro code  0x08001ea4     0xa6  ABImemcpy.o [6]
+  .text                   ro code  0x08001f4a     0x7a  lz77_init_single.o [6]
+  .text                   ro code  0x08001fc4     0xe0  DisplayTransformation.o [8]
+  .text                   ro code  0x080020a4    0x802  HAL.o [8]
+  .text                   ro code  0x080028a6     0x1a  LCD16bpp.o [8]
+  .text                   ro code  0x080028c0    0x8f4  LCD.o [8]
+  .text                   ro code  0x080031b4     0x66  ABImemset.o [6]
+  .text                   ro code  0x0800321a      0x6  abort.o [3]
+  .text                   ro code  0x08003220     0x14  DisplayTransformation.o [8]
+  .text                   ro code  0x08003234    0x104  OSWrappers.o [1]
+  .text                   ro code  0x08003338     0x48  GPIO.o [1]
+  .text                   ro code  0x08003380    0x750  Application.o [8]
+  .text                   ro code  0x08003ad0    0x16c  Gestures.o [8]
+  .text                   ro code  0x08003c3c    0x22e  DMA.o [8]
+  .text                   ro code  0x08003e6a     0x12  PoolTempViewBase.o [1]
+  .text                   ro code  0x08003e7c     0x24  HAL.o [8]
+  .text                   ro code  0x08003ea0     0xfc  TouchCalibration.o [8]
+  .text                   ro code  0x08003f9c    0x7b0  TextProvider.o [8]
+  .text                   ro code  0x0800474c     0x7c  LCD.o [8]
+  .text                   ro code  0x080047c8     0x14  exit.o [7]
+  .text                   ro code  0x080047dc    0x5f8  queue.o [1]
+  .text                   ro code  0x08004dd4    0x83c  tasks.o [1]
+  .text                   ro code  0x08005610    0x294  stm32746g_discovery.o [1]
+  .text                   ro code  0x080058a4     0x1c  Application.o [8]
+  .text                   ro code  0x080058c0     0x88  stm32_crc_lock.o [8]
+  .text                   ro code  0x08005948    0x640  Screen.o [8]
+  .text                   ro code  0x08005f88     0x90  Container.o [8]
+  .text                   ro code  0x08006018     0x44  Bitmap.o [8]
+  .text                   ro code  0x0800605c     0x52  Application.o [8]
+  .text                   ro code  0x080060ae     0x44  Screen.o [8]
+  .text                   ro code  0x080060f2     0x96  Application.o [8]
+  .text                   ro code  0x08006188     0x4c  Application.o [8]
+  .text                   ro code  0x080061d4      0x6  ABImemclr4.o [6]
+  .text                   ro code  0x080061da     0x32  cxxabi.o [4]
+  .text                   ro code  0x0800620c      0xc  memcpy.o [6]
+  .text                   ro code  0x08006218     0x5c  TextProvider.o [8]
+  .text                   ro code  0x08006274     0x44  TextProvider.o [8]
+  .text                   ro code  0x080062b8     0x40  TextProvider.o [8]
+  .text                   ro code  0x080062f8     0x22  TextProvider.o [8]
+  .text                   ro code  0x0800631a     0x1c  TextProvider.o [8]
+  .text                   ro code  0x08006336     0x12  PoolTempViewBase.o [1]
+  .text                   ro code  0x08006348     0x44  TextProvider.o [8]
+  .text                   ro code  0x0800638c     0x48  TextProvider.o [8]
+  .text                   ro code  0x080063d4    0x1ec  port.o [1]
+  .text                   ro code  0x080065c0     0x94  list.o [1]
+  .text                   ro code  0x08006654     0xf0  heap_2.o [1]
+  .text                   ro code  0x08006744     0x3a  ABImemset48.o [6]
+  .text                   ro code  0x0800677e      0xa  BoardConfiguration.o [1]
+  .text                   ro code  0x08006788     0x68  memcmp.o [6]
+  .text                   ro code  0x080067f0    0x234  stm32f7xx_hal_gpio.o [1]
+  .text                   ro code  0x08006a24    0x124  stm32f7xx_hal_cortex.o [1]
+  .text                   ro code  0x08006b48    0x6a2  stm32f7xx_hal_i2c.o [1]
+  .text                   ro code  0x080071ea     0x18  stm32f7xx_hal.o [1]
+  .text                   ro code  0x08007202      0xa  GeneratedFont.o [1]
+  .text                   ro code  0x0800720c     0x34  Screen.o [8]
+  .text                   ro code  0x08007240     0x26  PoolTempViewBase.o [1]
+  .text                   ro code  0x08007266      0xa  STM32F7HAL.o [1]
+  .text                   ro code  0x08007270    0x250  Container.o [8]
+  .text                   ro code  0x080074c0     0x3e  Screen.o [8]
+  .text                   ro code  0x080074fe     0x28  Screen.o [8]
+  .text                   ro code  0x08007526     0x28  Screen.o [8]
+  .text                   ro code  0x0800754e      0x6  BoardConfiguration.o [1]
+  .text                   ro code  0x08007554    0x17e  Drawable.o [8]
+  .text                   ro code  0x080076d2      0x6  FrontendApplicationBase.o [1]
+  .text                   ro code  0x080076d8     0x20  Screen.o [8]
+  .text                   ro code  0x080076f8     0x1c  Screen.o [8]
+  .text                   ro code  0x08007714     0xa0  cppinit.o [3]
+  CODE                    ro code  0x080077b4     0xac  portasm.o [1]
+  .text                   ro code  0x08007860      0x2  stm32f7xx_hal_i2c.o [1]
+  .text                   ro code  0x08007862      0x6  GeneratedFont.o [1]
+  .text                   ro code  0x08007868      0xc  stm32f7xx_hal.o [1]
+  FontFlashSection        const    0x08007874    0xfd4  Font_verdana_45_4bpp_0.o [1]
+  .text                   ro code  0x08008848    0x646  stm32f7xx_hal_qspi.o [1]
+  .text                   ro code  0x08008e8e      0x2  stm32f7xx_hal_qspi.o [1]
+  .text                   ro code  0x08008e90    0x230  stm32f7xx_hal_dma.o [1]
+  .text                   ro code  0x080090c0    0x5b4  Unicode.o [8]
+  .text                   ro code  0x08009674      0xe  Utils.o [8]
+  .text                   ro code  0x08009682      0x6  STM32F7DMA.o [1]
+  .text                   ro code  0x08009688    0x508  STM32F7DMA.o [1]
+  .text                   ro code  0x08009b90    0x310  stm32f7xx_hal_dma2d.o [1]
+  .text                   ro code  0x08009ea0      0x2  stm32f7xx_hal_dma2d.o [1]
+  .text                   ro code  0x08009ea2      0x6  STM32F7DMA.o [1]
+  .text                   ro code  0x08009ea8    0x504  Slider.o [8]
+  .text                   ro code  0x0800a3ac     0x2a  Slider.o [8]
+  .text                   ro code  0x0800a3d6      0x6  STM32F7DMA.o [1]
+  .text                   ro code  0x0800a3dc     0x2c  PoolTempViewBase.o [1]
+  .text                   ro code  0x0800a408     0xfc  Image.o [8]
+  .text                   ro code  0x0800a504     0x18  PoolTempViewBase.o [1]
+  .text                   ro code  0x0800a51c     0x16  PoolTempViewBase.o [1]
+  .text                   ro code  0x0800a532     0x26  PoolTempViewBase.o [1]
+  .text                   ro code  0x0800a558    0x4a8  stm32f7xx_hal_rcc.o [1]
+  .text                   ro code  0x0800aa00     0x2c  stm32f7xx_hal.o [1]
+  .text                   ro code  0x0800aa2c    0x494  stm32f7xx_hal_rcc_ex.o [1]
+  .text                   ro code  0x0800aec0    0x434  TextArea.o [8]
+  .text                   ro code  0x0800b2f4     0x48  TextAreaWithWildcard.o [8]
+  .text                   ro code  0x0800b33c     0x78  Texts.o [1]
+  .text                   ro code  0x0800b3b4     0x36  TextAreaWithWildcard.o [8]
+  .text                   ro code  0x0800b3ea      0x2  FrontendApplicationBase.o [1]
+  .text                   ro code  0x0800b3ec     0x24  TypedTextDatabase.o [1]
+  .text                   ro code  0x0800b410     0x54  Table_verdana_20_4bpp.o [1]
+  .text                   ro code  0x0800b464     0x54  Table_verdana_45_4bpp.o [1]
+  .text                   ro code  0x0800b4b8     0x54  Table_verdana_10_4bpp.o [1]
+  .text                   ro code  0x0800b50c     0xb2  GeneratedFont.o [1]
+  .text                   ro code  0x0800b5be      0x2  FrontendApplicationBase.o [1]
+  .text                   ro code  0x0800b5c0     0xd0  ConstFont.o [8]
+  .rodata                 const    0x0800b690    0x3d0  LCD16bpp.o [8]
+  .text                   ro code  0x0800ba60    0x324  stm32746g_discovery_qspi.o [1]
+  .text                   ro code  0x0800bd84    0x2dc  ft5336.o [1]
+  .text                   ro code  0x0800c060    0x2ae  BoardConfiguration.o [1]
+  .text                   ro code  0x0800c30e      0x2  FrontendApplicationBase.o [1]
+  .text                   ro code  0x0800c310     0x10  stm32f7xx_hal.o [1]
+  .text                   ro code  0x0800c320     0x24  stm32f7xx_hal.o [1]
+  .text                   ro code  0x0800c344    0x280  stm32746g_discovery_sdram.o [1]
+  .text                   ro code  0x0800c5c4    0x250  stm32746g_discovery_lcd.o [1]
+  .text                   ro code  0x0800c814    0x246  stm32f7xx_hal_ltdc.o [1]
+  .text                   ro code  0x0800ca5a      0x2  FrontendApplicationBase.o [1]
+  .text                   ro code  0x0800ca5c     0x88  BoardConfiguration.o [1]
+  .text                   ro code  0x0800cae4     0x7a  STM32F7Instrumentation.o [1]
+  .text                   ro code  0x0800cb5e      0x2  FrontendApplicationBase.o [1]
+  .text                   ro code  0x0800cb60     0x6c  stm32f7xx_hal_pwr_ex.o [1]
+  .text                   ro code  0x0800cbcc      0x2  stm32f7xx_hal_msp_template.o [1]
+  .text                   ro code  0x0800cbce      0x2  MainPresenter.o [1]
+  .text                   ro code  0x0800cbd0     0x8e  stm32f7xx_hal_sdram.o [1]
+  .text                   ro code  0x0800cc5e      0x2  MainView.o [1]
+  .text                   ro code  0x0800cc60     0x1c  stm32746g_discovery_lcd.o [1]
+  .text                   ro code  0x0800cc7c     0x34  BoardConfiguration.o [1]
+  .text                   ro code  0x0800ccb0    0x110  BitmapDatabase.o [1]
+  .text                   ro code  0x0800cdc0      0xc  FontManager.o [8]
+  .text                   ro code  0x0800cdcc     0x84  BoardConfiguration.o [1]
+  .text                   ro code  0x0800ce50    0x10e  stm32f7xx_hal_tim.o [1]
+  .text                   ro code  0x0800cf5e      0x2  MainViewBase.o [1]
+  .text                   ro code  0x0800cf60    0x152  stm32f7xx_ll_fmc.o [1]
+  .text                   ro code  0x0800d0b2      0x2  MainViewBase.o [1]
+  .text                   ro code  0x0800d0b4     0xb0  BoardConfiguration.o [1]
+  .text                   ro code  0x0800d164      0xa  AbstractPartition.o [8]
+  .text                   ro code  0x0800d16e      0x2  MainViewBase.o [1]
+  .text                   ro code  0x0800d170     0x14  FrontendApplication.o [1]
+  .text                   ro code  0x0800d184     0x6c  Model.o [1]
+  .text                   ro code  0x0800d1f0    0x198  FrontendApplicationBase.o [1]
+  .text                   ro code  0x0800d388     0x1c  FrontendApplicationBase.o [1]
+  LCD16bpp_enableTextureMapperAll
+                          ro code  0x0800d3a4     0x2a  LCD16bpp.o [8]
+  .text                   ro code  0x0800d3ce      0x2  PoolTempPresenter.o [1]
+  .text                   ro code  0x0800d3d0     0xf0  FrontendApplicationBase.o [1]
+  .text                   ro code  0x0800d4c0    0x194  FrontendApplicationBase.o [1]
+  .text                   ro code  0x0800d654    0x194  FrontendApplicationBase.o [1]
+  LCD16bpp_enableTextureMapperA4
+                          ro code  0x0800d7e8     0x12  LCD16bpp.o [8]
+  LCD16bpp_enableTextureMapperARGB8888
+                          ro code  0x0800d7fa     0x12  LCD16bpp.o [8]
+  LCD16bpp_enableTextureMapperL8_ARGB8888
+                          ro code  0x0800d80c     0x12  LCD16bpp.o [8]
+  LCD16bpp_enableTextureMapperL8_RGB565
+                          ro code  0x0800d81e     0x12  LCD16bpp.o [8]
+  LCD16bpp_enableTextureMapperL8_RGB888
+                          ro code  0x0800d830     0x12  LCD16bpp.o [8]
+  LCD16bpp_enableTextureMapperRGB565
+                          ro code  0x0800d842     0x1e  LCD16bpp.o [8]
+  .text                   ro code  0x0800d860     0x2e  MainView.o [1]
+  .text                   ro code  0x0800d88e      0x2  PoolTempPresenter.o [1]
+  .text                   ro code  0x0800d890     0x36  MainPresenter.o [1]
+  .text                   ro code  0x0800d8c6      0x2  PoolTempPresenter.o [1]
+  .text                   ro code  0x0800d8c8    0x160  SnapshotWidget.o [8]
+  .text                   ro code  0x0800da28     0x54  PoolTempView.o [1]
+  .text                   ro code  0x0800da7c     0x42  PoolTempPresenter.o [1]
+  .text                   ro code  0x0800dabe      0x2  PoolTempPresenter.o [1]
+  LCD16bpp_enableTextureMapperA4_BilinearInterpolation
+                          ro code  0x0800dac0     0x10  LCD16bpp.o [8]
+  LCD16bpp_enableTextureMapperA4_NearestNeighbor
+                          ro code  0x0800dad0     0x10  LCD16bpp.o [8]
+  LCD16bpp_enableTextureMapperARGB8888_BilinearInterpolation
+                          ro code  0x0800dae0     0x10  LCD16bpp.o [8]
+  LCD16bpp_enableTextureMapperARGB8888_NearestNeighbor
+                          ro code  0x0800daf0     0x10  LCD16bpp.o [8]
+  LCD16bpp_enableTextureMapperL8_ARGB8888_BilinearInterpolation
+                          ro code  0x0800db00     0x10  LCD16bpp.o [8]
+  LCD16bpp_enableTextureMapperL8_ARGB8888_NearestNeighbor
+                          ro code  0x0800db10     0x10  LCD16bpp.o [8]
+  LCD16bpp_enableTextureMapperL8_RGB565_BilinearInterpolation
+                          ro code  0x0800db20     0x10  LCD16bpp.o [8]
+  LCD16bpp_enableTextureMapperL8_RGB565_NearestNeighbor
+                          ro code  0x0800db30     0x10  LCD16bpp.o [8]
+  LCD16bpp_enableTextureMapperL8_RGB888_BilinearInterpolation
+                          ro code  0x0800db40     0x10  LCD16bpp.o [8]
+  LCD16bpp_enableTextureMapperL8_RGB888_NearestNeighbor
+                          ro code  0x0800db50     0x10  LCD16bpp.o [8]
+  LCD16bpp_enableTextureMapperRGB565_Opaque_BilinearInterpolation
+                          ro code  0x0800db60     0x10  LCD16bpp.o [8]
+  LCD16bpp_enableTextureMapperRGB565_Opaque_NearestNeighbor
+                          ro code  0x0800db70     0x10  LCD16bpp.o [8]
+  LCD16bpp_enableTextureMapperRGB565_NonOpaque_BilinearInterpolation
+                          ro code  0x0800db80     0x10  LCD16bpp.o [8]
+  LCD16bpp_enableTextureMapperRGB565_NonOpaque_NearestNeighbor
+                          ro code  0x0800db90     0x10  LCD16bpp.o [8]
+  .text                   ro code  0x0800dba0    0x1b4  MainViewBase.o [1]
+  .text                   ro code  0x0800dd54    0x1fc  PoolTempViewBase.o [1]
+  .text                   ro code  0x0800df50     0x72  ToggleButton.o [8]
+  .text                   ro code  0x0800dfc2      0x2  PoolTempPresenter.o [1]
+  .text                   ro code  0x0800dfc4     0x30  PoolTempViewBase.o [1]
+  .text                   ro code  0x0800dff4    0x114  Button.o [8]
+  .text                   ro code  0x0800e108     0x44  PoolTempViewBase.o [1]
+  .text                   ro code  0x0800e14c     0x4e  AbstractButton.o [8]
+  .text                   ro code  0x0800e19a      0x2  PoolTempViewBase.o [1]
+  .rodata                 const    0x0800e19c    0x284  Slider.o [8]
+  .rodata                 const    0x0800e420    0x25c  Bitmap.o [8]
+  .text                   ro code  0x0800e67c    0x224  stm32746g_discovery_ts.o [1]
+  .rodata                 const    0x0800e8a0    0x21c  HAL.o [8]
+  FontFlashSection        const    0x0800eabc    0x1d0  Font_verdana_20_4bpp_0.o [1]
+  .text                   ro code  0x0800ec8c    0x16c  STM32F7HAL.o [1]
+  .rodata                 const    0x0800edf8    0x100  Container.o [8]
+  .rodata                 const    0x0800eef8     0xd4  DMA.o [8]
+  .rodata                 const    0x0800efcc     0xc8  Slider.o [8]
+  .text                   ro code  0x0800f094     0xb8  Font.o [8]
+  .rodata                 const    0x0800f14c     0xb4  STM32F7HAL.o [1]
+  .text                   ro code  0x0800f200     0xa0  FrontendApplicationBase.o [1]
+  .text                   ro code  0x0800f2a0     0x80  EasingEquations.o [8]
+  .text                   ro code  0x0800f320     0xa0  FrontendApplicationBase.o [1]
+  .text                   ro code  0x0800f3c0     0x9c  TextAreaWithWildcard.o [8]
+  .text                   ro code  0x0800f45c     0x5c  TextAreaWithWildcard.o [8]
+  .text                   ro code  0x0800f4b8     0x54  TextAreaWithWildcard.o [8]
+  .text                   ro code  0x0800f50c     0x54  TextAreaWithWildcard.o [8]
+  .text                   ro code  0x0800f560     0x18  TextAreaWithWildcard.o [8]
+  FontFlashSection        const    0x0800f578     0x9c  Table_verdana_45_4bpp.o [1]
+  .rodata                 const    0x0800f614     0x94  LCD16bpp.o [8]
+  .rodata                 const    0x0800f6a8     0x8c  TextProvider.o [8]
+  .rodata                 const    0x0800f734     0x8c  TextProvider.o [8]
+  .rodata                 const    0x0800f7c0     0x8c  TextProvider.o [8]
+  .rodata                 const    0x0800f84c     0x8c  TextProvider.o [8]
+  .rodata                 const    0x0800f8d8     0x8c  TextProvider.o [8]
+  .rodata                 const    0x0800f964     0x8c  TextProvider.o [8]
+  .rodata                 const    0x0800f9f0     0x8c  TextProvider.o [8]
+  .rodata                 const    0x0800fa7c     0x8c  TextProvider.o [8]
+  .rodata                 const    0x0800fb08     0x8c  TextProvider.o [8]
+  .rodata                 const    0x0800fb94     0x8c  TextProvider.o [8]
+  .rodata                 const    0x0800fc20     0x8c  Container.o [8]
+  .rodata                 const    0x0800fcac     0x88  Application.o [8]
+  .rodata                 const    0x0800fd34     0x88  Button.o [8]
+  .text                   ro code  0x0800fdbc     0x88  STM32F7HAL.o [1]
+  .rodata                 const    0x0800fe44     0x7c  PoolTempViewBase.o [1]
+  .rodata                 const    0x0800fec0     0x7c  TextArea.o [8]
+  .rodata                 const    0x0800ff3c     0x7c  TextAreaWithWildcard.o [8]
+  .rodata                 const    0x0800ffb8     0x70  SnapshotWidget.o [8]
+  .rodata                 const    0x08010028     0x70  ToggleButton.o [8]
+  .rodata                 const    0x08010098     0x70  Button.o [8]
+  .rodata                 const    0x08010108     0x6c  Image.o [8]
+  .rodata                 const    0x08010174     0x64  FrontendApplicationBase.o [1]
+  .rodata                 const    0x080101d8     0x64  FrontendApplicationBase.o [1]
+  .rodata                 const    0x0801023c     0x64  FrontendApplicationBase.o [1]
+  .rodata                 const    0x080102a0     0x64  PoolTempViewBase.o [1]
+  .rodata                 const    0x08010304     0x64  STM32F7HAL.o [1]
+  .rodata                 const    0x08010368     0x64  STM32F7HAL.o [1]
+  FontFlashSection        const    0x080103cc     0x64  Table_verdana_20_4bpp.o [1]
+  .rodata                 const    0x08010430     0x60  PoolTempViewBase.o [1]
+  .text                   ro code  0x08010490     0x60  STM32F7HAL.o [1]
+  .text                   ro code  0x080104f0     0x60  system_stm32f7xx.o [1]
+  .rodata                 const    0x08010550     0x58  Unicode.o [8]
+  .rodata                 const    0x080105a8     0x54  GeneratedFont.o [1]
+  .rodata                 const    0x080105fc     0x54  STM32F7DMA.o [1]
+  .rodata                 const    0x08010650     0x54  TextAreaWithWildcard.o [8]
+  .text                   ro code  0x080106a4     0x54  FrontendApplicationBase.o [1]
+  .text                   ro code  0x080106f8     0x54  FrontendApplicationBase.o [1]
+  .rodata                 const    0x0801074c     0x50  LCD16bpp.o [8]
+  .text                   ro code  0x0801079c     0x50  TextAreaWithWildcard.o [8]
+  .text                   ro code  0x080107ec     0x4e  STM32F746GTouchController.o [1]
+  .text                   ro code  0x0801083a      0x2  PoolTempViewBase.o [1]
+  .text                   ro code  0x0801083c     0x4c  STM32F7HAL.o [1]
+  .rodata                 const    0x08010888     0x48  Screen.o [8]
+  .text                   ro code  0x080108d0     0x48  main.o [1]
+  .rodata                 const    0x08010918     0x44  LCD16bpp.o [8]
+  .text                   ro code  0x0801095c     0x44  FrontendApplicationBase.o [1]
+  .text                   ro code  0x080109a0     0x44  FrontendApplicationBase.o [1]
+  .text                   ro code  0x080109e4     0x40  zero_init3.o [6]
+  .rodata                 const    0x08010a24     0x3c  FrontendApplication.o [1]
+  .rodata                 const    0x08010a60     0x3c  FrontendApplicationBase.o [1]
+  .rodata                 const    0x08010a9c     0x3c  FrontendApplicationBase.o [1]
+  .rodata                 const    0x08010ad8     0x3c  PoolTempView.o [1]
+  .rodata                 const    0x08010b14     0x3c  Application.o [8]
+  .rodata                 const    0x08010b50     0x3c  Button.o [8]
+  .text                   ro code  0x08010b8c     0x3a  FrontendApplicationBase.o [1]
+  .text                   ro code  0x08010bc6      0x2  PoolTempViewBase.o [1]
+  .text                   ro code  0x08010bc8     0x3a  FrontendApplicationBase.o [1]
+  .text                   ro code  0x08010c02      0x2  PoolTempViewBase.o [1]
+  .rodata                 const    0x08010c04     0x38  MainView.o [1]
+  .rodata                 const    0x08010c3c     0x38  MainViewBase.o [1]
+  .rodata                 const    0x08010c74     0x38  PoolTempViewBase.o [1]
+  .text                   ro code  0x08010cac     0x38  TextAreaWithWildcard.o [8]
+  .rodata                 const    0x08010ce4     0x34  BoardConfiguration.o [1]
+  .rodata                 const    0x08010d18     0x34  BoardConfiguration.o [1]
+  .rodata                 const    0x08010d4c     0x34  BoardConfiguration.o [1]
+  .rodata                 const    0x08010d80     0x34  MainViewBase.o [1]
+  .rodata                 const    0x08010db4     0x34  PoolTempViewBase.o [1]
+  .rodata                 const    0x08010de8     0x34  Screen.o [8]
+  .rodata                 const    0x08010e1c     0x30  PoolTempPresenter.o [1]
+  .rodata                 const    0x08010e4c     0x30  Application.o [8]
+  .rodata                 const    0x08010e7c     0x2c  MainPresenter.o [1]
+  .text                   ro code  0x08010ea8     0x2c  LCD16bpp.o [8]
+  .rodata                 const    0x08010ed4     0x28  FrontendApplicationBase.o [1]
+  .rodata                 const    0x08010efc     0x28  FrontendApplicationBase.o [1]
+  .rodata                 const    0x08010f24     0x28  FrontendApplicationBase.o [1]
+  .rodata                 const    0x08010f4c     0x28  STM32F7Instrumentation.o [1]
+  .rodata                 const    0x08010f74     0x28  Application.o [8]
+  .text                   ro code  0x08010f9c     0x28  data_init.o [6]
+  .rodata                 const    0x08010fc4     0x24  DMA.o [8]
+  .text                   ro code  0x08010fe8     0x24  FrontendApplicationBase.o [1]
+  .text                   ro code  0x0801100c     0x22  fpinit_M.o [5]
+  .iar.init_table         const    0x08011030     0x24  - Linker created -
+  .text                   ro code  0x08011054      0x2  PoolTempViewBase.o [1]
+  .rodata                 const    0x08011058     0x20  FrontendApplicationBase.o [1]
+  .rodata                 const    0x08011078     0x20  FrontendApplicationBase.o [1]
+  .text                   ro code  0x08011098     0x20  BoardConfiguration.o [1]
+  .text                   ro code  0x080110b8     0x20  FrontendApplicationBase.o [1]
+  .text                   ro code  0x080110d8     0x20  FrontendApplicationBase.o [1]
+  .text                   ro code  0x080110f8     0x20  FrontendApplicationBase.o [1]
+  .text                   ro code  0x08011118     0x20  MainViewBase.o [1]
+  .text                   ro code  0x08011138     0x20  PoolTempViewBase.o [1]
+  .text                   ro code  0x08011158     0x20  PoolTempViewBase.o [1]
+  .text                   ro code  0x08011178     0x20  cmain_call_ctors.o [6]
+  .text                   ro code  0x08011198     0x1e  cmain.o [6]
+  .text                   ro code  0x080111b6      0x4  low_level_init.o [3]
+  .text                   ro code  0x080111ba      0x4  exit.o [3]
+  .text                   ro code  0x080111be      0x2  PoolTempViewBase.o [1]
+  .text                   ro code  0x080111c0      0xe  cexit.o [6]
+  .text                   ro code  0x080111ce     0x1c  PoolTempViewBase.o [1]
+  .text                   ro code  0x080111ea      0x2  PoolTempViewBase.o [1]
+  .rodata                 const    0x080111ec     0x18  FrontendApplicationBase.o [1]
+  .rodata                 const    0x08011204     0x18  FrontendApplicationBase.o [1]
+  .rodata                 const    0x0801121c     0x18  FrontendApplicationBase.o [1]
+  .rodata                 const    0x08011234     0x18  MainViewBase.o [1]
+  .rodata                 const    0x0801124c     0x18  PoolTempPresenter.o [1]
+  .rodata                 const    0x08011264     0x18  PoolTempViewBase.o [1]
+  .rodata                 const    0x0801127c     0x18  PoolTempViewBase.o [1]
+  .rodata                 const    0x08011294     0x18  STM32F746GTouchController.o [1]
+  .text                   ro code  0x080112ac     0x18  FrontendApplicationBase.o [1]
+  .text                   ro code  0x080112c4     0x18  FrontendApplicationBase.o [1]
+  .text                   ro code  0x080112dc     0x18  FrontendApplicationBase.o [1]
+  .text                   ro code  0x080112f4     0x18  FrontendApplicationBase.o [1]
+  .text                   ro code  0x0801130c     0x18  FrontendApplicationBase.o [1]
+  .text                   ro code  0x08011324     0x18  GeneratedFont.o [1]
+  .text                   ro code  0x0801133c     0x18  MainViewBase.o [1]
+  .text                   ro code  0x08011354     0x18  PoolTempView.o [1]
+  .text                   ro code  0x0801136c     0x18  PoolTempViewBase.o [1]
+  .text                   ro code  0x08011384     0x18  PoolTempViewBase.o [1]
+  TextFlashSection        const    0x0801139c     0x18  Texts.o [1]
+  .text                   ro code  0x080113b4     0x16  FrontendApplication.o [1]
+  .text                   ro code  0x080113ca     0x16  STM32F7HAL.o [1]
+  .rodata                 const    0x080113e0     0x14  ApplicationFontProvider.o [1]
+  .rodata                 const    0x080113f4     0x14  BoardConfiguration.o [1]
+  .rodata                 const    0x08011408     0x14  BoardConfiguration.o [1]
+  .rodata                 const    0x0801141c     0x14  PoolTempPresenter.o [1]
+  .rodata                 const    0x08011430     0x14  LCD16bpp.o [8]
+  .rodata                 const    0x08011444     0x14  LCD16bpp.o [8]
+  .rodata                 const    0x08011458     0x14  LCD16bpp.o [8]
+  .rodata                 const    0x0801146c     0x14  LCD16bpp.o [8]
+  .rodata                 const    0x08011480     0x14  LCD16bpp.o [8]
+  .rodata                 const    0x08011494     0x14  LCD16bpp.o [8]
+  .rodata                 const    0x080114a8     0x14  LCD16bpp.o [8]
+  .rodata                 const    0x080114bc     0x14  LCD16bpp.o [8]
+  .rodata                 const    0x080114d0     0x14  LCD16bpp.o [8]
+  .rodata                 const    0x080114e4     0x14  LCD16bpp.o [8]
+  .rodata                 const    0x080114f8     0x14  LCD16bpp.o [8]
+  .rodata                 const    0x0801150c     0x14  LCD16bpp.o [8]
+  .rodata                 const    0x08011520     0x14  LCD16bpp.o [8]
+  .rodata                 const    0x08011534     0x14  LCD16bpp.o [8]
+  .rodata                 const    0x08011548     0x14  LCD16bpp.o [8]
+  .rodata                 const    0x0801155c     0x14  LCD16bpp.o [8]
+  .rodata                 const    0x08011570     0x14  LCD16bpp.o [8]
+  .rodata                 const    0x08011584     0x14  LCD16bpp.o [8]
+  .rodata                 const    0x08011598     0x14  LCD16bpp.o [8]
+  .rodata                 const    0x080115ac     0x14  LCD16bpp.o [8]
+  .rodata                 const    0x080115c0     0x14  LCD16bpp.o [8]
+  .rodata                 const    0x080115d4     0x14  LCD16bpp.o [8]
+  .rodata                 const    0x080115e8     0x14  LCD16bpp.o [8]
+  .rodata                 const    0x080115fc     0x14  LCD16bpp.o [8]
+  .rodata                 const    0x08011610     0x14  LCD16bpp.o [8]
+  .rodata                 const    0x08011624     0x14  LCD16bpp.o [8]
+  .rodata                 const    0x08011638     0x14  LCD16bpp.o [8]
+  .rodata                 const    0x0801164c     0x14  LCD16bpp.o [8]
+  .rodata                 const    0x08011660     0x14  TextProvider.o [8]
+  .rodata                 const    0x08011674     0x14  TextProvider.o [8]
+  .rodata                 const    0x08011688     0x14  Gestures.o [8]
+  .rodata                 const    0x0801169c     0x14  Gestures.o [8]
+  .rodata                 const    0x080116b0     0x14  Gestures.o [8]
+  .text                   ro code  0x080116c4     0x14  PoolTempViewBase.o [1]
+  .rodata                 const    0x080116d8     0x10  BoardConfiguration.o [1]
+  .rodata                 const    0x080116e8     0x10  TextProvider.o [8]
+  .rodata                 const    0x080116f8     0x10  TextProvider.o [8]
+  .rodata                 const    0x08011708     0x10  TextProvider.o [8]
+  .rodata                 const    0x08011718     0x10  TextProvider.o [8]
+  .text                   ro code  0x08011728     0x10  startup_stm32f746xx.o [1]
+  FontFlashSection        const    0x08011738     0x10  Kerning_verdana_20_4bpp.o [1]
+  FontFlashSection        const    0x08011748     0x10  Table_verdana_10_4bpp.o [1]
+  .rodata                 const    0x08011758      0xc  TextProvider.o [8]
+  .rodata                 const    0x08011764      0xc  TextProvider.o [8]
+  .rodata                 const    0x08011770      0xc  TextProvider.o [8]
+  .rodata                 const    0x0801177c      0xc  TextProvider.o [8]
+  .text                   ro code  0x08011788      0xc  BoardConfiguration.o [1]
+  .text                   ro code  0x08011794      0xc  STM32F7HAL.o [1]
+  .text                   ro code  0x080117a0      0xc  Application.o [8]
+  .text                   ro code  0x080117ac      0xc  cstartup_M.o [6]
+  .rodata                 const    0x080117b8      0x8  FrontendApplicationBase.o [1]
+  .rodata                 const    0x080117c0      0x8  FrontendApplicationBase.o [1]
+  .rodata                 const    0x080117c8      0x8  FrontendApplicationBase.o [1]
+  .rodata                 const    0x080117d0      0x8  PoolTempViewBase.o [1]
+  .rodata                 const    0x080117d8      0x8  PoolTempViewBase.o [1]
+  .rodata                 const    0x080117e0      0x8  STM32F7HAL.o [1]
+  .rodata                 const    0x080117e8      0x8  STM32F7HAL.o [1]
+  .text                   ro code  0x080117f0      0x8  BoardConfiguration.o [1]
+  .text                   ro code  0x080117f8      0x8  GeneratedFont.o [1]
+  .text                   ro code  0x08011800      0x8  STM32F7HAL.o [1]
+  .text                   ro code  0x08011808      0x8  STM32F7HAL.o [1]
+  TextFlashSection        const    0x08011810      0x8  LanguageGb.o [1]
+  SHT$$PREINIT_ARRAY               0x08011818      0x0  <Block>
+  SHT$$INIT_ARRAY                  0x08011818      0x8  <Block>
+    .init_array           const    0x08011818      0x4  BoardConfiguration.o [1]
+    .init_array           const    0x0801181c      0x4  TypedTextDatabase.o [1]
+  __iar_tls$$INIT_ARRAY            0x08011820      0x0  <Block>
+  .text                   ro code  0x08011820      0x4  BoardConfiguration.o [1]
+  .text                   ro code  0x08011824      0x4  BoardConfiguration.o [1]
+  .text                   ro code  0x08011828      0x4  FrontendApplicationBase.o [1]
+  .text                   ro code  0x0801182c      0x4  GeneratedFont.o [1]
+  .text                   ro code  0x08011830      0x4  GeneratedFont.o [1]
+  .text                   ro code  0x08011834      0x4  GeneratedFont.o [1]
+  .text                   ro code  0x08011838      0x4  GeneratedFont.o [1]
+  .text                   ro code  0x0801183c      0x4  PoolTempViewBase.o [1]
+  .text                   ro code  0x08011840      0x4  PoolTempViewBase.o [1]
+  .text                   ro code  0x08011844      0x4  PoolTempViewBase.o [1]
+  .text                   ro code  0x08011848      0x4  PoolTempViewBase.o [1]
+  .text                   ro code  0x0801184c      0x4  startup_stm32f746xx.o [1]
+  .text                   ro code  0x08011850      0x4  startup_stm32f746xx.o [1]
+  .text                   ro code  0x08011854      0x4  startup_stm32f746xx.o [1]
+  .text                   ro code  0x08011858      0x4  startup_stm32f746xx.o [1]
+  .text                   ro code  0x0801185c      0x4  startup_stm32f746xx.o [1]
+  .text                   ro code  0x08011860      0x4  startup_stm32f746xx.o [1]
+  .text                   ro code  0x08011864      0x4  startup_stm32f746xx.o [1]
+  .text                   ro code  0x08011868      0x4  startup_stm32f746xx.o [1]
+  .text                   ro code  0x0801186c      0x4  startup_stm32f746xx.o [1]
+  .text                   ro code  0x08011870      0x4  startup_stm32f746xx.o [1]
+  .text                   ro code  0x08011874      0x4  startup_stm32f746xx.o [1]
+  .text                   ro code  0x08011878      0x4  startup_stm32f746xx.o [1]
+  .text                   ro code  0x0801187c      0x4  startup_stm32f746xx.o [1]
+  .text                   ro code  0x08011880      0x4  startup_stm32f746xx.o [1]
+  .text                   ro code  0x08011884      0x4  startup_stm32f746xx.o [1]
+  .text                   ro code  0x08011888      0x4  startup_stm32f746xx.o [1]
+  .text                   ro code  0x0801188c      0x4  startup_stm32f746xx.o [1]
+  .text                   ro code  0x08011890      0x4  startup_stm32f746xx.o [1]
+  .text                   ro code  0x08011894      0x4  startup_stm32f746xx.o [1]
+  .text                   ro code  0x08011898      0x4  startup_stm32f746xx.o [1]
+  .text                   ro code  0x0801189c      0x4  startup_stm32f746xx.o [1]
+  .text                   ro code  0x080118a0      0x4  startup_stm32f746xx.o [1]
+  .text                   ro code  0x080118a4      0x4  startup_stm32f746xx.o [1]
+  .text                   ro code  0x080118a8      0x4  startup_stm32f746xx.o [1]
+  .text                   ro code  0x080118ac      0x4  startup_stm32f746xx.o [1]
+  .text                   ro code  0x080118b0      0x4  startup_stm32f746xx.o [1]
+  .text                   ro code  0x080118b4      0x4  startup_stm32f746xx.o [1]
+  .text                   ro code  0x080118b8      0x4  startup_stm32f746xx.o [1]
+  .text                   ro code  0x080118bc      0x4  startup_stm32f746xx.o [1]
+  .text                   ro code  0x080118c0      0x4  startup_stm32f746xx.o [1]
+  .text                   ro code  0x080118c4      0x4  startup_stm32f746xx.o [1]
+  .text                   ro code  0x080118c8      0x4  startup_stm32f746xx.o [1]
+  .text                   ro code  0x080118cc      0x4  startup_stm32f746xx.o [1]
+  .text                   ro code  0x080118d0      0x4  startup_stm32f746xx.o [1]
+  .text                   ro code  0x080118d4      0x4  startup_stm32f746xx.o [1]
+  .text                   ro code  0x080118d8      0x4  startup_stm32f746xx.o [1]
+  .text                   ro code  0x080118dc      0x4  startup_stm32f746xx.o [1]
+  .text                   ro code  0x080118e0      0x4  startup_stm32f746xx.o [1]
+  .text                   ro code  0x080118e4      0x4  startup_stm32f746xx.o [1]
+  .text                   ro code  0x080118e8      0x4  startup_stm32f746xx.o [1]
+  .text                   ro code  0x080118ec      0x4  startup_stm32f746xx.o [1]
+  .text                   ro code  0x080118f0      0x4  startup_stm32f746xx.o [1]
+  .text                   ro code  0x080118f4      0x4  startup_stm32f746xx.o [1]
+  .text                   ro code  0x080118f8      0x4  startup_stm32f746xx.o [1]
+  .text                   ro code  0x080118fc      0x4  startup_stm32f746xx.o [1]
+  .text                   ro code  0x08011900      0x4  startup_stm32f746xx.o [1]
+  .text                   ro code  0x08011904      0x4  startup_stm32f746xx.o [1]
+  .text                   ro code  0x08011908      0x4  startup_stm32f746xx.o [1]
+  .text                   ro code  0x0801190c      0x4  startup_stm32f746xx.o [1]
+  .text                   ro code  0x08011910      0x4  startup_stm32f746xx.o [1]
+  .text                   ro code  0x08011914      0x4  startup_stm32f746xx.o [1]
+  .text                   ro code  0x08011918      0x4  startup_stm32f746xx.o [1]
+  .text                   ro code  0x0801191c      0x4  startup_stm32f746xx.o [1]
+  .text                   ro code  0x08011920      0x4  startup_stm32f746xx.o [1]
+  .text                   ro code  0x08011924      0x4  startup_stm32f746xx.o [1]
+  .text                   ro code  0x08011928      0x4  startup_stm32f746xx.o [1]
+  .text                   ro code  0x0801192c      0x4  startup_stm32f746xx.o [1]
+  .text                   ro code  0x08011930      0x4  startup_stm32f746xx.o [1]
+  .text                   ro code  0x08011934      0x4  startup_stm32f746xx.o [1]
+  .text                   ro code  0x08011938      0x4  startup_stm32f746xx.o [1]
+  .text                   ro code  0x0801193c      0x4  startup_stm32f746xx.o [1]
+  .text                   ro code  0x08011940      0x4  startup_stm32f746xx.o [1]
+  .text                   ro code  0x08011944      0x4  startup_stm32f746xx.o [1]
+  .text                   ro code  0x08011948      0x4  startup_stm32f746xx.o [1]
+  .text                   ro code  0x0801194c      0x4  startup_stm32f746xx.o [1]
+  .text                   ro code  0x08011950      0x4  startup_stm32f746xx.o [1]
+  .text                   ro code  0x08011954      0x4  startup_stm32f746xx.o [1]
+  .text                   ro code  0x08011958      0x4  startup_stm32f746xx.o [1]
+  .text                   ro code  0x0801195c      0x4  startup_stm32f746xx.o [1]
+  .text                   ro code  0x08011960      0x4  startup_stm32f746xx.o [1]
+  .text                   ro code  0x08011964      0x4  startup_stm32f746xx.o [1]
+  .text                   ro code  0x08011968      0x4  startup_stm32f746xx.o [1]
+  .text                   ro code  0x0801196c      0x4  startup_stm32f746xx.o [1]
+  .text                   ro code  0x08011970      0x4  startup_stm32f746xx.o [1]
+  .text                   ro code  0x08011974      0x4  startup_stm32f746xx.o [1]
+  .text                   ro code  0x08011978      0x4  startup_stm32f746xx.o [1]
+  .text                   ro code  0x0801197c      0x4  startup_stm32f746xx.o [1]
+  .text                   ro code  0x08011980      0x4  startup_stm32f746xx.o [1]
+  .text                   ro code  0x08011984      0x4  startup_stm32f746xx.o [1]
+  .text                   ro code  0x08011988      0x4  startup_stm32f746xx.o [1]
+  .text                   ro code  0x0801198c      0x4  startup_stm32f746xx.o [1]
+  .text                   ro code  0x08011990      0x4  startup_stm32f746xx.o [1]
+  .text                   ro code  0x08011994      0x4  startup_stm32f746xx.o [1]
+  .text                   ro code  0x08011998      0x4  startup_stm32f746xx.o [1]
+  .text                   ro code  0x0801199c      0x4  startup_stm32f746xx.o [1]
+  .text                   ro code  0x080119a0      0x4  startup_stm32f746xx.o [1]
+  .text                   ro code  0x080119a4      0x4  startup_stm32f746xx.o [1]
+  .text                   ro code  0x080119a8      0x4  startup_stm32f746xx.o [1]
+  .text                   ro code  0x080119ac      0x4  startup_stm32f746xx.o [1]
+  .text                   ro code  0x080119b0      0x4  startup_stm32f746xx.o [1]
+  .text                   ro code  0x080119b4      0x4  startup_stm32f746xx.o [1]
+  .text                   ro code  0x080119b8      0x4  startup_stm32f746xx.o [1]
+  .text                   ro code  0x080119bc      0x4  startup_stm32f746xx.o [1]
+  .text                   ro code  0x080119c0      0x4  startup_stm32f746xx.o [1]
+  .text                   ro code  0x080119c4      0x4  startup_stm32f746xx.o [1]
+  .text                   ro code  0x080119c8      0x4  startup_stm32f746xx.o [1]
+  .text                   ro code  0x080119cc      0x4  startup_stm32f746xx.o [1]
+  .text                   ro code  0x080119d0      0x4  startup_stm32f746xx.o [1]
+  .text                   ro code  0x080119d4      0x4  startup_stm32f746xx.o [1]
+  .text                   ro code  0x080119d8      0x4  startup_stm32f746xx.o [1]
+  .text                   ro code  0x080119dc      0x4  startup_stm32f746xx.o [1]
+  .text                   ro code  0x080119e0      0x4  STM32F7DMA.o [1]
+  .text                   ro code  0x080119e4      0x4  STM32F7Instrumentation.o [1]
+  .text                   ro code  0x080119e8      0x4  STM32F7Instrumentation.o [1]
+  .text                   ro code  0x080119ec      0x4  LCD16bpp.o [8]
+  .text                   ro code  0x080119f0      0x4  LCD16bpp.o [8]
+  FontFlashSection        const    0x080119f4      0x4  Kerning_verdana_10_4bpp.o [1]
+  FontFlashSection        const    0x080119f8      0x4  Kerning_verdana_45_4bpp.o [1]
+  TextFlashSection        const    0x080119fc      0x4  TypedTextDatabase.o [1]
+  TextFlashSection        const    0x08011a00      0x4  TypedTextDatabase.o [1]
+  .text                   ro code  0x08011a04      0x2  PoolTempViewBase.o [1]
+  .text                   ro code  0x08011a06      0x2  PoolTempViewBase.o [1]
+  .text                   ro code  0x08011a08      0x2  PoolTempViewBase.o [1]
+  .text                   ro code  0x08011a0a      0x2  PoolTempViewBase.o [1]
+  .text                   ro code  0x08011a0c      0x2  Application.o [8]
+  .text                   ro code  0x08011a0e      0x2  Application.o [8]
+  .text                   ro code  0x08011a10      0x2  Application.o [8]
+  .text                   ro code  0x08011a12      0x2  Application.o [8]
+  .text                   ro code  0x08011a14      0x2  Application.o [8]
+  .text                   ro code  0x08011a16      0x2  Screen.o [8]
+  .rodata                 const    0x08011a18      0x1  unwind_debug.o [7]
+  .text                   ro code  0x08011a1c      0x0  cstart_call_dtors.o [6]
+  .rodata                 const    0x08011a1c      0x0  zero_init3.o [6]
+  .rodata                 const    0x08011a1c      0x0  lz77_init_single.o [6]
+  Initializer bytes       const    0x08011a1c    0x126  <for P2-1>
+                                 - 0x08011b42  0x1197a
+
+"P2", part 1 of 3:                              0x23fc
+  P2-1                             0x20000000   0x23fc  <Init block>
+    .data                 inited   0x20000000      0x8  BoardConfiguration.o [1]
+    .data                 inited   0x20000008    0xcb8  BoardConfiguration.o [1]
+    .data                 inited   0x20000cc0     0x28  ft5336.o [1]
+    .data                 inited   0x20000ce8   0x1594  heap_2.o [1]
+    .data                 inited   0x2000227c      0x9  OSWrappers.o [1]
+    .data                 inited   0x20002288      0xc  port.o [1]
+    .data                 inited   0x20002294      0xc  stm32746g_discovery.o [1]
+    .data                 inited   0x200022a0     0x64  stm32746g_discovery_sdram.o [1]
+    .data                 inited   0x20002304      0x4  system_stm32f7xx.o [1]
+    .data                 inited   0x20002308     0x58  tasks.o [1]
+    .data                 inited   0x20002360      0x8  Texts.o [1]
+    .data                 inited   0x20002368      0x8  Texts.o [1]
+    .data                 inited   0x20002370     0x1c  Application.o [8]
+    .data                 inited   0x2000238c      0x8  LCD16bpp.o [8]
+    .data                 inited   0x20002394      0x8  LCD16bpp.o [8]
+    .data                 inited   0x2000239c      0x8  LCD16bpp.o [8]
+    .data                 inited   0x200023a4      0x8  LCD16bpp.o [8]
+    .data                 inited   0x200023ac      0x8  LCD16bpp.o [8]
+    .data                 inited   0x200023b4      0x8  LCD16bpp.o [8]
+    .data                 inited   0x200023bc      0x8  LCD16bpp.o [8]
+    .data                 inited   0x200023c4      0x8  LCD16bpp.o [8]
+    .data                 inited   0x200023cc      0x8  LCD16bpp.o [8]
+    .data                 inited   0x200023d4      0x8  LCD16bpp.o [8]
+    .data                 inited   0x200023dc      0x8  LCD16bpp.o [8]
+    .data                 inited   0x200023e4      0x8  LCD16bpp.o [8]
+    .data                 inited   0x200023ec      0x8  LCD16bpp.o [8]
+    .data                 inited   0x200023f4      0x8  LCD16bpp.o [8]
+                                 - 0x200023fc   0x23fc
+
+"P2", part 2 of 3:                               0x984
+  .bss                    zero     0x200023fc    0x3e8  BoardConfiguration.o [1]
+  .bss                    zero     0x200027e4     0xa8  stm32746g_discovery_lcd.o [1]
+  .bss                    zero     0x2000288c     0xa8  tasks.o [1]
+  .bss                    zero     0x20002934     0x84  stm32746g_discovery_lcd.o [1]
+  .bss                    zero     0x200029b8     0x7c  BoardConfiguration.o [1]
+  .bss                    zero     0x20002a34     0x60  stm32746g_discovery_sdram.o [1]
+  .bss                    zero     0x20002a94     0x54  stm32746g_discovery_lcd.o [1]
+  .bss                    zero     0x20002ae8     0x4c  stm32746g_discovery.o [1]
+  .bss                    zero     0x20002b34     0x4c  TouchCalibration.o [8]
+  .bss                    zero     0x20002b80     0x44  stm32746g_discovery_qspi.o [1]
+  .bss                    zero     0x20002bc4     0x40  STM32F7DMA.o [1]
+  .bss                    zero     0x20002c04     0x3c  STM32F7Instrumentation.o [1]
+  .bss                    zero     0x20002c40     0x34  stm32746g_discovery_ts.o [1]
+  .bss                    zero     0x20002c74     0x28  Table_verdana_10_4bpp.o [1]
+  .bss                    zero     0x20002c9c     0x28  Table_verdana_20_4bpp.o [1]
+  .bss                    zero     0x20002cc4     0x28  Table_verdana_45_4bpp.o [1]
+  .bss                    zero     0x20002cec     0x24  Bitmap.o [8]
+  .bss                    zero     0x20002d10     0x10  Texts.o [1]
+  .bss                    zero     0x20002d20     0x10  HAL.o [8]
+  .bss                    zero     0x20002d30      0xc  TypedTextDatabase.o [1]
+  .bss                    zero     0x20002d3c      0x8  Texts.o [1]
+  .bss                    zero     0x20002d44      0x8  Texts.o [1]
+  .bss                    zero     0x20002d4c      0x6  ft5336.o [1]
+  .bss                    zero     0x20002d52      0x2  HAL.o [8]
+  .bss                    zero     0x20002d54      0x4  Model.o [1]
+  .bss                    zero     0x20002d58      0x4  STM32F7HAL.o [1]
+  .bss                    zero     0x20002d5c      0x4  stm32f7xx_hal.o [1]
+  .bss                    zero     0x20002d60      0x4  FontManager.o [8]
+  .bss                    zero     0x20002d64      0x4  TypedText.o [8]
+  .bss                    zero     0x20002d68      0x4  TypedText.o [8]
+  .bss                    zero     0x20002d6c      0x4  TypedText.o [8]
+  .bss                    zero     0x20002d70      0x4  cppinit.o [3]
+  .bss                    zero     0x20002d74      0x4  cppinit.o [3]
+  .bss                    zero     0x20002d78      0x2  TypedText.o [8]
+  .bss                    zero     0x20002d7a      0x1  BoardConfiguration.o [1]
+  .bss                    zero     0x20002d7b      0x1  GPIO.o [1]
+  .bss                    zero     0x20002d7c      0x1  STM32F7DMA.o [1]
+                                 - 0x20002d7d    0x981
+
+"P2", part 3 of 3:                               0x598
+  .iar.dynexit                     0x20002d80    0x198  <Block>
+    .iar.dynexit          uninit   0x20002d80      0xc  cppinit.o [3]
+    .iar.dynexit          uninit   0x20002d8c    0x18c  <Block tail>
+  CSTACK                           0x20002f18    0x400  <Block>
+    CSTACK                uninit   0x20002f18    0x400  <Block tail>
+                                 - 0x20003318    0x598
+
+"P3":                                          0xb1380
+  ExtFlashSection         const    0x90000000  0x3fc00  Main_Background.o [1]
+  ExtFlashSection         const    0x9003fc00  0x3fc00  settings_background.o [1]
+  ExtFlashSection         const    0x9007f800   0x5280  adjust_button.o [1]
+  ExtFlashSection         const    0x90084a80   0x5280  adjust_button_pressed.o [1]
+  ExtFlashSection         const    0x90089d00   0x5280  Blue_Slider_Horizontal_Medium_Slider_Round_back.o [1]
+  ExtFlashSection         const    0x9008ef80   0x5280  Blue_Slider_Horizontal_Medium_Slider_Round_fill.o [1]
+  ExtFlashSection         const    0x90094200   0x5280  ok_button.o [1]
+  ExtFlashSection         const    0x90099480   0x5280  ok_button_pressed.o [1]
+  ExtFlashSection         const    0x9009e700   0x4c00  Blue_Togglebars_Toggle_round_large_button_OFF.o [1]
+  ExtFlashSection         const    0x900a3300   0x4c00  Blue_Togglebars_Toggle_round_large_button_ON.o [1]
+  ExtFlashSection         const    0x900a7f00   0x3840  peare_gul.o [1]
+  ExtFlashSection         const    0x900ab740   0x3840  peare_hvid.o [1]
+  ExtFlashSection         const    0x900aef80   0x2400  Blue_Slider_Horizontal_Medium_Indicators_Slider_Round_nob.o [1]
+                                 - 0x900b1380  0xb1380
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x981:
+          0x200023fc   0x981
+
+Copy/lz77 (__iar_lz77_init_single3)
+    1 source range, total size 0x126 (3% of destination):
+          0x08011a1c   0x126
+    1 destination range, total size 0x23fc:
+          0x20000000  0x23fc
+
+Extra (__iar_cstart_call_ctors)
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                                                       ro code  ro data  rw data
+    ------                                                       -------  -------  -------
+C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj: [1]
+    ApplicationFontProvider.o                                                  20
+    BitmapDatabase.o                                                 272
+    Blue_Slider_Horizontal_Medium_Indicators_Slider_Round_nob.o             9 216
+    Blue_Slider_Horizontal_Medium_Slider_Round_back.o                      21 120
+    Blue_Slider_Horizontal_Medium_Slider_Round_fill.o                      21 120
+    Blue_Togglebars_Toggle_round_large_button_OFF.o                        19 456
+    Blue_Togglebars_Toggle_round_large_button_ON.o                         19 456
+    BoardConfiguration.o                                           1 258      320    4 389
+    Font_verdana_20_4bpp_0.o                                                  464
+    Font_verdana_45_4bpp_0.o                                                4 052
+    FrontendApplication.o                                             42       60
+    FrontendApplicationBase.o                                      2 496      700
+    GPIO.o                                                            72                 1
+    GeneratedFont.o                                                  242       84
+    Kerning_verdana_10_4bpp.o                                                   4
+    Kerning_verdana_20_4bpp.o                                                  16
+    Kerning_verdana_45_4bpp.o                                                   4
+    LanguageGb.o                                                                8
+    MainPresenter.o                                                   56       44
+    MainView.o                                                        48       56
+    MainViewBase.o                                                   498      132
+    Main_Background.o                                                     261 120
+    Model.o                                                          108                 4
+    OSWrappers.o                                                     260        1        9
+    PoolTempPresenter.o                                               76       92
+    PoolTempView.o                                                   108       60
+    PoolTempViewBase.o                                             1 024      492
+    STM32F746GTouchController.o                                       78       24
+    STM32F7DMA.o                                                   1 310       84       65
+    STM32F7HAL.o                                                     732      396        4
+    STM32F7Instrumentation.o                                         130       40       60
+    Table_verdana_10_4bpp.o                                           84       16       40
+    Table_verdana_20_4bpp.o                                           84      100       40
+    Table_verdana_45_4bpp.o                                           84      156       40
+    Texts.o                                                          120       24       48
+    TypedTextDatabase.o                                               36       12       12
+    adjust_button.o                                                        21 120
+    adjust_button_pressed.o                                                21 120
+    ft5336.o                                                         732        1       46
+    heap_2.o                                                         240      176    5 524
+    list.o                                                           148
+    main.o                                                            72
+    ok_button.o                                                            21 120
+    ok_button_pressed.o                                                    21 120
+    peare_gul.o                                                            14 400
+    peare_hvid.o                                                           14 400
+    port.o                                                           492                12
+    portasm.o                                                        172
+    queue.o                                                        1 528
+    settings_background.o                                                 261 120
+    startup_stm32f746xx.o                                            876
+    stm32746g_discovery.o                                            660                88
+    stm32746g_discovery_lcd.o                                        620               384
+    stm32746g_discovery_qspi.o                                       804                68
+    stm32746g_discovery_sdram.o                                      640        4      196
+    stm32746g_discovery_ts.o                                         548                52
+    stm32f7xx_hal.o                                                  132                 4
+    stm32f7xx_hal_cortex.o                                           292
+    stm32f7xx_hal_dma.o                                              560
+    stm32f7xx_hal_dma2d.o                                            786
+    stm32f7xx_hal_gpio.o                                             564
+    stm32f7xx_hal_i2c.o                                            1 700
+    stm32f7xx_hal_ltdc.o                                             582
+    stm32f7xx_hal_msp_template.o                                       2
+    stm32f7xx_hal_pwr_ex.o                                           108
+    stm32f7xx_hal_qspi.o                                           1 608
+    stm32f7xx_hal_rcc.o                                            1 192
+    stm32f7xx_hal_rcc_ex.o                                         1 172
+    stm32f7xx_hal_sdram.o                                            142
+    stm32f7xx_hal_tim.o                                              270
+    stm32f7xx_ll_fmc.o                                               338
+    system_stm32f7xx.o                                                96                 4
+    tasks.o                                                        2 108        3      256
+    --------------------------------------------------------------------------------------
+    Total:                                                        28 402  733 533   11 346
+
+command line: [2]
+    --------------------------------------------------------------------------------------
+    Total:
+
+dl7M_tln.a: [3]
+    abort.o                                                            6
+    cppinit.o                                                        160                20
+    exit.o                                                             4
+    low_level_init.o                                                   4
+    --------------------------------------------------------------------------------------
+    Total:                                                           174                20
+
+dlpp7M_tl_nc.a: [4]
+    cxxabi.o                                                          50
+    --------------------------------------------------------------------------------------
+    Total:                                                            50
+
+m7M_tls.a: [5]
+    fpinit_M.o                                                        34
+    --------------------------------------------------------------------------------------
+    Total:                                                            34
+
+rt7M_tl.a: [6]
+    ABImemclr4.o                                                       6
+    ABImemcpy.o                                                      166
+    ABImemset.o                                                      102
+    ABImemset48.o                                                     58
+    cexit.o                                                           14
+    cmain.o                                                           30
+    cmain_call_ctors.o                                                32
+    cstart_call_dtors.o
+    cstartup_M.o                                                      12
+    data_init.o                                                       40
+    lz77_init_single.o                                               122
+    memcmp.o                                                         104
+    memcpy.o                                                          12
+    memset.o                                                          20
+    zero_init3.o                                                      64
+    --------------------------------------------------------------------------------------
+    Total:                                                           782
+
+shb_l.a: [7]
+    ABIassert.o                                                       36
+    exit.o                                                            20
+    unwind_debug.o                                                              1
+    --------------------------------------------------------------------------------------
+    Total:                                                            56        1
+
+touchgfx_core.a: [8]
+    AbstractButton.o                                                  78
+    AbstractPartition.o                                               10
+    Application.o                                                  2 230      285       28
+    Bitmap.o                                                       1 176      604       36
+    Button.o                                                         276      308
+    ConstFont.o                                                      208
+    Container.o                                                      736      396
+    DMA.o                                                            558      248
+    DisplayTransformation.o                                          244
+    Drawable.o                                                       382
+    EasingEquations.o                                                128
+    Font.o                                                           184
+    FontManager.o                                                     12                 4
+    Gestures.o                                                       364       60
+    HAL.o                                                          2 086      540       18
+    Image.o                                                          252      108
+    LCD.o                                                          2 416
+    LCD16bpp.o                                                     6 688    1 836      112
+    Screen.o                                                       1 924      124
+    Slider.o                                                       1 326      844
+    SnapshotWidget.o                                                 352      112
+    TextArea.o                                                     1 076      124
+    TextAreaWithWildcard.o                                           702      208
+    TextProvider.o                                                 2 394    1 552
+    ToggleButton.o                                                   114      112
+    TouchCalibration.o                                               252                76
+    TypedText.o                                                                         14
+    Unicode.o                                                      1 460       88
+    Utils.o                                                           14
+    stm32_crc_lock.o                                                 136
+    --------------------------------------------------------------------------------------
+    Total:                                                        27 778    7 549      288
+
+    Gaps                                                               3        4        3
+    Linker created                                                             36    1 420
+------------------------------------------------------------------------------------------
+    Grand Total:                                                  57 279  741 123   13 077
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address     Size  Type      Object
+-----                      -------     ----  ----      ------
+.iar.dynexit$$Base      0x20002d80            --   Gb  - Linker created -
+.iar.dynexit$$Limit     0x20002f18            --   Gb  - Linker created -
+.iar.init_table$$Base   0x08011030            --   Gb  - Linker created -
+.iar.init_table$$Limit  0x08011054            --   Gb  - Linker created -
+?main                   0x08011199           Code  Gb  cmain.o [6]
+AHBPrescTable           0x08010540     0x10  Data  Gb  system_stm32f7xx.o [1]
+ActiveLayer             0x20002ae4      0x4  Data  Lc  stm32746g_discovery_lcd.o [1]
+BSP_LCD_ClockConfig::periph_clk_init_struct
+                        0x20002934     0x84  Data  Lc  stm32746g_discovery_lcd.o [1]
+BSP_LCD_DisplayOn       0x0800c67f     0x1e  Code  Gb  stm32746g_discovery_lcd.o [1]
+BSP_LCD_GetXSize        0x0800c657     0x14  Code  Gb  stm32746g_discovery_lcd.o [1]
+BSP_LCD_GetYSize        0x0800c66b     0x14  Code  Gb  stm32746g_discovery_lcd.o [1]
+BSP_LCD_Init            0x0800c5c5     0x92  Code  Gb  stm32746g_discovery_lcd.o [1]
+BSP_LED_Init            0x08005611     0x48  Code  Gb  stm32746g_discovery.o [1]
+BSP_LED_Off             0x08005661      0x8  Code  Gb  stm32746g_discovery.o [1]
+BSP_LED_On              0x08005659      0x8  Code  Gb  stm32746g_discovery.o [1]
+BSP_LED_Toggle          0x08005673      0xe  Code  Gb  stm32746g_discovery.o [1]
+BSP_PB_GetState         0x08005681     0x14  Code  Gb  stm32746g_discovery.o [1]
+BSP_QSPI_EnableMemoryMappedMode
+                        0x0800bb8f     0x4a  Code  Gb  stm32746g_discovery_qspi.o [1]
+BSP_QSPI_Init           0x0800ba61    0x12e  Code  Gb  stm32746g_discovery_qspi.o [1]
+BSP_SDRAM_DeInit::sdramstatus
+                        0x200022a1      0x1  Data  Lc  stm32746g_discovery_sdram.o [1]
+BSP_SDRAM_Init          0x0800c345     0xfa  Code  Gb  stm32746g_discovery_sdram.o [1]
+BSP_SDRAM_Init::sdramstatus
+                        0x200022a0      0x1  Data  Lc  stm32746g_discovery_sdram.o [1]
+BSP_SDRAM_MspInit::dma_handle
+                        0x20002a34     0x60  Data  Lc  stm32746g_discovery_sdram.o [1]
+BSP_TS_GetState         0x0800e6b1    0x188  Code  Gb  stm32746g_discovery_ts.o [1]
+BSP_TS_GetState::_x     0x20002c4c     0x14  Data  Lc  stm32746g_discovery_ts.o [1]
+BSP_TS_GetState::_y     0x20002c60     0x14  Data  Lc  stm32746g_discovery_ts.o [1]
+BSP_TS_Get_GestureId    0x0800e839     0x56  Code  Gb  stm32746g_discovery_ts.o [1]
+BSP_TS_Init             0x0800e67d     0x34  Code  Gb  stm32746g_discovery_ts.o [1]
+BUTTON_PIN              0x0800589c      0x8  Data  Gb  stm32746g_discovery.o [1]
+BUTTON_PORT             0x20002294      0xc  Data  Gb  stm32746g_discovery.o [1]
+BitmapDatabase::getInstance()
+                        0x0800ccb1      0x6  Code  Gb  BitmapDatabase.o [1]
+BitmapDatabase::getInstanceSize()
+                        0x0800ccb7      0x4  Code  Gb  BitmapDatabase.o [1]
+CRC_Lock                0x080058c1     0x88  Code  Gb  stm32_crc_lock.o [8]
+CSTACK$$Base            0x20002f18            --   Gb  - Linker created -
+CSTACK$$Limit           0x20003318            --   Gb  - Linker created -
+Command                 0x200022f4     0x10  Data  Lc  stm32746g_discovery_sdram.o [1]
+DMA2D_IRQHandler        0x0800eda5     0x24  Code  Gb  STM32F7HAL.o [1]
+DMA2D_SetConfig         0x08009e11     0x8e  Code  Lc  stm32f7xx_hal_dma2d.o [1]
+DMA_CalcBaseAndBitshift
+                        0x08009083     0x2e  Code  Lc  stm32f7xx_hal_dma.o [1]
+DMA_CalcBaseAndBitshift::flagBitshiftOffset
+                        0x080090b8      0x8  Data  Lc  stm32f7xx_hal_dma.o [1]
+Dma2dHandle             0x20002bc4     0x40  Data  Gb  STM32F7DMA.o [1]
+DrawProp                0x20002ad4     0x10  Data  Lc  stm32746g_discovery_lcd.o [1]
+DtorRecArray            0x20002d80      0xc  Data  Lc  cppinit.o [3]
+FMC_SDRAM_Init          0x0800cf61     0x7a  Code  Gb  stm32f7xx_ll_fmc.o [1]
+FMC_SDRAM_ProgramRefreshRate
+                        0x0800d0a7      0xc  Code  Gb  stm32f7xx_ll_fmc.o [1]
+FMC_SDRAM_SendCommand   0x0800d05d     0x4a  Code  Gb  stm32f7xx_ll_fmc.o [1]
+FMC_SDRAM_Timing_Init   0x0800cfdb     0x7a  Code  Gb  stm32f7xx_ll_fmc.o [1]
+FrontendApplication::FrontendApplication(Model &, FrontendHeap &)
+                        0x0800d171      0x2  Code  Gb  FrontendApplication.o [1]
+FrontendApplication::handleTickEvent()
+                        0x080113b5     0x16  Code  Gb  FrontendApplication.o [1]
+FrontendApplicationBase::FrontendApplicationBase(Model &, FrontendHeap &)
+                        0x0800d279     0x58  Code  Gb  FrontendApplicationBase.o [1]
+FrontendApplicationBase::FrontendApplicationBase(Model &, FrontendHeap &) [subobject]
+                        0x0800d1f1      0x2  Code  Gb  FrontendApplicationBase.o [1]
+FrontendApplicationBase::gotoMainScreenNoTransition()
+                        0x0800d2d1      0xc  Code  Gb  FrontendApplicationBase.o [1]
+FrontendApplicationBase::gotoMainScreenNoTransitionImpl()
+                        0x0800d2dd     0x1a  Code  Gb  FrontendApplicationBase.o [1]
+FrontendApplicationBase::gotoMainScreenSlideTransitionWest()
+                        0x0800d2f7      0xa  Code  Gb  FrontendApplicationBase.o [1]
+FrontendApplicationBase::gotoMainScreenSlideTransitionWestImpl()
+                        0x0800d319     0x1a  Code  Gb  FrontendApplicationBase.o [1]
+FrontendApplicationBase::gotoPoolTempScreenSlideTransitionEast()
+                        0x0800d333      0xc  Code  Gb  FrontendApplicationBase.o [1]
+FrontendApplicationBase::gotoPoolTempScreenSlideTransitionEastImpl()
+                        0x0800d33f     0x1a  Code  Gb  FrontendApplicationBase.o [1]
+FrontendHeap::FrontendHeap()
+                        0x0800cdcd     0x84  Code  Gb  BoardConfiguration.o [1]
+FrontendHeap::getInstance()::instance
+                        0x200023fc    0x3e8  Data  Gb  BoardConfiguration.o [1]
+FrontendHeap::~FrontendHeap()
+                        0x08011099     0x20  Code  Gb  BoardConfiguration.o [1]
+HAL_DMA2D_BlendingStart_IT
+                        0x08009d23     0x46  Code  Gb  stm32f7xx_hal_dma2d.o [1]
+HAL_DMA2D_ConfigLayer   0x08009d6f     0x98  Code  Gb  stm32f7xx_hal_dma2d.o [1]
+HAL_DMA2D_DeInit        0x08009be7    0x100  Code  Gb  stm32f7xx_hal_dma2d.o [1]
+HAL_DMA2D_Init          0x08009b91     0x56  Code  Gb  stm32f7xx_hal_dma2d.o [1]
+HAL_DMA2D_Start_IT      0x08009ce7     0x3c  Code  Gb  stm32f7xx_hal_dma2d.o [1]
+HAL_DMA_Abort           0x08008ff9     0x8a  Code  Gb  stm32f7xx_hal_dma.o [1]
+HAL_DMA_DeInit          0x08008f7d     0x7c  Code  Gb  stm32f7xx_hal_dma.o [1]
+HAL_DMA_Init            0x08008e91     0xec  Code  Gb  stm32f7xx_hal_dma.o [1]
+HAL_Delay               0x080071eb     0x18  Code  Wk  stm32f7xx_hal.o [1]
+HAL_GPIO_Init           0x080067f1    0x1dc  Code  Gb  stm32f7xx_hal_gpio.o [1]
+HAL_GPIO_ReadPin        0x080069cd      0xe  Code  Gb  stm32f7xx_hal_gpio.o [1]
+HAL_GPIO_TogglePin      0x080069e7      0x8  Code  Gb  stm32f7xx_hal_gpio.o [1]
+HAL_GPIO_WritePin       0x080069db      0xc  Code  Gb  stm32f7xx_hal_gpio.o [1]
+HAL_GetTick             0x08007869      0xc  Code  Wk  stm32f7xx_hal.o [1]
+HAL_I2C_DeInit          0x08006bf3     0x30  Code  Gb  stm32f7xx_hal_i2c.o [1]
+HAL_I2C_GetState        0x08006f6d      0x6  Code  Gb  stm32f7xx_hal_i2c.o [1]
+HAL_I2C_Init            0x08006b49     0xaa  Code  Gb  stm32f7xx_hal_i2c.o [1]
+HAL_I2C_Mem_Read        0x08006db1    0x1a8  Code  Gb  stm32f7xx_hal_i2c.o [1]
+HAL_I2C_Mem_Write       0x08006c23    0x186  Code  Gb  stm32f7xx_hal_i2c.o [1]
+HAL_IncTick             0x0800c311     0x10  Code  Wk  stm32f7xx_hal.o [1]
+HAL_Init                0x0800c321     0x20  Code  Gb  stm32f7xx_hal.o [1]
+HAL_InitTick            0x0800aa01     0x2c  Code  Wk  stm32f7xx_hal.o [1]
+HAL_LTDC_ConfigLayer    0x0800c907     0x46  Code  Gb  stm32f7xx_hal_ltdc.o [1]
+HAL_LTDC_GetState       0x0800c94d      0x6  Code  Gb  stm32f7xx_hal_ltdc.o [1]
+HAL_LTDC_Init           0x0800c815     0xf2  Code  Gb  stm32f7xx_hal_ltdc.o [1]
+HAL_MPU_ConfigRegion    0x08006ad1     0x52  Code  Gb  stm32f7xx_hal_cortex.o [1]
+HAL_MspInit             0x0800cbcd      0x2  Code  Gb  stm32f7xx_hal_msp_template.o [1]
+HAL_NVIC_DisableIRQ     0x08006a9d      0xa  Code  Gb  stm32f7xx_hal_cortex.o [1]
+HAL_NVIC_EnableIRQ      0x08006a91      0xc  Code  Gb  stm32f7xx_hal_cortex.o [1]
+HAL_NVIC_SetPriority    0x08006a3f     0x52  Code  Gb  stm32f7xx_hal_cortex.o [1]
+HAL_NVIC_SetPriorityGrouping
+                        0x08006a25     0x1a  Code  Gb  stm32f7xx_hal_cortex.o [1]
+HAL_PWREx_EnableOverDrive
+                        0x0800cb61     0x62  Code  Gb  stm32f7xx_hal_pwr_ex.o [1]
+HAL_QSPI_Abort          0x08008c83     0x7a  Code  Gb  stm32f7xx_hal_qspi.o [1]
+HAL_QSPI_AutoPolling    0x08008b5b     0xa2  Code  Gb  stm32f7xx_hal_qspi.o [1]
+HAL_QSPI_Command        0x0800892b     0x7c  Code  Gb  stm32f7xx_hal_qspi.o [1]
+HAL_QSPI_DeInit         0x080088f9     0x32  Code  Gb  stm32f7xx_hal_qspi.o [1]
+HAL_QSPI_Init           0x08008849     0xa8  Code  Gb  stm32f7xx_hal_qspi.o [1]
+HAL_QSPI_MemoryMapped   0x08008bfd     0x86  Code  Gb  stm32f7xx_hal_qspi.o [1]
+HAL_QSPI_Receive        0x08008a73     0xe8  Code  Gb  stm32f7xx_hal_qspi.o [1]
+HAL_QSPI_Transmit       0x080089a7     0xcc  Code  Gb  stm32f7xx_hal_qspi.o [1]
+HAL_RCCEx_PeriphCLKConfig
+                        0x0800aa2d    0x482  Code  Gb  stm32f7xx_hal_rcc_ex.o [1]
+HAL_RCC_ClockConfig     0x0800a559    0x136  Code  Gb  stm32f7xx_hal_rcc.o [1]
+HAL_RCC_GetSysClockFreq
+                        0x0800a68f     0x4c  Code  Gb  stm32f7xx_hal_rcc.o [1]
+HAL_RCC_OscConfig       0x0800a6f9    0x308  Code  Wk  stm32f7xx_hal_rcc.o [1]
+HAL_SDRAM_Init          0x0800cbd1     0x3c  Code  Gb  stm32f7xx_hal_sdram.o [1]
+HAL_SDRAM_ProgramRefreshRate
+                        0x0800cc3b     0x22  Code  Gb  stm32f7xx_hal_sdram.o [1]
+HAL_SDRAM_SendCommand   0x0800cc0d     0x2e  Code  Gb  stm32f7xx_hal_sdram.o [1]
+HAL_SYSTICK_Config      0x08006aaf     0x22  Code  Gb  stm32f7xx_hal_cortex.o [1]
+HAL_TIM_Base_Init       0x0800ce51     0x2e  Code  Gb  stm32f7xx_hal_tim.o [1]
+HAL_TIM_Base_Start      0x0800ce7f     0x1a  Code  Gb  stm32f7xx_hal_tim.o [1]
+I2C_Flush_TXDR          0x0800705d     0x20  Code  Lc  stm32f7xx_hal_i2c.o [1]
+I2C_IsAcknowledgeFailed
+                        0x0800714f     0x70  Code  Lc  stm32f7xx_hal_i2c.o [1]
+I2C_RequestMemoryRead   0x08006fe9     0x6e  Code  Lc  stm32f7xx_hal_i2c.o [1]
+I2C_RequestMemoryWrite  0x08006f79     0x70  Code  Lc  stm32f7xx_hal_i2c.o [1]
+I2C_TransferConfig      0x080071bf     0x20  Code  Lc  stm32f7xx_hal_i2c.o [1]
+I2C_WaitOnFlagUntilTimeout
+                        0x0800707d     0x48  Code  Lc  stm32f7xx_hal_i2c.o [1]
+I2C_WaitOnSTOPFlagUntilTimeout
+                        0x08007103     0x32  Code  Lc  stm32f7xx_hal_i2c.o [1]
+I2C_WaitOnTXISFlagUntilTimeout
+                        0x080070cb     0x38  Code  Lc  stm32f7xx_hal_i2c.o [1]
+I2Cx_Init               0x0800579f     0x3e  Code  Lc  stm32746g_discovery.o [1]
+I2Cx_MspInit            0x08005695    0x10a  Code  Lc  stm32746g_discovery.o [1]
+I2Cx_ReadMultiple       0x080057dd     0x1c  Code  Lc  stm32746g_discovery.o [1]
+I2Cx_WriteMultiple      0x080057f9     0x1a  Code  Lc  stm32746g_discovery.o [1]
+I2cAddress              0x20002c41      0x1  Data  Lc  stm32746g_discovery_ts.o [1]
+Initialization guard variable for FrontendHeap::getInstance()::instance
+                        0x20002d7a      0x1  Data  Gb  BoardConfiguration.o [1]
+LTDC_IRQHandler         0x0800ed4f     0x56  Code  Gb  STM32F7HAL.o [1]
+LTDC_SetConfig          0x0800c953     0xfc  Code  Lc  stm32f7xx_hal_ltdc.o [1]
+MainPresenter * touchgfx::makeTransition<MainView, MainPresenter, touchgfx::NoTransition, Model>(touchgfx::Screen **, touchgfx::Presenter **, touchgfx::MVPHeap &, touchgfx::Transition **, Model *)
+                        0x0800d3d1     0xf0  Code  Gb  FrontendApplicationBase.o [1]
+MainPresenter * touchgfx::makeTransition<MainView, MainPresenter, touchgfx::NoTransition, Model>(touchgfx::Screen **, touchgfx::Presenter **, touchgfx::MVPHeap &, touchgfx::Transition **, Model *)::string (instance 2)
+                        0x080117b8      0x8  Data  Gb  FrontendApplicationBase.o [1]
+MainPresenter * touchgfx::makeTransition<MainView, MainPresenter, touchgfx::NoTransition, Model>(touchgfx::Screen **, touchgfx::Presenter **, touchgfx::MVPHeap &, touchgfx::Transition **, Model *)::string (instance 3)
+                        0x08010174     0x64  Data  Gb  FrontendApplicationBase.o [1]
+MainPresenter * touchgfx::makeTransition<MainView, MainPresenter, touchgfx::SlideTransition<(touchgfx::Direction)3>, Model>(touchgfx::Screen **, touchgfx::Presenter **, touchgfx::MVPHeap &, touchgfx::Transition **, Model *)
+                        0x0800d4c1    0x194  Code  Gb  FrontendApplicationBase.o [1]
+MainPresenter * touchgfx::makeTransition<MainView, MainPresenter, touchgfx::SlideTransition<(touchgfx::Direction)3>, Model>(touchgfx::Screen **, touchgfx::Presenter **, touchgfx::MVPHeap &, touchgfx::Transition **, Model *)::string (instance 2)
+                        0x080117c0      0x8  Data  Gb  FrontendApplicationBase.o [1]
+MainPresenter * touchgfx::makeTransition<MainView, MainPresenter, touchgfx::SlideTransition<(touchgfx::Direction)3>, Model>(touchgfx::Screen **, touchgfx::Presenter **, touchgfx::MVPHeap &, touchgfx::Transition **, Model *)::string (instance 3)
+                        0x080101d8     0x64  Data  Gb  FrontendApplicationBase.o [1]
+MainPresenter::MainPresenter(MainView &)
+                        0x0800d891      0x2  Code  Gb  MainPresenter.o [1]
+MainPresenter::activate()
+                        0x0800d8bd      0x2  Code  Gb  MainPresenter.o [1]
+MainPresenter::deactivate()
+                        0x0800d8bf      0x2  Code  Gb  MainPresenter.o [1]
+MainPresenter::setPoolLight(bool)
+                        0x0800d8c1      0x6  Code  Gb  MainPresenter.o [1]
+MainPresenter::~MainPresenter()
+                        0x0800cbcf      0x2  Code  Gb  MainPresenter.o [1]
+MainView::MainView()    0x0800d861      0x2  Code  Gb  MainView.o [1]
+MainView::setupScreen()
+                        0x0800d875      0x2  Code  Gb  MainView.o [1]
+MainView::tearDownScreen()
+                        0x0800d877      0x2  Code  Gb  MainView.o [1]
+MainView::updatePoolLight()
+                        0x0800d879     0x16  Code  Gb  MainView.o [1]
+MainView::~MainView()   0x0800cc5f      0x2  Code  Gb  MainView.o [1]
+MainViewBase::MainViewBase()
+                        0x0800dba3    0x156  Code  Gb  MainViewBase.o [1]
+MainViewBase::MainViewBase() [subobject]
+                        0x0800dba1      0x2  Code  Gb  MainViewBase.o [1]
+MainViewBase::buttonCallbackHandler(touchgfx::AbstractButton const &)
+                        0x0800dd07     0x44  Code  Gb  MainViewBase.o [1]
+MainViewBase::setupScreen()
+                        0x0800dd05      0x2  Code  Gb  MainViewBase.o [1]
+MainViewBase::updatePoolLight()
+                        0x0800d16f      0x2  Code  Gb  MainViewBase.o [1]
+MainViewBase::~MainViewBase()
+                        0x0800d0b3      0x2  Code  Gb  MainViewBase.o [1]
+Model::Model()          0x0800d185     0x22  Code  Gb  Model.o [1]
+Model::tick()           0x0800d1a7     0x30  Code  Gb  Model.o [1]
+Model::tick()::old      0x20002d54      0x4  Data  Lc  Model.o [1]
+Model::userSetPoolLight(bool)
+                        0x0800d1dd     0x10  Code  Gb  Model.o [1]
+Model::userSetTemperature(unsigned int)
+                        0x0800d1ed      0x4  Code  Gb  Model.o [1]
+ModelListener::poolTemperatureChanged()
+                        0x0800dabf      0x2  Code  Gb  PoolTempPresenter.o [1]
+OS_SysTick              0x080064ff     0x2c  Code  Gb  port.o [1]
+PendSV_Handler          0x080077b5           Code  Gb  portasm.o [1]
+PoolTempPresenter * touchgfx::makeTransition<PoolTempView, PoolTempPresenter, touchgfx::SlideTransition<(touchgfx::Direction)2>, Model>(touchgfx::Screen **, touchgfx::Presenter **, touchgfx::MVPHeap &, touchgfx::Transition **, Model *)
+                        0x0800d655    0x194  Code  Gb  FrontendApplicationBase.o [1]
+PoolTempPresenter * touchgfx::makeTransition<PoolTempView, PoolTempPresenter, touchgfx::SlideTransition<(touchgfx::Direction)2>, Model>(touchgfx::Screen **, touchgfx::Presenter **, touchgfx::MVPHeap &, touchgfx::Transition **, Model *)::string (instance 2)
+                        0x080117c8      0x8  Data  Gb  FrontendApplicationBase.o [1]
+PoolTempPresenter * touchgfx::makeTransition<PoolTempView, PoolTempPresenter, touchgfx::SlideTransition<(touchgfx::Direction)2>, Model>(touchgfx::Screen **, touchgfx::Presenter **, touchgfx::MVPHeap &, touchgfx::Transition **, Model *)::string (instance 3)
+                        0x0801023c     0x64  Data  Gb  FrontendApplicationBase.o [1]
+PoolTempPresenter::PoolTempPresenter(PoolTempView &)
+                        0x0800da7d      0x2  Code  Gb  PoolTempPresenter.o [1]
+PoolTempPresenter::activate()
+                        0x0800daa9      0x2  Code  Gb  PoolTempPresenter.o [1]
+PoolTempPresenter::deactivate()
+                        0x0800daab      0x2  Code  Gb  PoolTempPresenter.o [1]
+PoolTempPresenter::poolTemperatureChanged()
+                        0x0800daaf      0x2  Code  Gb  PoolTempPresenter.o [1]
+PoolTempPresenter::~PoolTempPresenter()
+                        0x0800dfc3      0x2  Code  Gb  PoolTempPresenter.o [1]
+PoolTempView::PoolTempView()
+                        0x0800da29      0x2  Code  Gb  PoolTempView.o [1]
+PoolTempView::setPoolTemp(unsigned int)
+                        0x0800da3d     0x10  Code  Gb  PoolTempView.o [1]
+PoolTempView::setupScreen()
+                        0x0800da39      0x2  Code  Gb  PoolTempView.o [1]
+PoolTempView::sliderMoved(int)
+                        0x0800da4d      0xe  Code  Gb  PoolTempView.o [1]
+PoolTempView::tearDownScreen()
+                        0x0800da3b      0x2  Code  Gb  PoolTempView.o [1]
+PoolTempView::~PoolTempView()
+                        0x08011355     0x18  Code  Gb  PoolTempView.o [1]
+PoolTempViewBase::PoolTempViewBase()
+                        0x0800dd57    0x1a0  Code  Gb  PoolTempViewBase.o [1]
+PoolTempViewBase::PoolTempViewBase() [subobject]
+                        0x0800dd55      0x2  Code  Gb  PoolTempViewBase.o [1]
+PoolTempViewBase::buttonCallbackHandler(touchgfx::AbstractButton const &)
+                        0x0800df17     0x16  Code  Gb  PoolTempViewBase.o [1]
+PoolTempViewBase::setupScreen()
+                        0x0800df15      0x2  Code  Gb  PoolTempViewBase.o [1]
+PoolTempViewBase::sliderMoved(int)
+                        0x08011a0b      0x2  Code  Gb  PoolTempViewBase.o [1]
+PoolTempViewBase::sliderValueChangedCallbackHandler(touchgfx::Slider const &, int)
+                        0x0800df2d     0x12  Code  Gb  PoolTempViewBase.o [1]
+PoolTempViewBase::~PoolTempViewBase()
+                        0x08011385     0x18  Code  Gb  PoolTempViewBase.o [1]
+QSPIHandle              0x20002b80     0x44  Data  Gb  stm32746g_discovery_qspi.o [1]
+QSPI_Config             0x08008d49    0x144  Code  Lc  stm32f7xx_hal_qspi.o [1]
+QSPI_WaitFlagStateUntilTimeout
+                        0x08008cfd     0x4c  Code  Lc  stm32f7xx_hal_qspi.o [1]
+QSPI_WriteEnable        0x0800bbe1     0x70  Code  Lc  stm32746g_discovery_qspi.o [1]
+Region$$Table$$Base     0x08011030            --   Gb  - Linker created -
+Region$$Table$$Limit    0x08011054            --   Gb  - Linker created -
+SHT$$INIT_ARRAY$$Base   0x08011818            --   Gb  - Linker created -
+SHT$$INIT_ARRAY$$Limit  0x08011820            --   Gb  - Linker created -
+SHT$$PREINIT_ARRAY$$Base
+                        0x08011818            --   Gb  - Linker created -
+SHT$$PREINIT_ARRAY$$Limit
+                        0x08011818            --   Gb  - Linker created -
+STM32F7DMA::STM32F7DMA()
+                        0x080096cf     0x4c  Code  Gb  STM32F7DMA.o [1]
+STM32F7DMA::getBlitCaps()
+                        0x08009731     0x12  Code  Gb  STM32F7DMA.o [1]
+STM32F7DMA::initialize()
+                        0x0800971d     0x14  Code  Gb  STM32F7DMA.o [1]
+STM32F7DMA::setupDataCopy(touchgfx::BlitOp const &)
+                        0x08009743    0x194  Code  Gb  STM32F7DMA.o [1]
+STM32F7DMA::setupDataFill(touchgfx::BlitOp const &)
+                        0x080098dd    0x10a  Code  Gb  STM32F7DMA.o [1]
+STM32F7DMA::setupFillWithAlpha(touchgfx::BlitOp const &)
+                        0x080099ed    0x172  Code  Gb  STM32F7DMA.o [1]
+STM32F7DMA::signalDMAInterrupt()
+                        0x0800a3d7      0x6  Code  Gb  STM32F7DMA.o [1]
+STM32F7DMA::~STM32F7DMA()
+                        0x0800971b      0x2  Code  Gb  STM32F7DMA.o [1]
+STM32F7HAL::configureInterrupts()
+                        0x0800ed0b      0xa  Code  Gb  STM32F7HAL.o [1]
+STM32F7HAL::disableInterrupts()
+                        0x0800ed3b      0x4  Code  Gb  STM32F7HAL.o [1]
+STM32F7HAL::enableInterrupts()
+                        0x0800ed3f      0x2  Code  Gb  STM32F7HAL.o [1]
+STM32F7HAL::enableLCDControllerInterrupt()
+                        0x0800ed15     0x26  Code  Gb  STM32F7HAL.o [1]
+STM32F7HAL::flushFrameBuffer(touchgfx::Rect const &)
+                        0x0800ecff      0xc  Code  Gb  STM32F7HAL.o [1]
+STM32F7HAL::getTFTCurrentLine()
+                        0x0800ece1     0x1e  Code  Gb  STM32F7HAL.o [1]
+STM32F7HAL::getTFTFrameBuffer() const
+                        0x0800eccf      0x6  Code  Gb  STM32F7HAL.o [1]
+STM32F7HAL::setTFTFrameBuffer(unsigned short *)
+                        0x0800ecd5      0xc  Code  Gb  STM32F7HAL.o [1]
+SVC_Handler             0x08007811           Code  Gb  portasm.o [1]
+SysTick_Handler         0x0800c07f     0x16  Code  Gb  BoardConfiguration.o [1]
+SystemClock_Config      0x0800c2ad     0x62  Code  Gb  BoardConfiguration.o [1]
+SystemCoreClock         0x20002304      0x4  Data  Gb  system_stm32f7xx.o [1]
+SystemInit              0x080104f1     0x3a  Code  Gb  system_stm32f7xx.o [1]
+TIM_Base_SetConfig      0x0800ce99     0x98  Code  Gb  stm32f7xx_hal_tim.o [1]
+TS_IO_Delay             0x08005899      0x4  Code  Gb  stm32746g_discovery.o [1]
+TS_IO_Init              0x08005829      0x2  Code  Gb  stm32746g_discovery.o [1]
+TS_IO_Read              0x08005849     0x18  Code  Gb  stm32746g_discovery.o [1]
+TS_IO_Write             0x0800582f     0x12  Code  Gb  stm32746g_discovery.o [1]
+Thunk for (offset -4) PoolTempPresenter::poolTemperatureChanged()
+                        0x0800daad      0x2  Code  Gb  PoolTempPresenter.o [1]
+Timing                  0x200022d8     0x1c  Data  Lc  stm32746g_discovery_sdram.o [1]
+TypedTextDatabase::getFonts()
+                        0x0800b409      0x4  Code  Gb  TypedTextDatabase.o [1]
+TypedTextDatabase::getInstanceSize()
+                        0x0800b405      0x4  Code  Gb  TypedTextDatabase.o [1]
+Virtual function table for ApplicationFontProvider
+                        0x080113e0     0x14  Data  Gb  ApplicationFontProvider.o [1]
+Virtual function table for FrontendApplication
+                        0x08010a24     0x3c  Data  Gb  FrontendApplication.o [1]
+Virtual function table for FrontendApplicationBase
+                        0x08010a9c     0x3c  Data  Gb  FrontendApplicationBase.o [1]
+Virtual function table for FrontendHeap
+                        0x08011408     0x14  Data  Gb  BoardConfiguration.o [1]
+Virtual function table for FrontendHeapBase
+                        0x080113f4     0x14  Data  Gb  BoardConfiguration.o [1]
+Virtual function table for MainPresenter
+                        0x08010e7c     0x2c  Data  Gb  MainPresenter.o [1]
+Virtual function table for MainView
+                        0x08010c04     0x38  Data  Gb  MainView.o [1]
+Virtual function table for MainViewBase
+                        0x08010c3c     0x38  Data  Gb  MainViewBase.o [1]
+Virtual function table for ModelListener
+                        0x0801141c     0x14  Data  Gb  PoolTempPresenter.o [1]
+Virtual function table for PoolTempPresenter
+                        0x08010e1c     0x30  Data  Gb  PoolTempPresenter.o [1]
+Virtual function table for PoolTempView
+                        0x08010ad8     0x3c  Data  Gb  PoolTempView.o [1]
+Virtual function table for PoolTempViewBase
+                        0x08010c74     0x38  Data  Gb  PoolTempViewBase.o [1]
+Virtual function table for STM32F7DMA
+                        0x080105fc     0x54  Data  Gb  STM32F7DMA.o [1]
+Virtual function table for STM32F7HAL
+                        0x0800f14c     0xb4  Data  Gb  STM32F7HAL.o [1]
+Virtual function table for touchgfx::Application
+                        0x08010b14     0x3c  Data  Gb  Application.o [8]
+Virtual function table for touchgfx::Button
+                        0x08010098     0x70  Data  Gb  Button.o [8]
+Virtual function table for touchgfx::Callback<FrontendApplicationBase, void, void, void>
+                        0x080111ec     0x18  Data  Gb  FrontendApplicationBase.o [1]
+Virtual function table for touchgfx::Callback<MainViewBase, touchgfx::AbstractButton const &, void, void>
+                        0x08011234     0x18  Data  Gb  MainViewBase.o [1]
+Virtual function table for touchgfx::Callback<PoolTempViewBase, touchgfx::AbstractButton const &, void, void>
+                        0x08011264     0x18  Data  Gb  PoolTempViewBase.o [1]
+Virtual function table for touchgfx::Callback<PoolTempViewBase, touchgfx::Slider const &, int, void>
+                        0x0801127c     0x18  Data  Gb  PoolTempViewBase.o [1]
+Virtual function table for touchgfx::Callback<touchgfx::SlideTransition<(touchgfx::Direction)2>, touchgfx::Drawable &, void, void>
+                        0x0801121c     0x18  Data  Gb  FrontendApplicationBase.o [1]
+Virtual function table for touchgfx::Callback<touchgfx::SlideTransition<(touchgfx::Direction)3>, touchgfx::Drawable &, void, void>
+                        0x08011204     0x18  Data  Gb  FrontendApplicationBase.o [1]
+Virtual function table for touchgfx::ClickEvent
+                        0x08011688     0x14  Data  Gb  Gestures.o [8]
+Virtual function table for touchgfx::Container
+                        0x0800fc20     0x8c  Data  Gb  Container.o [8]
+Virtual function table for touchgfx::DragEvent
+                        0x0801169c     0x14  Data  Gb  Gestures.o [8]
+Virtual function table for touchgfx::GeneratedFont
+                        0x080105a8     0x54  Data  Gb  GeneratedFont.o [1]
+Virtual function table for touchgfx::GestureEvent
+                        0x080116b0     0x14  Data  Gb  Gestures.o [8]
+Virtual function table for touchgfx::Image
+                        0x08010108     0x6c  Data  Gb  Image.o [8]
+Virtual function table for touchgfx::LCD16bpp
+                        0x0801074c     0x50  Data  Gb  LCD16bpp.o [8]
+Virtual function table for touchgfx::LCD16bpp::TextureMapper_A4_BilinearInterpolation_GA
+                        0x08011610     0x14  Data  Gb  LCD16bpp.o [8]
+Virtual function table for touchgfx::LCD16bpp::TextureMapper_A4_BilinearInterpolation_NoGA
+                        0x08011624     0x14  Data  Gb  LCD16bpp.o [8]
+Virtual function table for touchgfx::LCD16bpp::TextureMapper_A4_NearestNeighbor_GA
+                        0x08011638     0x14  Data  Gb  LCD16bpp.o [8]
+Virtual function table for touchgfx::LCD16bpp::TextureMapper_A4_NearestNeighbor_NoGA
+                        0x0801164c     0x14  Data  Gb  LCD16bpp.o [8]
+Virtual function table for touchgfx::LCD16bpp::TextureMapper_ARGB8888_NonOpaque_BilinearInterpolation_GA
+                        0x080115c0     0x14  Data  Gb  LCD16bpp.o [8]
+Virtual function table for touchgfx::LCD16bpp::TextureMapper_ARGB8888_NonOpaque_BilinearInterpolation_NoGA
+                        0x080115d4     0x14  Data  Gb  LCD16bpp.o [8]
+Virtual function table for touchgfx::LCD16bpp::TextureMapper_ARGB8888_NonOpaque_NearestNeighbor_GA
+                        0x080115e8     0x14  Data  Gb  LCD16bpp.o [8]
+Virtual function table for touchgfx::LCD16bpp::TextureMapper_ARGB8888_NonOpaque_NearestNeighbor_NoGA
+                        0x080115fc     0x14  Data  Gb  LCD16bpp.o [8]
+Virtual function table for touchgfx::LCD16bpp::TextureMapper_L8_ARGB8888_NonOpaque_BilinearInterpolation_GA
+                        0x080114d0     0x14  Data  Gb  LCD16bpp.o [8]
+Virtual function table for touchgfx::LCD16bpp::TextureMapper_L8_ARGB8888_NonOpaque_BilinearInterpolation_NoGA
+                        0x080114e4     0x14  Data  Gb  LCD16bpp.o [8]
+Virtual function table for touchgfx::LCD16bpp::TextureMapper_L8_ARGB8888_NonOpaque_NearestNeighbor_GA
+                        0x080114f8     0x14  Data  Gb  LCD16bpp.o [8]
+Virtual function table for touchgfx::LCD16bpp::TextureMapper_L8_ARGB8888_NonOpaque_NearestNeighbor_NoGA
+                        0x0801150c     0x14  Data  Gb  LCD16bpp.o [8]
+Virtual function table for touchgfx::LCD16bpp::TextureMapper_L8_RGB565_Opaque_BilinearInterpolation_GA
+                        0x08011430     0x14  Data  Gb  LCD16bpp.o [8]
+Virtual function table for touchgfx::LCD16bpp::TextureMapper_L8_RGB565_Opaque_BilinearInterpolation_NoGA
+                        0x08011444     0x14  Data  Gb  LCD16bpp.o [8]
+Virtual function table for touchgfx::LCD16bpp::TextureMapper_L8_RGB565_Opaque_NearestNeighbor_GA
+                        0x08011458     0x14  Data  Gb  LCD16bpp.o [8]
+Virtual function table for touchgfx::LCD16bpp::TextureMapper_L8_RGB565_Opaque_NearestNeighbor_NoGA
+                        0x0801146c     0x14  Data  Gb  LCD16bpp.o [8]
+Virtual function table for touchgfx::LCD16bpp::TextureMapper_L8_RGB888_Opaque_BilinearInterpolation_GA
+                        0x08011480     0x14  Data  Gb  LCD16bpp.o [8]
+Virtual function table for touchgfx::LCD16bpp::TextureMapper_L8_RGB888_Opaque_BilinearInterpolation_NoGA
+                        0x08011494     0x14  Data  Gb  LCD16bpp.o [8]
+Virtual function table for touchgfx::LCD16bpp::TextureMapper_L8_RGB888_Opaque_NearestNeighbor_GA
+                        0x080114a8     0x14  Data  Gb  LCD16bpp.o [8]
+Virtual function table for touchgfx::LCD16bpp::TextureMapper_L8_RGB888_Opaque_NearestNeighbor_NoGA
+                        0x080114bc     0x14  Data  Gb  LCD16bpp.o [8]
+Virtual function table for touchgfx::LCD16bpp::TextureMapper_RGB565_NonOpaque_BilinearInterpolation_GA
+                        0x08011548     0x14  Data  Gb  LCD16bpp.o [8]
+Virtual function table for touchgfx::LCD16bpp::TextureMapper_RGB565_NonOpaque_BilinearInterpolation_NoGA
+                        0x0801155c     0x14  Data  Gb  LCD16bpp.o [8]
+Virtual function table for touchgfx::LCD16bpp::TextureMapper_RGB565_NonOpaque_NearestNeighbor_GA
+                        0x08011598     0x14  Data  Gb  LCD16bpp.o [8]
+Virtual function table for touchgfx::LCD16bpp::TextureMapper_RGB565_NonOpaque_NearestNeighbor_NoGA
+                        0x080115ac     0x14  Data  Gb  LCD16bpp.o [8]
+Virtual function table for touchgfx::LCD16bpp::TextureMapper_RGB565_Opaque_BilinearInterpolation_GA
+                        0x08011520     0x14  Data  Gb  LCD16bpp.o [8]
+Virtual function table for touchgfx::LCD16bpp::TextureMapper_RGB565_Opaque_BilinearInterpolation_NoGA
+                        0x08011534     0x14  Data  Gb  LCD16bpp.o [8]
+Virtual function table for touchgfx::LCD16bpp::TextureMapper_RGB565_Opaque_NearestNeighbor_GA
+                        0x08011570     0x14  Data  Gb  LCD16bpp.o [8]
+Virtual function table for touchgfx::LCD16bpp::TextureMapper_RGB565_Opaque_NearestNeighbor_NoGA
+                        0x08011584     0x14  Data  Gb  LCD16bpp.o [8]
+Virtual function table for touchgfx::LockFreeDMA_Queue
+                        0x08010fc4     0x24  Data  Gb  DMA.o [8]
+Virtual function table for touchgfx::MVPApplication
+                        0x08010a60     0x3c  Data  Gb  FrontendApplicationBase.o [1]
+Virtual function table for touchgfx::MVPHeap
+                        0x080116d8     0x10  Data  Gb  BoardConfiguration.o [1]
+Virtual function table for touchgfx::NoTransition
+                        0x08011078     0x20  Data  Gb  FrontendApplicationBase.o [1]
+Virtual function table for touchgfx::Partition<touchgfx::meta::TypeList<PoolTempPresenter, touchgfx::meta::TypeList<touchgfx::meta::Nil, touchgfx::meta::Nil>>, (unsigned short)1>
+                        0x08010ce4     0x34  Data  Gb  BoardConfiguration.o [1]
+Virtual function table for touchgfx::Partition<touchgfx::meta::TypeList<PoolTempView, touchgfx::meta::TypeList<touchgfx::meta::Nil, touchgfx::meta::Nil>>, (unsigned short)1>
+                        0x08010d18     0x34  Data  Gb  BoardConfiguration.o [1]
+Virtual function table for touchgfx::Partition<touchgfx::meta::TypeList<touchgfx::SlideTransition<(touchgfx::Direction)3>, touchgfx::meta::TypeList<touchgfx::meta::Nil, touchgfx::meta::Nil>>, (unsigned short)1>
+                        0x08010d4c     0x34  Data  Gb  BoardConfiguration.o [1]
+Virtual function table for touchgfx::Presenter
+                        0x0801124c     0x18  Data  Gb  PoolTempPresenter.o [1]
+Virtual function table for touchgfx::STM32F746GTouchController
+                        0x08011294     0x18  Data  Gb  STM32F746GTouchController.o [1]
+Virtual function table for touchgfx::STM32F7Instrumentation
+                        0x08010f4c     0x28  Data  Gb  STM32F7Instrumentation.o [1]
+Virtual function table for touchgfx::Screen
+                        0x08010de8     0x34  Data  Gb  Screen.o [8]
+Virtual function table for touchgfx::SlideTransition<(touchgfx::Direction)2>
+                        0x08010efc     0x28  Data  Gb  FrontendApplicationBase.o [1]
+Virtual function table for touchgfx::SlideTransition<(touchgfx::Direction)3>
+                        0x08010ed4     0x28  Data  Gb  FrontendApplicationBase.o [1]
+Virtual function table for touchgfx::Slider
+                        0x0800efcc     0xc8  Data  Gb  Slider.o [8]
+Virtual function table for touchgfx::SnapshotWidget
+                        0x0800ffb8     0x70  Data  Gb  SnapshotWidget.o [8]
+Virtual function table for touchgfx::TextArea
+                        0x0800fec0     0x7c  Data  Gb  TextArea.o [8]
+Virtual function table for touchgfx::TextAreaWithOneWildcard
+                        0x0800ff3c     0x7c  Data  Gb  TextAreaWithWildcard.o [8]
+Virtual function table for touchgfx::TextAreaWithWildcardBase
+                        0x0800fe44     0x7c  Data  Gb  PoolTempViewBase.o [1]
+Virtual function table for touchgfx::ToggleButton
+                        0x08010028     0x70  Data  Gb  ToggleButton.o [8]
+Virtual function table for touchgfx::Transition
+                        0x08011058     0x20  Data  Gb  FrontendApplicationBase.o [1]
+Virtual function table for touchgfx::UIEventListener
+                        0x08010f74     0x28  Data  Gb  Application.o [8]
+Virtual function table for touchgfx::View<MainPresenter>
+                        0x08010d80     0x34  Data  Gb  MainViewBase.o [1]
+Virtual function table for touchgfx::View<PoolTempPresenter>
+                        0x08010db4     0x34  Data  Gb  PoolTempViewBase.o [1]
+[local to Application_cpp]::touchgfx::rects
+                        0x20002378      0x2  Data  Lc  Application.o [8]
+[local to BoardConfiguration_cpp]::touchgfx::texts
+                        0x20000000      0x1  Data  Lc  BoardConfiguration.o [1]
+[local to FrontendApplicationBase_cpp]::touchgfx::finalizeTransition([local to FrontendApplicationBase_cpp]::touchgfx::Screen *, [local to FrontendApplicationBase_cpp]::touchgfx::Presenter *, [local to FrontendApplicationBase_cpp]::touchgfx::Transition *)
+                        0x0800d245     0x34  Code  Lc  FrontendApplicationBase.o [1]
+[local to FrontendApplicationBase_cpp]::touchgfx::prepareTransition([local to FrontendApplicationBase_cpp]::touchgfx::Screen **, [local to FrontendApplicationBase_cpp]::touchgfx::Presenter **, [local to FrontendApplicationBase_cpp]::touchgfx::Transition **)
+                        0x0800d1f3     0x52  Code  Lc  FrontendApplicationBase.o [1]
+[local to OSWrappers_cpp]::IdleTaskHook(void *)
+                        0x08003303     0x18  Code  Lc  OSWrappers.o [1]
+[local to STM32F7DMA_cpp]::SCB_CleanInvalidateDCache()
+                        0x08009689     0x46  Code  Lc  STM32F7DMA.o [1]
+[local to STM32F7HAL_cpp]::SCB_CleanInvalidateDCache()
+                        0x0800ec8d     0x42  Code  Lc  STM32F7HAL.o [1]
+[local to main_cpp]::GUITask(void *)
+                        0x080108d1      0xa  Code  Lc  main.o [1]
+__aeabi_assert          0x08001e81     0x24  Code  Gb  ABIassert.o [7]
+__aeabi_atexit          0x08006203      0xa  Code  Gb  cxxabi.o [4]
+__aeabi_memclr4         0x080061d5           Code  Gb  ABImemclr4.o [6]
+__aeabi_memcpy          0x08001ea5           Code  Gb  ABImemcpy.o [6]
+__aeabi_memcpy4         0x08001ec5           Code  Gb  ABImemcpy.o [6]
+__aeabi_memcpy8         0x08001ec5           Code  Gb  ABImemcpy.o [6]
+__aeabi_memset          0x080031b5           Code  Gb  ABImemset.o [6]
+__aeabi_memset4         0x08006745           Code  Gb  ABImemset48.o [6]
+__aeabi_memset8         0x08006745           Code  Gb  ABImemset48.o [6]
+__aeabi_vec_ctor_nocookie_nodtor
+                        0x080061db     0x28  Code  Gb  cxxabi.o [4]
+__call_ctors            0x08007715     0x18  Code  Gb  cppinit.o [3]
+__call_dtors            0x08007763      0xc  Code  Gb  cppinit.o [3]
+__call_dtors0           0x0800776f     0x36  Code  Gb  cppinit.o [3]
+__cexit_call_dtors      0x080111c3           Code  Gb  cexit.o [6]
+__cmain                 0x08011199           Code  Gb  cmain.o [6]
+__cstart_call_dtors     0x08011a1c           Data  Gb  cstart_call_dtors.o [6]
+__cxa_atexit            0x0800772d     0x36  Code  Gb  cppinit.o [3]
+__dso_handle            0x20002d74      0x4  Data  Gb  cppinit.o [3]
+__exit                  0x080047c9     0x14  Code  Gb  exit.o [7]
+__iar_Memset            0x080031b5           Code  Gb  ABImemset.o [6]
+__iar_Memset4_word      0x0800674d           Code  Gb  ABImemset48.o [6]
+__iar_Memset8_word      0x0800674d           Code  Gb  ABImemset48.o [6]
+__iar_Memset_word       0x080031bd           Code  Gb  ABImemset.o [6]
+__iar_cstart_call_ctors
+                        0x08011179     0x20  Code  Gb  cmain_call_ctors.o [6]
+__iar_data_init3        0x08010f9d     0x28  Code  Gb  data_init.o [6]
+__iar_debug_exceptions  0x08011a18      0x1  Data  Gb  unwind_debug.o [7]
+__iar_init_vfp          0x0801100d           Code  Gb  fpinit_M.o [5]
+__iar_lz77_init_single3
+                        0x08001f4b     0x7a  Code  Gb  lz77_init_single.o [6]
+__iar_program_start     0x080117ad           Code  Gb  cstartup_M.o [6]
+__iar_systems$$module {Abs}
+                        0x00000001           Data  Gb  command line/config [2]
+__iar_tls$$INIT_ARRAY$$Base
+                        0x08011820            --   Gb  - Linker created -
+__iar_tls$$INIT_ARRAY$$Limit
+                        0x08011820            --   Gb  - Linker created -
+__iar_zero_init3        0x080109e5     0x40  Code  Gb  zero_init3.o [6]
+__low_level_init        0x080111b7      0x4  Code  Gb  low_level_init.o [3]
+__sti__routine          0x0800c061     0x1e  Code  Lc  BoardConfiguration.o [1]
+__sti__routine          0x0800b3ed     0x18  Code  Lc  TypedTextDatabase.o [1]
+__vector_table          0x08000000           Data  Gb  startup_stm32f746xx.o [1]
+_adjust_button          0x9007f800   0x5280  Data  Gb  adjust_button.o [1]
+_adjust_button_pressed  0x90084a80   0x5280  Data  Gb  adjust_button_pressed.o [1]
+_blue_slider_horizontal_medium_indicators_slider_round_nob
+                        0x900aef80   0x2400  Data  Gb  Blue_Slider_Horizontal_Medium_Indicators_Slider_Round_nob.o [1]
+_blue_slider_horizontal_medium_slider_round_back
+                        0x90089d00   0x5280  Data  Gb  Blue_Slider_Horizontal_Medium_Slider_Round_back.o [1]
+_blue_slider_horizontal_medium_slider_round_fill
+                        0x9008ef80   0x5280  Data  Gb  Blue_Slider_Horizontal_Medium_Slider_Round_fill.o [1]
+_blue_togglebars_toggle_round_large_button_off
+                        0x9009e700   0x4c00  Data  Gb  Blue_Togglebars_Toggle_round_large_button_OFF.o [1]
+_blue_togglebars_toggle_round_large_button_on
+                        0x900a3300   0x4c00  Data  Gb  Blue_Togglebars_Toggle_round_large_button_ON.o [1]
+_call_main              0x080111a5           Code  Gb  cmain.o [6]
+_exit                   0x080111c1           Code  Gb  cexit.o [6]
+_fonts                  0x20002d30      0xc  Data  Gb  TypedTextDatabase.o [1]
+_main                   0x080111b3           Code  Gb  cmain.o [6]
+_main_background        0x90000000  0x3fc00  Data  Gb  Main_Background.o [1]
+_ok_button              0x90094200   0x5280  Data  Gb  ok_button.o [1]
+_ok_button_pressed      0x90099480   0x5280  Data  Gb  ok_button_pressed.o [1]
+_peare_gul              0x900a7f00   0x3840  Data  Gb  peare_gul.o [1]
+_peare_hvid             0x900ab740   0x3840  Data  Gb  peare_hvid.o [1]
+_settings_background    0x9003fc00  0x3fc00  Data  Gb  settings_background.o [1]
+abort                   0x0800321b      0x6  Code  Gb  abort.o [3]
+bitmap_database         0x0800ccbc    0x104  Data  Lc  BitmapDatabase.o [1]
+currentLanguageIndices  0x20002d1c      0x4  Data  Lc  Texts.o [1]
+currentLanguagePtr      0x20002d18      0x4  Data  Lc  Texts.o [1]
+disableChromArt         0x20002d7c      0x1  Data  Gb  STM32F7DMA.o [1]
+dummy                   0x20002284      0x1  Data  Lc  OSWrappers.o [1]
+exit                    0x080111bb      0x4  Code  Gb  exit.o [3]
+fontProvider            0x20000004      0x4  Data  Lc  BoardConfiguration.o [1]
+frame_buffer_sem        0x2000227c      0x4  Data  Lc  OSWrappers.o [1]
+ft5336_Init             0x0800bd85     0x18  Code  Gb  ft5336.o [1]
+ft5336_ReadID           0x0800bd9f     0x56  Code  Gb  ft5336.o [1]
+ft5336_Reset            0x0800bd9d      0x2  Code  Gb  ft5336.o [1]
+ft5336_TS_ClearIT       0x0800bf5b      0x2  Code  Gb  ft5336.o [1]
+ft5336_TS_DetectTouch   0x0800bdf7     0x40  Code  Gb  ft5336.o [1]
+ft5336_TS_DisableIT     0x0800bf4b      0x2  Code  Gb  ft5336.o [1]
+ft5336_TS_EnableIT      0x0800bf47      0x4  Code  Gb  ft5336.o [1]
+ft5336_TS_GetGestureID  0x0800bf5d     0x1e  Code  Gb  ft5336.o [1]
+ft5336_TS_GetTouchInfo  0x0800bf7d     0xde  Code  Gb  ft5336.o [1]
+ft5336_TS_GetXY         0x0800be39    0x10e  Code  Gb  ft5336.o [1]
+ft5336_TS_GetXY::coord  0x20002d50      0x2  Data  Lc  ft5336.o [1]
+ft5336_TS_ITStatus      0x0800bf57      0x4  Code  Gb  ft5336.o [1]
+ft5336_TS_Start         0x0800bdf5      0x2  Code  Gb  ft5336.o [1]
+ft5336_handle           0x20002d4c      0x4  Data  Lc  ft5336.o [1]
+ft5336_ts_drv           0x20000cc0     0x28  Data  Gb  ft5336.o [1]
+getFont_verdana_10_4bpp()
+                        0x0800b4b9     0x44  Code  Gb  Table_verdana_10_4bpp.o [1]
+getFont_verdana_10_4bpp()::static guard for verdana_10_4bpp
+                        0x20002c74      0x1  Data  Lc  Table_verdana_10_4bpp.o [1]
+getFont_verdana_10_4bpp()::verdana_10_4bpp
+                        0x20002c78     0x24  Data  Lc  Table_verdana_10_4bpp.o [1]
+getFont_verdana_20_4bpp()
+                        0x0800b411     0x44  Code  Gb  Table_verdana_20_4bpp.o [1]
+getFont_verdana_20_4bpp()::static guard for verdana_20_4bpp
+                        0x20002c9c      0x1  Data  Lc  Table_verdana_20_4bpp.o [1]
+getFont_verdana_20_4bpp()::verdana_20_4bpp
+                        0x20002ca0     0x24  Data  Lc  Table_verdana_20_4bpp.o [1]
+getFont_verdana_45_4bpp()
+                        0x0800b465     0x44  Code  Gb  Table_verdana_45_4bpp.o [1]
+getFont_verdana_45_4bpp()::static guard for verdana_45_4bpp
+                        0x20002cc4      0x1  Data  Lc  Table_verdana_45_4bpp.o [1]
+getFont_verdana_45_4bpp()::verdana_45_4bpp
+                        0x20002cc8     0x24  Data  Lc  Table_verdana_45_4bpp.o [1]
+glyphs_verdana_10_4bpp  0x08011748     0x10  Data  Gb  Table_verdana_10_4bpp.o [1]
+glyphs_verdana_20_4bpp  0x080103cc     0x64  Data  Gb  Table_verdana_20_4bpp.o [1]
+glyphs_verdana_45_4bpp  0x0800f578     0x9c  Data  Gb  Table_verdana_45_4bpp.o [1]
+hDma2dHandler           0x20002a94     0x40  Data  Lc  stm32746g_discovery_lcd.o [1]
+hI2cAudioHandler        0x20002ae8     0x4c  Data  Lc  stm32746g_discovery.o [1]
+hLtdcHandler            0x200027e4     0xa8  Data  Gb  stm32746g_discovery_lcd.o [1]
+indicesGb               0x08011810      0x8  Data  Gb  LanguageGb.o [1]
+kerning_verdana_10_4bpp
+                        0x080119f4      0x4  Data  Gb  Kerning_verdana_10_4bpp.o [1]
+kerning_verdana_20_4bpp
+                        0x08011738     0x10  Data  Gb  Kerning_verdana_20_4bpp.o [1]
+kerning_verdana_45_4bpp
+                        0x080119f8      0x4  Data  Gb  Kerning_verdana_45_4bpp.o [1]
+languagesArray          0x20002d14      0x4  Data  Lc  Texts.o [1]
+lcd_int_active_line     0x20002d58      0x2  Data  Lc  STM32F7HAL.o [1]
+lcd_int_porch_line      0x20002d5a      0x2  Data  Lc  STM32F7HAL.o [1]
+ledState                0x20002d7b      0x1  Data  Lc  GPIO.o [1]
+main                    0x080108db     0x2e  Code  Gb  main.o [1]
+memcmp                  0x08006789           Code  Gb  memcmp.o [6]
+memcpy                  0x0800620d      0xc  Code  Gb  memcpy.o [6]
+memset                  0x08001a19     0x14  Code  Gb  memset.o [6]
+next_abi_dtor_rec       0x20002d70      0x4  Data  Lc  cppinit.o [3]
+os_inited               0x20000008      0x1  Data  Gb  BoardConfiguration.o [1]
+prvAddCurrentTaskToDelayedList
+                        0x08005481     0x38  Code  Lc  tasks.o [1]
+prvCopyDataFromQueue    0x08004d49     0x26  Code  Lc  queue.o [1]
+prvCopyDataToQueue      0x08004cdb     0x6e  Code  Lc  queue.o [1]
+prvIdleTask             0x08005411     0x70  Code  Lc  tasks.o [1]
+prvResetNextTaskUnblockTime
+                        0x080054bd     0x20  Code  Lc  tasks.o [1]
+prvTaskExitError        0x080063f9     0x30  Code  Lc  port.o [1]
+prvUnlockQueue          0x08004d6f     0x60  Code  Lc  queue.o [1]
+pvPortMalloc            0x08006655     0xb4  Code  Gb  heap_2.o [1]
+pvPortMalloc::xHeapHasBeenInitialised
+                        0x20000cfc      0x4  Data  Lc  heap_2.o [1]
+pvTaskIncrementMutexHeldCount
+                        0x080055db     0x14  Code  Gb  tasks.o [1]
+pxCurrentTCB            0x200028f0      0x4  Data  Gb  tasks.o [1]
+pxDelayedTaskList       0x200028f4      0x4  Data  Lc  tasks.o [1]
+pxOverflowDelayedTaskList
+                        0x20002330      0x4  Data  Lc  tasks.o [1]
+pxPortInitialiseStack   0x080063d5     0x22  Code  Gb  port.o [1]
+pxReadyTasksLists       0x2000288c     0x64  Data  Lc  tasks.o [1]
+sdramHandle             0x200022a4     0x34  Data  Gb  stm32746g_discovery_sdram.o [1]
+texts_all_languages     0x0801139c     0x18  Data  Gb  Texts.o [1]
+touchgfx::AbstractButton::handleClickEvent(touchgfx::ClickEvent const &)
+                        0x0800e14d     0x4e  Code  Gb  AbstractButton.o [8]
+touchgfx::AbstractPartition::AbstractPartition() [subobject]
+                        0x0800d167      0x2  Code  Gb  AbstractPartition.o [8]
+touchgfx::AbstractPartition::~AbstractPartition() [subobject]
+                        0x0800d165      0x2  Code  Gb  AbstractPartition.o [8]
+touchgfx::Application::Application()
+                        0x08003383     0x68  Code  Gb  Application.o [8]
+touchgfx::Application::Application() [subobject]
+                        0x08003381      0x2  Code  Gb  Application.o [8]
+touchgfx::Application::cacheDrawOperations(bool)
+                        0x080036f5    0x392  Code  Gb  Application.o [8]
+touchgfx::Application::clearAllTimerWidgets()
+                        0x080036e7      0xe  Code  Gb  Application.o [8]
+touchgfx::Application::currentScreen
+                        0x20002380      0x4  Data  Gb  Application.o [8]
+touchgfx::Application::currentTransition
+                        0x20002384      0x4  Data  Gb  Application.o [8]
+touchgfx::Application::debugPrinter
+                        0x20002388      0x4  Data  Gb  Application.o [8]
+touchgfx::Application::debugRegionInvalidRect
+                        0x20002370      0x8  Data  Gb  Application.o [8]
+touchgfx::Application::draw()
+                        0x08003405     0x28  Code  Gb  Application.o [8]
+touchgfx::Application::draw(touchgfx::Rect &)
+                        0x0800342d     0x90  Code  Gb  Application.o [8]
+touchgfx::Application::getInstance()
+                        0x080033eb      0x8  Code  Gb  Application.o [8]
+touchgfx::Application::handleClickEvent(touchgfx::ClickEvent const &)
+                        0x080033f3     0x10  Code  Gb  Application.o [8]
+touchgfx::Application::handleDragEvent(touchgfx::DragEvent const &)
+                        0x080035c7     0x10  Code  Gb  Application.o [8]
+touchgfx::Application::handleGestureEvent(touchgfx::GestureEvent const &)
+                        0x080035d7     0x10  Code  Gb  Application.o [8]
+touchgfx::Application::handleKeyEvent(unsigned char)
+                        0x08003a8d      0xe  Code  Gb  Application.o [8]
+touchgfx::Application::handlePendingScreenTransition()
+                        0x08003403      0x2  Code  Gb  Application.o [8]
+touchgfx::Application::handleTickEvent()
+                        0x080035e7    0x100  Code  Gb  Application.o [8]
+touchgfx::Application::instance
+                        0x2000237c      0x4  Data  Gb  Application.o [8]
+touchgfx::Application::invalidateArea(touchgfx::Rect)
+                        0x080034bd    0x10a  Code  Gb  Application.o [8]
+touchgfx::Bitmap::allocationTable
+                        0x20002d00      0x4  Data  Gb  Bitmap.o [8]
+touchgfx::Bitmap::bitmaps
+                        0x20002cf4      0x4  Data  Gb  Bitmap.o [8]
+touchgfx::Bitmap::cacheTable
+                        0x20002cfc      0x4  Data  Gb  Bitmap.o [8]
+touchgfx::Bitmap::clearCache()
+                        0x08001a9b     0x86  Code  Gb  Bitmap.o [8]
+touchgfx::Bitmap::dynBitmaps
+                        0x20002cf8      0x4  Data  Gb  Bitmap.o [8]
+touchgfx::Bitmap::getData() const
+                        0x08001d05     0x56  Code  Gb  Bitmap.o [8]
+touchgfx::Bitmap::getExtraData() const
+                        0x08001d61     0x98  Code  Gb  Bitmap.o [8]
+touchgfx::Bitmap::getFormat() const
+                        0x08001df9     0x70  Code  Gb  Bitmap.o [8]
+touchgfx::Bitmap::getHeight() const
+                        0x08001b85     0x5e  Code  Gb  Bitmap.o [8]
+touchgfx::Bitmap::getId() const::string (instance 2)
+                        0x08010b50     0x3c  Data  Gb  Button.o [8]
+touchgfx::Bitmap::getId() const::string (instance 3)
+                        0x0800fd34     0x88  Data  Gb  Button.o [8]
+touchgfx::Bitmap::getSolidRect() const
+                        0x08001be3     0xac  Code  Gb  Bitmap.o [8]
+touchgfx::Bitmap::getWidth() const
+                        0x08001b21     0x64  Code  Gb  Bitmap.o [8]
+touchgfx::Bitmap::hasTransparentPixels() const
+                        0x08001c8f     0x72  Code  Gb  Bitmap.o [8]
+touchgfx::Bitmap::memoryRemaining
+                        0x20002d08      0x4  Data  Gb  Bitmap.o [8]
+touchgfx::Bitmap::nextAllocationIndex
+                        0x20002cec      0x2  Data  Gb  Bitmap.o [8]
+touchgfx::Bitmap::nextFreeData
+                        0x20002d04      0x4  Data  Gb  Bitmap.o [8]
+touchgfx::Bitmap::numberOfBitmaps
+                        0x20002cee      0x2  Data  Gb  Bitmap.o [8]
+touchgfx::Bitmap::numberOfDynamicBitmaps
+                        0x20002cf0      0x2  Data  Gb  Bitmap.o [8]
+touchgfx::Bitmap::registerBitmapDatabase(touchgfx::Bitmap::BitmapData const *, unsigned short, unsigned short *, unsigned int, unsigned int)
+                        0x08001a2d     0x20  Code  Gb  Bitmap.o [8]
+touchgfx::Bitmap::setCache(unsigned short *, unsigned int, unsigned int)
+                        0x08001a4d     0x4e  Code  Gb  Bitmap.o [8]
+touchgfx::Bitmap::totalMemory
+                        0x20002d0c      0x4  Data  Gb  Bitmap.o [8]
+touchgfx::Bitmap::uncachedCount
+                        0x20002cf2      0x2  Data  Gb  Bitmap.o [8]
+touchgfx::BlitOp::BlitOp()
+                        0x08009683      0x6  Code  Gb  STM32F7DMA.o [1]
+touchgfx::Button::Button()
+                        0x0800dfc5     0x30  Code  Gb  PoolTempViewBase.o [1]
+touchgfx::Button::draw(touchgfx::Rect const &) const
+                        0x0800dff5     0xb0  Code  Gb  Button.o [8]
+touchgfx::Button::getSolidRect() const
+                        0x0800e0d7     0x32  Code  Gb  Button.o [8]
+touchgfx::Button::setBitmaps(touchgfx::Bitmap const &, touchgfx::Bitmap const &)
+                        0x0800e0b5     0x22  Code  Gb  Button.o [8]
+touchgfx::Callback<FrontendApplicationBase, void, void, void>::Callback()
+                        0x0800d389     0x1c  Code  Gb  FrontendApplicationBase.o [1]
+touchgfx::Callback<FrontendApplicationBase, void, void, void>::execute()
+                        0x080112dd     0x18  Code  Gb  FrontendApplicationBase.o [1]
+touchgfx::Callback<FrontendApplicationBase, void, void, void>::isValid() const
+                        0x080110b9     0x20  Code  Gb  FrontendApplicationBase.o [1]
+touchgfx::Callback<MainViewBase, touchgfx::AbstractButton const &, void, void>::execute(touchgfx::AbstractButton const &)
+                        0x0801133d     0x18  Code  Gb  MainViewBase.o [1]
+touchgfx::Callback<MainViewBase, touchgfx::AbstractButton const &, void, void>::isValid() const
+                        0x08011119     0x20  Code  Gb  MainViewBase.o [1]
+touchgfx::Callback<PoolTempViewBase, touchgfx::AbstractButton const &, void, void>::execute(touchgfx::AbstractButton const &)
+                        0x0801136d     0x18  Code  Gb  PoolTempViewBase.o [1]
+touchgfx::Callback<PoolTempViewBase, touchgfx::AbstractButton const &, void, void>::isValid() const
+                        0x08011159     0x20  Code  Gb  PoolTempViewBase.o [1]
+touchgfx::Callback<PoolTempViewBase, touchgfx::Slider const &, int, void>::execute(touchgfx::Slider const &, int)
+                        0x080111cf     0x1c  Code  Gb  PoolTempViewBase.o [1]
+touchgfx::Callback<PoolTempViewBase, touchgfx::Slider const &, int, void>::isValid() const
+                        0x08011139     0x20  Code  Gb  PoolTempViewBase.o [1]
+touchgfx::Callback<touchgfx::SlideTransition<(touchgfx::Direction)2>, touchgfx::Drawable &, void, void>::execute(touchgfx::Drawable &)
+                        0x080112ad     0x18  Code  Gb  FrontendApplicationBase.o [1]
+touchgfx::Callback<touchgfx::SlideTransition<(touchgfx::Direction)3>, touchgfx::Drawable &, void, void>::execute(touchgfx::Drawable &)
+                        0x080112c5     0x18  Code  Gb  FrontendApplicationBase.o [1]
+touchgfx::Color::getColorFrom24BitRGB(unsigned char, unsigned char, unsigned char)::string (instance 2)
+                        0x080117d8      0x8  Data  Gb  PoolTempViewBase.o [1]
+touchgfx::Color::getColorFrom24BitRGB(unsigned char, unsigned char, unsigned char)::string (instance 3)
+                        0x08010430     0x60  Data  Gb  PoolTempViewBase.o [1]
+touchgfx::ConstFont::ConstFont(touchgfx::GlyphNode const *, unsigned short, unsigned short, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned short, unsigned short) [subobject]
+                        0x0800b5c1      0x2  Code  Gb  ConstFont.o [8]
+touchgfx::ConstFont::find(unsigned short) const
+                        0x0800b653     0x3e  Code  Gb  ConstFont.o [8]
+touchgfx::ConstFont::getGlyph(unsigned short, unsigned char const *&, unsigned char &) const
+                        0x0800b5ff     0x54  Code  Gb  ConstFont.o [8]
+touchgfx::Container::Container()
+                        0x0800720d     0x34  Code  Gb  Screen.o [8]
+touchgfx::Container::add(touchgfx::Drawable &)
+                        0x08007271     0x7c  Code  Gb  Container.o [8]
+touchgfx::Container::draw(touchgfx::Rect const &) const
+                        0x08007329     0x80  Code  Gb  Container.o [8]
+touchgfx::Container::forEachChild(touchgfx::GenericCallback<touchgfx::Drawable &, void, void> *)
+                        0x08007427     0x1a  Code  Gb  Container.o [8]
+touchgfx::Container::getLastChild(short, short, touchgfx::Drawable **)
+                        0x080073a9     0x6a  Code  Gb  Container.o [8]
+touchgfx::Container::getSolidRect() const
+                        0x08007413     0x14  Code  Gb  Container.o [8]
+touchgfx::Container::remove(touchgfx::Drawable &)
+                        0x080072f1     0x32  Code  Gb  Container.o [8]
+touchgfx::Container::setupDrawChain(touchgfx::Rect const &, touchgfx::Drawable **)
+                        0x08007441     0x80  Code  Gb  Container.o [8]
+touchgfx::DMA_Interface::addToQueue(touchgfx::BlitOp const &)
+                        0x08003d17     0x3e  Code  Gb  DMA.o [8]
+touchgfx::DMA_Interface::disableAlpha()
+                        0x08003e69      0x2  Code  Gb  DMA.o [8]
+touchgfx::DMA_Interface::enableAlpha(unsigned char)
+                        0x08003e67      0x2  Code  Gb  DMA.o [8]
+touchgfx::DMA_Interface::execute()
+                        0x08003d63     0x9a  Code  Gb  DMA.o [8]
+touchgfx::DMA_Interface::executeCompleted()
+                        0x08003e15     0x3c  Code  Gb  DMA.o [8]
+touchgfx::DMA_Interface::flush()
+                        0x08009ea3      0x6  Code  Gb  STM32F7DMA.o [1]
+touchgfx::DMA_Interface::getDMAType()
+                        0x080119e1      0x4  Code  Gb  STM32F7DMA.o [1]
+touchgfx::DMA_Interface::isDmaQueueEmpty()
+                        0x08003e51      0xc  Code  Gb  DMA.o [8]
+touchgfx::DMA_Interface::seedExecution()
+                        0x08003d11      0x6  Code  Gb  DMA.o [8]
+touchgfx::DMA_Interface::start()
+                        0x08003ced     0x24  Code  Gb  DMA.o [8]
+touchgfx::DMA_Interface::waitForFrameBufferSemaphore()
+                        0x08003d55      0xe  Code  Gb  DMA.o [8]
+touchgfx::DisplayTransformation::transformDisplayToFrameBuffer(short &, short &)
+                        0x08001fc5     0x22  Code  Gb  DisplayTransformation.o [8]
+touchgfx::DisplayTransformation::transformDisplayToFrameBuffer(touchgfx::Rect &)
+                        0x0800203d     0x2a  Code  Gb  DisplayTransformation.o [8]
+touchgfx::DisplayTransformation::transformDisplayToFrameBuffer(touchgfx::Rect &, touchgfx::Rect const &)
+                        0x08002067     0x2c  Code  Gb  DisplayTransformation.o [8]
+touchgfx::DisplayTransformation::transformFrameBufferToDisplay(short &, short &)
+                        0x08001fe7     0x24  Code  Gb  DisplayTransformation.o [8]
+touchgfx::DisplayTransformation::transformFrameBufferToDisplay(touchgfx::Rect &)
+                        0x0800200b     0x30  Code  Gb  DisplayTransformation.o [8]
+touchgfx::DragEvent::DragEvent(touchgfx::DragEvent::DragEventType, short, short, short, short)
+                        0x080076d9     0x20  Code  Gb  Screen.o [8]
+touchgfx::Drawable::Drawable() [subobject]
+                        0x0800a3ad     0x2a  Code  Gb  Slider.o [8]
+touchgfx::Drawable::getAbsoluteRect() const
+                        0x08007613     0x30  Code  Gb  Drawable.o [8]
+touchgfx::Drawable::getCachedAbsX()
+                        0x080074ff     0x28  Code  Gb  Screen.o [8]
+touchgfx::Drawable::getCachedAbsY()
+                        0x08007527     0x28  Code  Gb  Screen.o [8]
+touchgfx::Drawable::getCachedVisibleRect()
+                        0x080074c1     0x3e  Code  Gb  Screen.o [8]
+touchgfx::Drawable::getVisibleRect(touchgfx::Rect &) const
+                        0x080075d3     0x40  Code  Gb  Drawable.o [8]
+touchgfx::Drawable::handleClickEvent(touchgfx::ClickEvent const &)
+                        0x0800e19b      0x2  Code  Gb  PoolTempViewBase.o [1]
+touchgfx::Drawable::handleDragEvent(touchgfx::DragEvent const &)
+                        0x08010bc7      0x2  Code  Gb  PoolTempViewBase.o [1]
+touchgfx::Drawable::handleGestureEvent(touchgfx::GestureEvent const &)
+                        0x0801083b      0x2  Code  Gb  PoolTempViewBase.o [1]
+touchgfx::Drawable::handleTickEvent()
+                        0x08010c03      0x2  Code  Gb  PoolTempViewBase.o [1]
+touchgfx::Drawable::invalidate() const
+                        0x080075b3     0x20  Code  Gb  Drawable.o [8]
+touchgfx::Drawable::invalidateRect(touchgfx::Rect &) const
+                        0x08007555     0x5e  Code  Gb  Drawable.o [8]
+touchgfx::Drawable::moveRelative(short, short)
+                        0x08007665     0x6e  Code  Gb  Drawable.o [8]
+touchgfx::Drawable::moveTo(short, short)
+                        0x0800a51d     0x16  Code  Gb  PoolTempViewBase.o [1]
+touchgfx::Drawable::setHeight(short)
+                        0x08011849      0x4  Code  Gb  PoolTempViewBase.o [1]
+touchgfx::Drawable::setPosition(short, short, short, short)
+                        0x08007241     0x26  Code  Gb  PoolTempViewBase.o [1]
+touchgfx::Drawable::setWidth(short)
+                        0x08011845      0x4  Code  Gb  PoolTempViewBase.o [1]
+touchgfx::Drawable::setX(short)
+                        0x0801183d      0x4  Code  Gb  PoolTempViewBase.o [1]
+touchgfx::Drawable::setXY(short, short)
+                        0x0800a505     0x18  Code  Gb  PoolTempViewBase.o [1]
+touchgfx::Drawable::setY(short)
+                        0x08011841      0x4  Code  Gb  PoolTempViewBase.o [1]
+touchgfx::Drawable::setupDrawChain(touchgfx::Rect const &, touchgfx::Drawable**)
+                        0x08003e6b     0x12  Code  Gb  PoolTempViewBase.o [1]
+touchgfx::Drawable::translateRectToAbsolute(touchgfx::Rect &) const
+                        0x08007643     0x22  Code  Gb  Drawable.o [8]
+touchgfx::EasingEquations::cubicEaseOut(unsigned short, short, short, unsigned short)
+                        0x0800f2a9     0x78  Code  Gb  EasingEquations.o [8]
+touchgfx::Font::getBitsPerPixel() const
+                        0x080117f9      0x8  Code  Gb  GeneratedFont.o [1]
+touchgfx::Font::getDataFormatA4() const
+                        0x08007863      0x6  Code  Gb  GeneratedFont.o [1]
+touchgfx::Font::getEllipsisChar() const
+                        0x08011831      0x4  Code  Gb  GeneratedFont.o [1]
+touchgfx::Font::getFallbackChar() const
+                        0x0801182d      0x4  Code  Gb  GeneratedFont.o [1]
+touchgfx::Font::getFontHeight() const
+                        0x08011835      0x4  Code  Gb  GeneratedFont.o [1]
+touchgfx::Font::getGlyph(unsigned short) const
+                        0x08011325     0x18  Code  Gb  GeneratedFont.o [1]
+touchgfx::Font::getMinimumTextHeight() const
+                        0x08007203      0xa  Code  Gb  GeneratedFont.o [1]
+touchgfx::Font::getStringWidth(unsigned char, unsigned short const *, ...) const
+                        0x0800f095     0x22  Code  Gb  Font.o [8]
+touchgfx::Font::getStringWidthFunction
+                        0x20002360      0x8  Data  Gb  Texts.o [1]
+touchgfx::Font::getStringWidthLTR(unsigned char, unsigned short const *, __va_list) const
+                        0x0800f0b7     0x90  Code  Gb  Font.o [8]
+touchgfx::FontManager::provider
+                        0x20002d60      0x4  Data  Gb  FontManager.o [8]
+touchgfx::FontManager::setFontProvider(touchgfx::FontProvider *)
+                        0x0800cdc1      0x6  Code  Gb  FontManager.o [8]
+touchgfx::GPIO::clear(touchgfx::GPIO::GPIO_ID)
+                        0x08003361     0x10  Code  Gb  GPIO.o [1]
+touchgfx::GPIO::init()  0x08003339     0x18  Code  Gb  GPIO.o [1]
+touchgfx::GPIO::set(touchgfx::GPIO::GPIO_ID)
+                        0x08003351     0x10  Code  Gb  GPIO.o [1]
+touchgfx::GPIO::toggle(touchgfx::GPIO::GPIO_ID)
+                        0x08003371      0xc  Code  Gb  GPIO.o [1]
+touchgfx::GeneratedFont::GeneratedFont(touchgfx::GlyphNode const *, unsigned short, unsigned short, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char const *const *, touchgfx::KerningNode const *, unsigned short, unsigned short, unsigned short const *)
+                        0x0800b50d      0x2  Code  Gb  GeneratedFont.o [1]
+touchgfx::GeneratedFont::getGSUBTable() const
+                        0x08011839      0x4  Code  Gb  GeneratedFont.o [1]
+touchgfx::GeneratedFont::getKerning(unsigned short, touchgfx::GlyphNode const *) const
+                        0x0800b57d     0x42  Code  Gb  GeneratedFont.o [1]
+touchgfx::GeneratedFont::getPixelData(touchgfx::GlyphNode const *) const
+                        0x0800b56d     0x10  Code  Gb  GeneratedFont.o [1]
+touchgfx::GestureEvent::GestureEvent(touchgfx::GestureEvent::GestureType, short, short, short)
+                        0x080076f9     0x1c  Code  Gb  Screen.o [8]
+touchgfx::Gestures::registerClickEvent(touchgfx::ClickEvent::ClickEventType, unsigned short, unsigned short)
+                        0x08003b89     0xa8  Code  Gb  Gestures.o [8]
+touchgfx::Gestures::registerDragEvent(unsigned short, unsigned short, unsigned short, unsigned short)
+                        0x08003aef     0x94  Code  Gb  Gestures.o [8]
+touchgfx::Gestures::registerEventListener(touchgfx::UIEventListener &)
+                        0x08003ad1      0x4  Code  Gb  Gestures.o [8]
+touchgfx::Gestures::tick()
+                        0x08003ad5     0x1a  Code  Gb  Gestures.o [8]
+touchgfx::GlyphNode::setTop(short)
+                        0x0800631b     0x1c  Code  Gb  TextProvider.o [8]
+touchgfx::GlyphNode::top() const
+                        0x080062f9     0x22  Code  Gb  TextProvider.o [8]
+touchgfx::HAL & touchgfx::getHAL<STM32F7HAL>(touchgfx::DMA_Interface &, touchgfx::LCD &, touchgfx::TouchController &, short, short)
+                        0x0800cc7d     0x34  Code  Gb  BoardConfiguration.o [1]
+touchgfx::HAL & touchgfx::touchgfx_generic_init<STM32F7HAL>(touchgfx::DMA_Interface &, touchgfx::LCD &, touchgfx::TouchController &, short, short, unsigned short *, unsigned int, unsigned int)
+                        0x0800ca5d     0x88  Code  Gb  BoardConfiguration.o [1]
+touchgfx::HAL::DISPLAY_HEIGHT
+                        0x20002d26      0x2  Data  Gb  HAL.o [8]
+touchgfx::HAL::DISPLAY_ROTATION
+                        0x20002d22      0x1  Data  Gb  HAL.o [8]
+touchgfx::HAL::DISPLAY_WIDTH
+                        0x20002d24      0x2  Data  Gb  HAL.o [8]
+touchgfx::HAL::FRAME_BUFFER_HEIGHT
+                        0x20002d2a      0x2  Data  Gb  HAL.o [8]
+touchgfx::HAL::FRAME_BUFFER_WIDTH
+                        0x20002d28      0x2  Data  Gb  HAL.o [8]
+touchgfx::HAL::HAL(touchgfx::DMA_Interface &, touchgfx::LCD &, touchgfx::TouchController &, unsigned short, unsigned short)
+                        0x0800d0b5     0xb0  Code  Gb  BoardConfiguration.o [1]
+touchgfx::HAL::USE_ANIMATION_STORAGE
+                        0x20002d21      0x1  Data  Gb  HAL.o [8]
+touchgfx::HAL::USE_DOUBLE_BUFFERING
+                        0x20002d20      0x1  Data  Gb  HAL.o [8]
+touchgfx::HAL::allowDMATransfers()
+                        0x08002269      0xe  Code  Gb  HAL.o [8]
+touchgfx::HAL::backPorchExited()
+                        0x080113cb     0x16  Code  Gb  STM32F7HAL.o [1]
+touchgfx::HAL::beginFrame()
+                        0x08002765     0x16  Code  Gb  HAL.o [8]
+touchgfx::HAL::blitCopy(unsigned short const *, unsigned char const *, unsigned short, unsigned short, unsigned short, unsigned short, unsigned short, unsigned char, bool, unsigned short, touchgfx::Bitmap::BitmapFormat, touchgfx::Bitmap::BitmapFormat)
+                        0x080023f1     0xc8  Code  Gb  HAL.o [8]
+touchgfx::HAL::blitCopy(unsigned short const *, unsigned short, unsigned short, unsigned short, unsigned short, unsigned short, unsigned char, bool)
+                        0x080024b9     0x64  Code  Gb  HAL.o [8]
+touchgfx::HAL::blitCopyARGB8888(unsigned short const *, unsigned short, unsigned short, unsigned short, unsigned short, unsigned short, unsigned char)
+                        0x080025df     0x64  Code  Gb  HAL.o [8]
+touchgfx::HAL::blitCopyGlyph(unsigned char const *, unsigned short, unsigned short, unsigned short, unsigned short, unsigned short, touchgfx::colortype, unsigned char, touchgfx::BlitOperations)
+                        0x0800251d     0xbc  Code  Gb  HAL.o [8]
+touchgfx::HAL::blockCopy(void *, void const *, unsigned int)
+                        0x0800236d     0x84  Code  Gb  HAL.o [8]
+touchgfx::HAL::configurePartialFrameBuffer(unsigned short, unsigned short, unsigned short, unsigned short)
+                        0x080022b5     0xb8  Code  Gb  HAL.o [8]
+touchgfx::HAL::copyFBRegionToMemory(touchgfx::Rect, unsigned short *, unsigned int)
+                        0x08002657     0x7c  Code  Gb  HAL.o [8]
+touchgfx::HAL::endFrame()
+                        0x08002791     0x1a  Code  Gb  HAL.o [8]
+touchgfx::HAL::flushDMA()
+                        0x08002277      0x8  Code  Gb  HAL.o [8]
+touchgfx::HAL::flushFrameBuffer(touchgfx::Rect const &)
+                        0x0800225d      0x2  Code  Gb  HAL.o [8]
+touchgfx::HAL::getBlitCaps()
+                        0x08011801      0x8  Code  Gb  STM32F7HAL.o [1]
+touchgfx::HAL::getClientFrameBuffer()
+                        0x08003e7d     0x24  Code  Gb  HAL.o [8]
+touchgfx::HAL::getDMAType()
+                        0x08011809      0x8  Code  Gb  STM32F7HAL.o [1]
+touchgfx::HAL::getDstAddress(unsigned short, unsigned short, unsigned short *) const
+                        0x0800272b     0x3a  Code  Gb  HAL.o [8]
+touchgfx::HAL::getDstAddress(unsigned short, unsigned short, unsigned short *, unsigned short, touchgfx::Bitmap::BitmapFormat) const
+                        0x080026d5     0x56  Code  Gb  HAL.o [8]
+touchgfx::HAL::initialize()
+                        0x080020a5     0x24  Code  Gb  HAL.o [8]
+touchgfx::HAL::instance
+                        0x20002d2c      0x4  Data  Gb  HAL.o [8]
+touchgfx::HAL::isDrawing
+                        0x20002d52      0x1  Data  Gb  HAL.o [8]
+touchgfx::HAL::lcd()    0x0800f561     0x18  Code  Gb  TextAreaWithWildcard.o [8]
+touchgfx::HAL::lockFrameBuffer()
+                        0x0800227f     0x32  Code  Gb  HAL.o [8]
+touchgfx::HAL::noTouch()
+                        0x08002857     0x24  Code  Gb  HAL.o [8]
+touchgfx::HAL::performDisplayOrientationChange()
+                        0x08010491     0x60  Code  Gb  STM32F7HAL.o [1]
+touchgfx::HAL::registerEventListener(touchgfx::UIEventListener &)
+                        0x0800264f      0x8  Code  Gb  HAL.o [8]
+touchgfx::HAL::setDisplayOrientation(touchgfx::DisplayOrientation)
+                        0x08007267      0xa  Code  Gb  STM32F7HAL.o [1]
+touchgfx::HAL::setFrameBufferStartAddress(void *, unsigned short, bool, bool)
+                        0x0800fdbd     0x88  Code  Gb  STM32F7HAL.o [1]
+touchgfx::HAL::setFrameBufferStartAddress(void *, unsigned short, bool, bool)::string (instance 2)
+                        0x080117e0      0x8  Data  Gb  STM32F7HAL.o [1]
+touchgfx::HAL::setFrameBufferStartAddress(void *, unsigned short, bool, bool)::string (instance 3)
+                        0x08010304     0x64  Data  Gb  STM32F7HAL.o [1]
+touchgfx::HAL::setFrameBufferStartAddresses(void *, void *, void *)
+                        0x0801083d     0x4c  Code  Gb  STM32F7HAL.o [1]
+touchgfx::HAL::setFrameBufferStartAddresses(void *, void *, void *)::string (instance 2)
+                        0x080117e8      0x8  Data  Gb  STM32F7HAL.o [1]
+touchgfx::HAL::setFrameBufferStartAddresses(void *, void *, void *)::string (instance 3)
+                        0x08010368     0x64  Data  Gb  STM32F7HAL.o [1]
+touchgfx::HAL::setMCUActive(bool)
+                        0x0800287b     0x2c  Code  Gb  HAL.o [8]
+touchgfx::HAL::swapFrameBuffers()
+                        0x080027ab     0x2c  Code  Gb  HAL.o [8]
+touchgfx::HAL::taskDelay(unsigned short)
+                        0x08011795      0xc  Code  Gb  STM32F7HAL.o [1]
+touchgfx::HAL::taskEntry()
+                        0x080020c9     0x20  Code  Gb  HAL.o [8]
+touchgfx::HAL::tick()   0x080020e9    0x172  Code  Gb  HAL.o [8]
+touchgfx::HAL::tick(){1}::touchTickCnt
+                        0x20002d53      0x1  Data  Lc  HAL.o [8]
+touchgfx::HAL::touch(int, int)
+                        0x080027d7     0x80  Code  Gb  HAL.o [8]
+touchgfx::HAL::unlockFrameBuffer()
+                        0x080022b1      0x4  Code  Gb  HAL.o [8]
+touchgfx::Image::Image(touchgfx::Bitmap const &)
+                        0x0800a3dd     0x2c  Code  Gb  PoolTempViewBase.o [1]
+touchgfx::Image::draw(touchgfx::Rect const &) const
+                        0x0800a443     0x96  Code  Gb  Image.o [8]
+touchgfx::Image::getSolidRect() const
+                        0x0800a4dd     0x28  Code  Gb  Image.o [8]
+touchgfx::Image::setBitmap(touchgfx::Bitmap const &)
+                        0x0800a409     0x3a  Code  Gb  Image.o [8]
+touchgfx::LCD16bpp::LCD16bpp()
+                        0x080001c9     0x50  Code  Gb  LCD16bpp.o [8]
+touchgfx::LCD16bpp::bitDepth() const
+                        0x080119ed      0x4  Code  Gb  LCD16bpp.o [8]
+touchgfx::LCD16bpp::blitCopy(unsigned short const *, touchgfx::Rect const &, touchgfx::Rect const &, unsigned char, bool)
+                        0x08000fe1    0x1f8  Code  Gb  LCD16bpp.o [8]
+touchgfx::LCD16bpp::blitCopyARGB8888(unsigned int const *, touchgfx::Rect const &, touchgfx::Rect const &, unsigned char)
+                        0x080004a9    0x20a  Code  Gb  LCD16bpp.o [8]
+touchgfx::LCD16bpp::blitCopyAlphaPerPixel(unsigned short const *, unsigned char const *, touchgfx::Rect const &, touchgfx::Rect const &, unsigned char)
+                        0x08000d4f    0x28a  Code  Gb  LCD16bpp.o [8]
+touchgfx::LCD16bpp::blitCopyL8(unsigned char const *, unsigned char const *, touchgfx::Rect const &, touchgfx::Rect const &, unsigned char)
+                        0x080006b3     0x28  Code  Gb  LCD16bpp.o [8]
+touchgfx::LCD16bpp::blitCopyL8_ARGB8888(unsigned char const *, unsigned char const *, touchgfx::Rect const &, touchgfx::Rect const &, unsigned char)
+                        0x080006db    0x238  Code  Gb  LCD16bpp.o [8]
+touchgfx::LCD16bpp::blitCopyL8_RGB565(unsigned char const *, unsigned char const *, touchgfx::Rect const &, touchgfx::Rect const &, unsigned char)
+                        0x08000921    0x21a  Code  Gb  LCD16bpp.o [8]
+touchgfx::LCD16bpp::blitCopyL8_RGB888(unsigned char const *, unsigned char const *, touchgfx::Rect const &, touchgfx::Rect const &, unsigned char)
+                        0x08000b3b    0x214  Code  Gb  LCD16bpp.o [8]
+touchgfx::LCD16bpp::copyFrameBufferRegionToMemory(touchgfx::Rect const &, touchgfx::Rect const &, unsigned short)
+                        0x080011e1    0x30e  Code  Gb  LCD16bpp.o [8]
+touchgfx::LCD16bpp::drawGlyph(unsigned short *, touchgfx::Rect, short, short, unsigned short, unsigned short, touchgfx::Rect const &, touchgfx::GlyphNode const *, unsigned char const *, unsigned char, touchgfx::colortype, unsigned char, unsigned char, touchgfx::TextRotation)
+                        0x08001601    0x3ea  Code  Gb  LCD16bpp.o [8]
+touchgfx::LCD16bpp::drawPartialBitmap(touchgfx::Bitmap const &, short, short, touchgfx::Rect const &, unsigned char, bool)
+                        0x08000219    0x290  Code  Gb  LCD16bpp.o [8]
+touchgfx::LCD16bpp::enableTextureMapperA4()
+                        0x0800d7e9     0x12  Code  Gb  LCD16bpp.o [8]
+touchgfx::LCD16bpp::enableTextureMapperA4_BilinearInterpolation()
+                        0x0800dac1     0x10  Code  Gb  LCD16bpp.o [8]
+touchgfx::LCD16bpp::enableTextureMapperA4_BilinearInterpolation()::tm_A4_BilinearInterpolation_GA
+                        0x200023ec      0x4  Data  Lc  LCD16bpp.o [8]
+touchgfx::LCD16bpp::enableTextureMapperA4_BilinearInterpolation()::tm_A4_BilinearInterpolation_NoGA
+                        0x200023f0      0x4  Data  Lc  LCD16bpp.o [8]
+touchgfx::LCD16bpp::enableTextureMapperA4_NearestNeighbor()
+                        0x0800dad1     0x10  Code  Gb  LCD16bpp.o [8]
+touchgfx::LCD16bpp::enableTextureMapperA4_NearestNeighbor()::tm_A4_NearestNeighbor_GA
+                        0x200023f4      0x4  Data  Lc  LCD16bpp.o [8]
+touchgfx::LCD16bpp::enableTextureMapperA4_NearestNeighbor()::tm_A4_NearestNeighbor_NoGA
+                        0x200023f8      0x4  Data  Lc  LCD16bpp.o [8]
+touchgfx::LCD16bpp::enableTextureMapperARGB8888()
+                        0x0800d7fb     0x12  Code  Gb  LCD16bpp.o [8]
+touchgfx::LCD16bpp::enableTextureMapperARGB8888_BilinearInterpolation()
+                        0x0800dae1     0x10  Code  Gb  LCD16bpp.o [8]
+touchgfx::LCD16bpp::enableTextureMapperARGB8888_BilinearInterpolation()::tm_ARGB8888_NonOpaque_BilinearInterpolation_GA
+                        0x200023dc      0x4  Data  Lc  LCD16bpp.o [8]
+touchgfx::LCD16bpp::enableTextureMapperARGB8888_BilinearInterpolation()::tm_ARGB8888_NonOpaque_BilinearInterpolation_NoGA
+                        0x200023e0      0x4  Data  Lc  LCD16bpp.o [8]
+touchgfx::LCD16bpp::enableTextureMapperARGB8888_NearestNeighbor()
+                        0x0800daf1     0x10  Code  Gb  LCD16bpp.o [8]
+touchgfx::LCD16bpp::enableTextureMapperARGB8888_NearestNeighbor()::tm_ARGB8888_NonOpaque_NearestNeighbor_GA
+                        0x200023e4      0x4  Data  Lc  LCD16bpp.o [8]
+touchgfx::LCD16bpp::enableTextureMapperARGB8888_NearestNeighbor()::tm_ARGB8888_NonOpaque_NearestNeighbor_NoGA
+                        0x200023e8      0x4  Data  Lc  LCD16bpp.o [8]
+touchgfx::LCD16bpp::enableTextureMapperAll()
+                        0x0800d3a5     0x2a  Code  Gb  LCD16bpp.o [8]
+touchgfx::LCD16bpp::enableTextureMapperL8_ARGB8888()
+                        0x0800d80d     0x12  Code  Gb  LCD16bpp.o [8]
+touchgfx::LCD16bpp::enableTextureMapperL8_ARGB8888_BilinearInterpolation()
+                        0x0800db01     0x10  Code  Gb  LCD16bpp.o [8]
+touchgfx::LCD16bpp::enableTextureMapperL8_ARGB8888_BilinearInterpolation()::tm_L8_ARGB8888_NonOpaque_BilinearInterpolation_GA
+                        0x200023ac      0x4  Data  Lc  LCD16bpp.o [8]
+touchgfx::LCD16bpp::enableTextureMapperL8_ARGB8888_BilinearInterpolation()::tm_L8_ARGB8888_NonOpaque_BilinearInterpolation_NoGA
+                        0x200023b0      0x4  Data  Lc  LCD16bpp.o [8]
+touchgfx::LCD16bpp::enableTextureMapperL8_ARGB8888_NearestNeighbor()
+                        0x0800db11     0x10  Code  Gb  LCD16bpp.o [8]
+touchgfx::LCD16bpp::enableTextureMapperL8_ARGB8888_NearestNeighbor()::tm_L8_ARGB8888_NonOpaque_NearestNeighbor_GA
+                        0x200023b4      0x4  Data  Lc  LCD16bpp.o [8]
+touchgfx::LCD16bpp::enableTextureMapperL8_ARGB8888_NearestNeighbor()::tm_L8_ARGB8888_NonOpaque_NearestNeighbor_NoGA
+                        0x200023b8      0x4  Data  Lc  LCD16bpp.o [8]
+touchgfx::LCD16bpp::enableTextureMapperL8_RGB565()
+                        0x0800d81f     0x12  Code  Gb  LCD16bpp.o [8]
+touchgfx::LCD16bpp::enableTextureMapperL8_RGB565_BilinearInterpolation()
+                        0x0800db21     0x10  Code  Gb  LCD16bpp.o [8]
+touchgfx::LCD16bpp::enableTextureMapperL8_RGB565_BilinearInterpolation()::tm_L8_RGB565_Opaque_BilinearInterpolation_GA
+                        0x2000238c      0x4  Data  Lc  LCD16bpp.o [8]
+touchgfx::LCD16bpp::enableTextureMapperL8_RGB565_BilinearInterpolation()::tm_L8_RGB565_Opaque_BilinearInterpolation_NoGA
+                        0x20002390      0x4  Data  Lc  LCD16bpp.o [8]
+touchgfx::LCD16bpp::enableTextureMapperL8_RGB565_NearestNeighbor()
+                        0x0800db31     0x10  Code  Gb  LCD16bpp.o [8]
+touchgfx::LCD16bpp::enableTextureMapperL8_RGB565_NearestNeighbor()::tm_L8_RGB565_Opaque_NearestNeighbor_GA
+                        0x20002394      0x4  Data  Lc  LCD16bpp.o [8]
+touchgfx::LCD16bpp::enableTextureMapperL8_RGB565_NearestNeighbor()::tm_L8_RGB565_Opaque_NearestNeighbor_NoGA
+                        0x20002398      0x4  Data  Lc  LCD16bpp.o [8]
+touchgfx::LCD16bpp::enableTextureMapperL8_RGB888()
+                        0x0800d831     0x12  Code  Gb  LCD16bpp.o [8]
+touchgfx::LCD16bpp::enableTextureMapperL8_RGB888_BilinearInterpolation()
+                        0x0800db41     0x10  Code  Gb  LCD16bpp.o [8]
+touchgfx::LCD16bpp::enableTextureMapperL8_RGB888_BilinearInterpolation()::tm_L8_RGB888_Opaque_BilinearInterpolation_GA
+                        0x2000239c      0x4  Data  Lc  LCD16bpp.o [8]
+touchgfx::LCD16bpp::enableTextureMapperL8_RGB888_BilinearInterpolation()::tm_L8_RGB888_Opaque_BilinearInterpolation_NoGA
+                        0x200023a0      0x4  Data  Lc  LCD16bpp.o [8]
+touchgfx::LCD16bpp::enableTextureMapperL8_RGB888_NearestNeighbor()
+                        0x0800db51     0x10  Code  Gb  LCD16bpp.o [8]
+touchgfx::LCD16bpp::enableTextureMapperL8_RGB888_NearestNeighbor()::tm_L8_RGB888_Opaque_NearestNeighbor_GA
+                        0x200023a4      0x4  Data  Lc  LCD16bpp.o [8]
+touchgfx::LCD16bpp::enableTextureMapperL8_RGB888_NearestNeighbor()::tm_L8_RGB888_Opaque_NearestNeighbor_NoGA
+                        0x200023a8      0x4  Data  Lc  LCD16bpp.o [8]
+touchgfx::LCD16bpp::enableTextureMapperRGB565()
+                        0x0800d843     0x1e  Code  Gb  LCD16bpp.o [8]
+touchgfx::LCD16bpp::enableTextureMapperRGB565_NonOpaque_BilinearInterpolation()
+                        0x0800db81     0x10  Code  Gb  LCD16bpp.o [8]
+touchgfx::LCD16bpp::enableTextureMapperRGB565_NonOpaque_BilinearInterpolation()::tm_RGB565_NonOpaque_BilinearInterpolation_GA
+                        0x200023c4      0x4  Data  Lc  LCD16bpp.o [8]
+touchgfx::LCD16bpp::enableTextureMapperRGB565_NonOpaque_BilinearInterpolation()::tm_RGB565_NonOpaque_BilinearInterpolation_NoGA
+                        0x200023c8      0x4  Data  Lc  LCD16bpp.o [8]
+touchgfx::LCD16bpp::enableTextureMapperRGB565_NonOpaque_NearestNeighbor()
+                        0x0800db91     0x10  Code  Gb  LCD16bpp.o [8]
+touchgfx::LCD16bpp::enableTextureMapperRGB565_NonOpaque_NearestNeighbor()::tm_RGB565_NonOpaque_NearestNeighbor_GA
+                        0x200023d4      0x4  Data  Lc  LCD16bpp.o [8]
+touchgfx::LCD16bpp::enableTextureMapperRGB565_NonOpaque_NearestNeighbor()::tm_RGB565_NonOpaque_NearestNeighbor_NoGA
+                        0x200023d8      0x4  Data  Lc  LCD16bpp.o [8]
+touchgfx::LCD16bpp::enableTextureMapperRGB565_Opaque_BilinearInterpolation()
+                        0x0800db61     0x10  Code  Gb  LCD16bpp.o [8]
+touchgfx::LCD16bpp::enableTextureMapperRGB565_Opaque_BilinearInterpolation()::tm_RGB565_Opaque_BilinearInterpolation_GA
+                        0x200023bc      0x4  Data  Lc  LCD16bpp.o [8]
+touchgfx::LCD16bpp::enableTextureMapperRGB565_Opaque_BilinearInterpolation()::tm_RGB565_Opaque_BilinearInterpolation_NoGA
+                        0x200023c0      0x4  Data  Lc  LCD16bpp.o [8]
+touchgfx::LCD16bpp::enableTextureMapperRGB565_Opaque_NearestNeighbor()
+                        0x0800db71     0x10  Code  Gb  LCD16bpp.o [8]
+touchgfx::LCD16bpp::enableTextureMapperRGB565_Opaque_NearestNeighbor()::tm_RGB565_Opaque_NearestNeighbor_GA
+                        0x200023cc      0x4  Data  Lc  LCD16bpp.o [8]
+touchgfx::LCD16bpp::enableTextureMapperRGB565_Opaque_NearestNeighbor()::tm_RGB565_Opaque_NearestNeighbor_NoGA
+                        0x200023d0      0x4  Data  Lc  LCD16bpp.o [8]
+touchgfx::LCD16bpp::framebufferFormat() const
+                        0x080119f1      0x4  Code  Gb  LCD16bpp.o [8]
+touchgfx::LCD16bpp::framebufferStride() const
+                        0x08010ea9     0x2c  Code  Gb  LCD16bpp.o [8]
+touchgfx::LCD16bpp::getColorFrom24BitRGB(unsigned char, unsigned char, unsigned char) const
+                        0x080028a7     0x1a  Code  Gb  LCD16bpp.o [8]
+touchgfx::LCD16bpp::getFramebufferStride()::string (instance 2)
+                        0x08010918     0x44  Data  Gb  LCD16bpp.o [8]
+touchgfx::LCD16bpp::getFramebufferStride()::string (instance 3)
+                        0x0800f614     0x94  Data  Gb  LCD16bpp.o [8]
+touchgfx::LCD16bpp::nextLine(bool, touchgfx::TextRotation)
+                        0x08001579     0x6a  Code  Gb  LCD16bpp.o [8]
+touchgfx::LCD16bpp::nextPixel(bool, touchgfx::TextRotation)
+                        0x080014f5     0x5a  Code  Gb  LCD16bpp.o [8]
+touchgfx::LCD::StringVisuals::StringVisuals(touchgfx::Font const *, touchgfx::colortype, unsigned char, unsigned char, short, touchgfx::TextRotation, unsigned char, unsigned char, touchgfx::WideTextAction)
+                        0x0800b3b5     0x36  Code  Gb  TextAreaWithWildcard.o [8]
+touchgfx::LCD::WideTextInternalStruct::WideTextInternalStruct(touchgfx::TextProvider &, unsigned short, unsigned char, touchgfx::Font const *, touchgfx::WideTextAction)
+                        0x0800474d     0x7c  Code  Gb  LCD.o [8]
+touchgfx::LCD::WideTextInternalStruct::getStringLengthForLine(bool)
+                        0x08002f4d    0x1fa  Code  Gb  LCD.o [8]
+touchgfx::LCD::drawString(touchgfx::Rect, touchgfx::Rect const &, touchgfx::LCD::StringVisuals const &, unsigned short const *, ...)
+                        0x0800297d     0x2c  Code  Gb  LCD.o [8]
+touchgfx::LCD::drawStringFunction
+                        0x20002368      0x8  Data  Gb  Texts.o [1]
+touchgfx::LCD::drawStringInternal(unsigned short *, touchgfx::Rect const *, short, short &, touchgfx::Rect const &, touchgfx::LCD::StringVisuals const *, unsigned char, touchgfx::TextProvider &, int, bool)
+                        0x08002c71    0x2d6  Code  Gb  LCD.o [8]
+touchgfx::LCD::drawStringLTR(touchgfx::Rect const &, touchgfx::Rect const &, touchgfx::LCD::StringVisuals const &, unsigned short const *, __va_list)
+                        0x080029ad    0x2be  Code  Gb  LCD.o [8]
+touchgfx::LCD::getNumLines(touchgfx::TextProvider &, touchgfx::WideTextAction, unsigned char, touchgfx::Font const *, short)
+                        0x08002927     0x56  Code  Gb  LCD.o [8]
+touchgfx::LCD::realX(touchgfx::Rect const &, short, short, touchgfx::TextRotation)
+                        0x0800314d     0x30  Code  Gb  LCD.o [8]
+touchgfx::LCD::realY(touchgfx::Rect const &, short, short, touchgfx::TextRotation)
+                        0x0800317d     0x2e  Code  Gb  LCD.o [8]
+touchgfx::LCD::stringWidth(touchgfx::TextProvider &, touchgfx::Font const &, int, unsigned char)
+                        0x080028c1     0x66  Code  Gb  LCD.o [8]
+touchgfx::LockFreeDMA_Queue::LockFreeDMA_Queue(touchgfx::BlitOp *, unsigned long)
+                        0x08003c3d      0x2  Code  Gb  DMA.o [8]
+touchgfx::LockFreeDMA_Queue::first()
+                        0x08003ce3      0xa  Code  Gb  DMA.o [8]
+touchgfx::LockFreeDMA_Queue::isEmpty()
+                        0x08003c4f     0x10  Code  Gb  DMA.o [8]
+touchgfx::LockFreeDMA_Queue::isFull()
+                        0x08003c5f     0x1a  Code  Gb  DMA.o [8]
+touchgfx::LockFreeDMA_Queue::pop()
+                        0x08003cb5     0x2e  Code  Gb  DMA.o [8]
+touchgfx::LockFreeDMA_Queue::pushCopyOf(touchgfx::BlitOp const &)
+                        0x08003c79     0x3c  Code  Gb  DMA.o [8]
+touchgfx::MCUInstrumentation::getCCConsumed()
+                        0x080119e5      0x4  Code  Gb  STM32F7Instrumentation.o [1]
+touchgfx::MCUInstrumentation::setCCConsumed(unsigned int)
+                        0x080119e9      0x4  Code  Gb  STM32F7Instrumentation.o [1]
+touchgfx::MVPApplication::handlePendingScreenTransition()
+                        0x08010fe9     0x24  Code  Gb  FrontendApplicationBase.o [1]
+touchgfx::NoTransition::handleTickEvent()
+                        0x080076d3      0x6  Code  Gb  FrontendApplicationBase.o [1]
+touchgfx::NoTransition::~NoTransition()
+                        0x0800cb5f      0x2  Code  Gb  FrontendApplicationBase.o [1]
+touchgfx::OSWrappers::giveFrameBufferSemaphore()
+                        0x0800326b      0xe  Code  Gb  OSWrappers.o [1]
+touchgfx::OSWrappers::giveFrameBufferSemaphoreFromISR()
+                        0x08003287     0x26  Code  Gb  OSWrappers.o [1]
+touchgfx::OSWrappers::initialize()
+                        0x08003235     0x2a  Code  Gb  OSWrappers.o [1]
+touchgfx::OSWrappers::signalVSync()
+                        0x080032ad     0x30  Code  Gb  OSWrappers.o [1]
+touchgfx::OSWrappers::takeFrameBufferSemaphore()
+                        0x0800325f      0xc  Code  Gb  OSWrappers.o [1]
+touchgfx::OSWrappers::tryTakeFrameBufferSemaphore()
+                        0x08003279      0x8  Code  Gb  OSWrappers.o [1]
+touchgfx::OSWrappers::waitForVSync()
+                        0x080032dd     0x26  Code  Gb  OSWrappers.o [1]
+touchgfx::Partition<touchgfx::meta::TypeList<PoolTempPresenter, touchgfx::meta::TypeList<touchgfx::meta::Nil, touchgfx::meta::Nil>>, (unsigned short)1>::element(unsigned short)
+                        0x080117f1      0x8  Code  Gb  BoardConfiguration.o [1]
+touchgfx::Partition<touchgfx::meta::TypeList<PoolTempPresenter, touchgfx::meta::TypeList<touchgfx::meta::Nil, touchgfx::meta::Nil>>, (unsigned short)1>::element_size()
+                        0x08011821      0x4  Code  Gb  BoardConfiguration.o [1]
+touchgfx::Partition<touchgfx::meta::TypeList<PoolTempView, touchgfx::meta::TypeList<touchgfx::meta::Nil, touchgfx::meta::Nil>>, (unsigned short)1>::element(unsigned short)
+                        0x08011789      0xc  Code  Gb  BoardConfiguration.o [1]
+touchgfx::Partition<touchgfx::meta::TypeList<PoolTempView, touchgfx::meta::TypeList<touchgfx::meta::Nil, touchgfx::meta::Nil>>, (unsigned short)1>::element_size()
+                        0x0800754f      0x6  Code  Gb  BoardConfiguration.o [1]
+touchgfx::Partition<touchgfx::meta::TypeList<touchgfx::SlideTransition<(touchgfx::Direction)3>, touchgfx::meta::TypeList<touchgfx::meta::Nil, touchgfx::meta::Nil>>, (unsigned short)1>::element(unsigned short)
+                        0x0800677f      0xa  Code  Gb  BoardConfiguration.o [1]
+touchgfx::Partition<touchgfx::meta::TypeList<touchgfx::SlideTransition<(touchgfx::Direction)3>, touchgfx::meta::TypeList<touchgfx::meta::Nil, touchgfx::meta::Nil>>, (unsigned short)1>::element_size()
+                        0x08011825      0x4  Code  Gb  BoardConfiguration.o [1]
+touchgfx::Presenter::activate()
+                        0x0800d3cf      0x2  Code  Gb  PoolTempPresenter.o [1]
+touchgfx::Presenter::deactivate()
+                        0x0800d88f      0x2  Code  Gb  PoolTempPresenter.o [1]
+touchgfx::Presenter::~Presenter()
+                        0x0800d8c7      0x2  Code  Gb  PoolTempPresenter.o [1]
+touchgfx::Rect::Rect()  0x080117a1      0xc  Code  Gb  Application.o [8]
+touchgfx::Rect::Rect(short, short, short, short)
+                        0x08003221     0x14  Code  Gb  DisplayTransformation.o [8]
+touchgfx::Rect::expandToFit(const touchgfx::Rect&)
+                        0x080060f3     0x96  Code  Gb  Application.o [8]
+touchgfx::Rect::includes(const touchgfx::Rect&) const
+                        0x08006019     0x44  Code  Gb  Bitmap.o [8]
+touchgfx::Rect::intersect(const touchgfx::Rect&) const
+                        0x080060af     0x44  Code  Gb  Screen.o [8]
+touchgfx::Rect::operator &=(const touchgfx::Rect&)
+                        0x08005f89     0x90  Code  Gb  Container.o [8]
+touchgfx::STM32F746GTouchController::init()
+                        0x080107ed     0x1e  Code  Gb  STM32F746GTouchController.o [1]
+touchgfx::STM32F746GTouchController::sampleTouch(int &, int &)
+                        0x0801080b     0x30  Code  Gb  STM32F746GTouchController.o [1]
+touchgfx::STM32F7Instrumentation::getCPUCycles()
+                        0x0800cb27      0xc  Code  Gb  STM32F7Instrumentation.o [1]
+touchgfx::STM32F7Instrumentation::init()
+                        0x0800cae5     0x42  Code  Gb  STM32F7Instrumentation.o [1]
+touchgfx::STM32F7Instrumentation::setMCUActive(bool)
+                        0x0800cb3d     0x22  Code  Gb  STM32F7Instrumentation.o [1]
+touchgfx::Screen::JSMOC(touchgfx::Rect const &, touchgfx::Drawable *)
+                        0x08005a15    0x218  Code  Gb  Screen.o [8]
+touchgfx::Screen::Screen()
+                        0x0800594b     0x3e  Code  Gb  Screen.o [8]
+touchgfx::Screen::Screen() [subobject]
+                        0x08005949      0x2  Code  Gb  Screen.o [8]
+touchgfx::Screen::afterTransition()
+                        0x080111bf      0x2  Code  Gb  PoolTempViewBase.o [1]
+touchgfx::Screen::bindTransition(touchgfx::Transition &)
+                        0x08005f7d      0xc  Code  Gb  Screen.o [8]
+touchgfx::Screen::draw()
+                        0x080059cb     0x28  Code  Gb  Screen.o [8]
+touchgfx::Screen::draw(touchgfx::Rect &)
+                        0x08005989     0x42  Code  Gb  Screen.o [8]
+touchgfx::Screen::handleClickEvent(touchgfx::ClickEvent const &)
+                        0x08005c33    0x1e6  Code  Gb  Screen.o [8]
+touchgfx::Screen::handleClickEvent(touchgfx::ClickEvent const &){2}{3}{4}::samplePoints
+                        0x08010888     0x48  Data  Lc  Screen.o [8]
+touchgfx::Screen::handleDragEvent(touchgfx::DragEvent const &)
+                        0x08005e19     0xfa  Code  Gb  Screen.o [8]
+touchgfx::Screen::handleGestureEvent(touchgfx::GestureEvent const &)
+                        0x08005f31     0x4c  Code  Gb  Screen.o [8]
+touchgfx::Screen::handleKeyEvent(unsigned char)
+                        0x08011a07      0x2  Code  Gb  PoolTempViewBase.o [1]
+touchgfx::Screen::handleTickEvent()
+                        0x08011a05      0x2  Code  Gb  PoolTempViewBase.o [1]
+touchgfx::Screen::setupScreen()
+                        0x08011055      0x2  Code  Gb  PoolTempViewBase.o [1]
+touchgfx::Screen::startSMOC(touchgfx::Rect const &)
+                        0x080059f3     0x22  Code  Gb  Screen.o [8]
+touchgfx::Screen::tearDownScreen()
+                        0x080111eb      0x2  Code  Gb  PoolTempViewBase.o [1]
+touchgfx::Screen::~Screen()
+                        0x08011a17      0x2  Code  Gb  Screen.o [8]
+touchgfx::SlideTransition<(touchgfx::Direction)2>::handleTickEvent()
+                        0x0800f201     0xa0  Code  Gb  FrontendApplicationBase.o [1]
+touchgfx::SlideTransition<(touchgfx::Direction)2>::init()
+                        0x0801095d     0x44  Code  Gb  FrontendApplicationBase.o [1]
+touchgfx::SlideTransition<(touchgfx::Direction)2>::initMoveDrawable(touchgfx::Drawable &)
+                        0x080106a5     0x54  Code  Gb  FrontendApplicationBase.o [1]
+touchgfx::SlideTransition<(touchgfx::Direction)2>::tearDown()
+                        0x080110d9     0x20  Code  Gb  FrontendApplicationBase.o [1]
+touchgfx::SlideTransition<(touchgfx::Direction)2>::tickMoveDrawable(touchgfx::Drawable &)
+                        0x08010b8d     0x3a  Code  Gb  FrontendApplicationBase.o [1]
+touchgfx::SlideTransition<(touchgfx::Direction)2>::~SlideTransition()
+                        0x080112f5     0x18  Code  Gb  FrontendApplicationBase.o [1]
+touchgfx::SlideTransition<(touchgfx::Direction)3>::handleTickEvent()
+                        0x0800f321     0xa0  Code  Gb  FrontendApplicationBase.o [1]
+touchgfx::SlideTransition<(touchgfx::Direction)3>::init()
+                        0x080109a1     0x44  Code  Gb  FrontendApplicationBase.o [1]
+touchgfx::SlideTransition<(touchgfx::Direction)3>::initMoveDrawable(touchgfx::Drawable &)
+                        0x080106f9     0x54  Code  Gb  FrontendApplicationBase.o [1]
+touchgfx::SlideTransition<(touchgfx::Direction)3>::tearDown()
+                        0x080110f9     0x20  Code  Gb  FrontendApplicationBase.o [1]
+touchgfx::SlideTransition<(touchgfx::Direction)3>::tickMoveDrawable(touchgfx::Drawable &)
+                        0x08010bc9     0x3a  Code  Gb  FrontendApplicationBase.o [1]
+touchgfx::SlideTransition<(touchgfx::Direction)3>::~SlideTransition()
+                        0x0801130d     0x18  Code  Gb  FrontendApplicationBase.o [1]
+touchgfx::Slider::Slider()
+                        0x08009ea9     0xb4  Code  Gb  Slider.o [8]
+touchgfx::Slider::getIndicatorPositionRangeSize() const
+                        0x0800a393     0x10  Code  Gb  Slider.o [8]
+touchgfx::Slider::getIndicatorRadius() const
+                        0x0800a313     0x1c  Code  Gb  Slider.o [8]
+touchgfx::Slider::getValueRangeSize() const
+                        0x0800a3a3      0xa  Code  Gb  Slider.o [8]
+touchgfx::Slider::handleClickEvent(touchgfx::ClickEvent const &)
+                        0x0800a0b1     0x7e  Code  Gb  Slider.o [8]
+touchgfx::Slider::handleDragEvent(touchgfx::DragEvent const &)
+                        0x0800a12f     0x30  Code  Gb  Slider.o [8]
+touchgfx::Slider::positionToValue(short) const
+                        0x0800a1b9     0x74  Code  Gb  Slider.o [8]
+touchgfx::Slider::setBitmaps(touchgfx::Bitmap const &, touchgfx::Bitmap const &, touchgfx::Bitmap const &)
+                        0x08009f5f     0x74  Code  Gb  Slider.o [8]
+touchgfx::Slider::setValue(int)
+                        0x0800a095     0x1c  Code  Gb  Slider.o [8]
+touchgfx::Slider::setValueRange(int, int)
+                        0x0800a375     0x1e  Code  Gb  Slider.o [8]
+touchgfx::Slider::setValueRange(int, int, int)
+                        0x0800a32f     0x38  Code  Gb  Slider.o [8]
+touchgfx::Slider::setupHorizontalSlider(unsigned short, unsigned short, unsigned short, unsigned short, unsigned short)
+                        0x08009fd3     0xb6  Code  Gb  Slider.o [8]
+touchgfx::Slider::updateIndicatorPosition(short)
+                        0x0800a22d     0xe6  Code  Gb  Slider.o [8]
+touchgfx::Slider::valueToPosition(int) const
+                        0x0800a15f     0x5a  Code  Gb  Slider.o [8]
+touchgfx::Slider::~Slider()
+                        0x08009f5d      0x2  Code  Gb  Slider.o [8]
+touchgfx::SnapshotWidget::SnapshotWidget()
+                        0x0800d8c9     0x38  Code  Gb  SnapshotWidget.o [8]
+touchgfx::SnapshotWidget::draw(touchgfx::Rect const &) const
+                        0x0800d903     0x78  Code  Gb  SnapshotWidget.o [8]
+touchgfx::SnapshotWidget::getSolidRect() const
+                        0x0800d97b     0x38  Code  Gb  SnapshotWidget.o [8]
+touchgfx::SnapshotWidget::makeSnapshot()
+                        0x0800d9b3      0xa  Code  Gb  SnapshotWidget.o [8]
+touchgfx::SnapshotWidget::makeSnapshot(unsigned short)
+                        0x0800d9bd     0x62  Code  Gb  SnapshotWidget.o [8]
+touchgfx::SnapshotWidget::~SnapshotWidget()
+                        0x0800d901      0x2  Code  Gb  SnapshotWidget.o [8]
+touchgfx::TextArea::calculateTextHeight(unsigned short const *, ...) const
+                        0x0800b197    0x136  Code  Gb  TextArea.o [8]
+touchgfx::TextArea::draw(touchgfx::Rect const &) const
+                        0x0800afbf    0x156  Code  Gb  TextArea.o [8]
+touchgfx::TextArea::getSolidRect() const
+                        0x080116c5     0x14  Code  Gb  PoolTempViewBase.o [1]
+touchgfx::TextArea::getTextHeight()
+                        0x0800aec1     0x36  Code  Gb  TextArea.o [8]
+touchgfx::TextArea::getTextWidth() const
+                        0x0800aef7     0xc8  Code  Gb  TextArea.o [8]
+touchgfx::TextArea::resizeToCurrentText()
+                        0x0800b137     0x60  Code  Gb  TextArea.o [8]
+touchgfx::TextArea::setTypedText(touchgfx::TypedText)
+                        0x0800b115     0x22  Code  Gb  TextArea.o [8]
+touchgfx::TextAreaWithOneWildcard::TextAreaWithOneWildcard()
+                        0x0800e109     0x44  Code  Gb  PoolTempViewBase.o [1]
+touchgfx::TextAreaWithOneWildcard::draw(touchgfx::Rect const &) const
+                        0x0800f3c1     0x96  Code  Gb  TextAreaWithWildcard.o [8]
+touchgfx::TextAreaWithOneWildcard::getTextHeight()
+                        0x08010cad     0x38  Code  Gb  TextAreaWithWildcard.o [8]
+touchgfx::TextAreaWithOneWildcard::getTextWidth() const
+                        0x0801079d     0x50  Code  Gb  TextAreaWithWildcard.o [8]
+touchgfx::TextProvider::TextProvider()
+                        0x08003f9d     0x3c  Code  Gb  TextProvider.o [8]
+touchgfx::TextProvider::adjustHindiGlyph(touchgfx::GlyphNode const *)
+                        0x08004243     0x30  Code  Gb  TextProvider.o [8]
+touchgfx::TextProvider::adjustThaiGlyph(touchgfx::Font const *, touchgfx::GlyphNode const *)
+                        0x08004289    0x184  Code  Gb  TextProvider.o [8]
+touchgfx::TextProvider::applyGsubRules(unsigned short const *, unsigned short)
+                        0x080045bd     0x6a  Code  Gb  TextProvider.o [8]
+touchgfx::TextProvider::circularBuffer<(unsigned int)10>::allocateFront(unsigned short)::string
+                        0x08011674     0x14  Data  Gb  TextProvider.o [8]
+touchgfx::TextProvider::circularBuffer<(unsigned int)10>::allocateFront(unsigned short)::string (instance 2)
+                        0x0800fa7c     0x8c  Data  Gb  TextProvider.o [8]
+touchgfx::TextProvider::circularBuffer<(unsigned int)10>::dropFront(unsigned short)
+                        0x08006349     0x44  Code  Gb  TextProvider.o [8]
+touchgfx::TextProvider::circularBuffer<(unsigned int)10>::dropFront(unsigned short)::string
+                        0x08011764      0xc  Data  Gb  TextProvider.o [8]
+touchgfx::TextProvider::circularBuffer<(unsigned int)10>::dropFront(unsigned short)::string (instance 2)
+                        0x0800f964     0x8c  Data  Gb  TextProvider.o [8]
+touchgfx::TextProvider::circularBuffer<(unsigned int)10>::peekChar(unsigned short)
+                        0x080062b9     0x40  Code  Gb  TextProvider.o [8]
+touchgfx::TextProvider::circularBuffer<(unsigned int)10>::peekChar(unsigned short)::string
+                        0x08011708     0x10  Data  Gb  TextProvider.o [8]
+touchgfx::TextProvider::circularBuffer<(unsigned int)10>::peekChar(unsigned short)::string (instance 2)
+                        0x0800f8d8     0x8c  Data  Gb  TextProvider.o [8]
+touchgfx::TextProvider::circularBuffer<(unsigned int)10>::popBack()::string
+                        0x08011770      0xc  Data  Gb  TextProvider.o [8]
+touchgfx::TextProvider::circularBuffer<(unsigned int)10>::popBack()::string (instance 2)
+                        0x0800f9f0     0x8c  Data  Gb  TextProvider.o [8]
+touchgfx::TextProvider::circularBuffer<(unsigned int)10>::popFront()::string
+                        0x08011758      0xc  Data  Gb  TextProvider.o [8]
+touchgfx::TextProvider::circularBuffer<(unsigned int)10>::popFront()::string (instance 2)
+                        0x0800f6a8     0x8c  Data  Gb  TextProvider.o [8]
+touchgfx::TextProvider::circularBuffer<(unsigned int)10>::pushBack(unsigned short)
+                        0x0800638d     0x48  Code  Gb  TextProvider.o [8]
+touchgfx::TextProvider::circularBuffer<(unsigned int)10>::pushBack(unsigned short)::string
+                        0x0801177c      0xc  Data  Gb  TextProvider.o [8]
+touchgfx::TextProvider::circularBuffer<(unsigned int)10>::pushBack(unsigned short)::string (instance 2)
+                        0x0800fb08     0x8c  Data  Gb  TextProvider.o [8]
+touchgfx::TextProvider::circularBuffer<(unsigned int)10>::replaceAt(unsigned short, unsigned short)
+                        0x08006275     0x44  Code  Gb  TextProvider.o [8]
+touchgfx::TextProvider::circularBuffer<(unsigned int)10>::replaceAt(unsigned short, unsigned short)::string
+                        0x080116f8     0x10  Data  Gb  TextProvider.o [8]
+touchgfx::TextProvider::circularBuffer<(unsigned int)10>::replaceAt(unsigned short, unsigned short)::string (instance 2)
+                        0x0800f84c     0x8c  Data  Gb  TextProvider.o [8]
+touchgfx::TextProvider::circularBuffer<(unsigned int)2>::allocateFront(unsigned short)::string
+                        0x08011660     0x14  Data  Gb  TextProvider.o [8]
+touchgfx::TextProvider::circularBuffer<(unsigned int)2>::allocateFront(unsigned short)::string (instance 2)
+                        0x0800f734     0x8c  Data  Gb  TextProvider.o [8]
+touchgfx::TextProvider::circularBuffer<(unsigned int)2>::peekChar(unsigned short)::string
+                        0x08011718     0x10  Data  Gb  TextProvider.o [8]
+touchgfx::TextProvider::circularBuffer<(unsigned int)2>::peekChar(unsigned short)::string (instance 2)
+                        0x0800fb94     0x8c  Data  Gb  TextProvider.o [8]
+touchgfx::TextProvider::circularBuffer<(unsigned int)2>::pushFront(unsigned short)
+                        0x08006219     0x5c  Code  Gb  TextProvider.o [8]
+touchgfx::TextProvider::circularBuffer<(unsigned int)2>::replaceAt(unsigned short, unsigned short)::string
+                        0x080116e8     0x10  Data  Gb  TextProvider.o [8]
+touchgfx::TextProvider::circularBuffer<(unsigned int)2>::replaceAt(unsigned short, unsigned short)::string (instance 2)
+                        0x0800f7c0     0x8c  Data  Gb  TextProvider.o [8]
+touchgfx::TextProvider::fillInputBuffer()
+                        0x080044fb     0x4a  Code  Gb  TextProvider.o [8]
+touchgfx::TextProvider::getNextChar()
+                        0x08003fd9     0x5c  Code  Gb  TextProvider.o [8]
+touchgfx::TextProvider::getNextCharInternal()
+                        0x08004199     0x62  Code  Gb  TextProvider.o [8]
+touchgfx::TextProvider::getNextLigature(unsigned char)
+                        0x08004035     0x84  Code  Gb  TextProvider.o [8]
+touchgfx::TextProvider::getNextLigature(unsigned char, touchgfx::Font const *, touchgfx::GlyphNode const *&)
+                        0x080040b9     0x68  Code  Gb  TextProvider.o [8]
+touchgfx::TextProvider::getNextLigature(unsigned char, touchgfx::Font const *, touchgfx::GlyphNode const *&, unsigned char const *&, unsigned char &)
+                        0x08004121     0x78  Code  Gb  TextProvider.o [8]
+touchgfx::TextProvider::gsubRuleMatch(unsigned short const *, unsigned short, unsigned short, unsigned short)
+                        0x08004627     0xb2  Code  Gb  TextProvider.o [8]
+touchgfx::TextProvider::gsubTableBinarySearch(unsigned short, unsigned short const *, unsigned short) const
+                        0x08004709     0x44  Code  Gb  TextProvider.o [8]
+touchgfx::TextProvider::initialize(unsigned short const *, __va_list, unsigned short const *)
+                        0x080041fb      0x8  Code  Gb  TextProvider.o [8]
+touchgfx::TextProvider::initializeInternal()
+                        0x08004203     0x40  Code  Gb  TextProvider.o [8]
+touchgfx::TextProvider::replaceInputCharacters(unsigned short, unsigned short, unsigned short const *)
+                        0x0800440d     0xee  Code  Gb  TextProvider.o [8]
+touchgfx::TextProvider::substituteGlyphs()
+                        0x0800454d     0x68  Code  Gb  TextProvider.o [8]
+touchgfx::TextProvider::thaiLookupGlyph(touchgfx::GlyphNode const *, touchgfx::Font const *, unsigned short) const
+                        0x08004273     0x16  Code  Gb  TextProvider.o [8]
+touchgfx::TextProvider::unicodeConverterFunction
+                        0x20002d44      0x8  Data  Gb  Texts.o [1]
+touchgfx::TextProvider::unicodeConverterInitFunction
+                        0x20002d3c      0x8  Data  Gb  Texts.o [1]
+touchgfx::Texts::currentLanguage
+                        0x20002d10      0x2  Data  Gb  Texts.o [1]
+touchgfx::Texts::getText(unsigned short) const
+                        0x0800b387     0x10  Code  Gb  Texts.o [1]
+touchgfx::Texts::setLanguage(unsigned short)
+                        0x0800b33d     0x4a  Code  Gb  Texts.o [1]
+touchgfx::ToggleButton::ToggleButton()
+                        0x0800df51     0x48  Code  Gb  ToggleButton.o [8]
+touchgfx::ToggleButton::handleClickEvent(touchgfx::ClickEvent const &)
+                        0x0800dfa5     0x1e  Code  Gb  ToggleButton.o [8]
+touchgfx::TouchCalibration::matrix
+                        0x20002b34     0x4c  Data  Gb  TouchCalibration.o [8]
+touchgfx::TouchCalibration::muldiv(int, int, int, int, int, int, int &)
+                        0x08003ea1     0x60  Code  Gb  TouchCalibration.o [8]
+touchgfx::TouchCalibration::translatePoint(touchgfx::Point &)
+                        0x08003f01     0x98  Code  Gb  TouchCalibration.o [8]
+touchgfx::Transition::handleTickEvent()
+                        0x0800b5bf      0x2  Code  Gb  FrontendApplicationBase.o [1]
+touchgfx::Transition::init()
+                        0x0800ca5b      0x2  Code  Gb  FrontendApplicationBase.o [1]
+touchgfx::Transition::setScreenContainer(touchgfx::Container &)
+                        0x08011829      0x4  Code  Gb  FrontendApplicationBase.o [1]
+touchgfx::Transition::tearDown()
+                        0x0800c30f      0x2  Code  Gb  FrontendApplicationBase.o [1]
+touchgfx::Transition::~Transition()
+                        0x0800b3eb      0x2  Code  Gb  FrontendApplicationBase.o [1]
+touchgfx::TypedText::assertValid() const
+                        0x0800b2f5     0x48  Code  Gb  TextAreaWithWildcard.o [8]
+touchgfx::TypedText::assertValid() const::string (instance 2)
+                        0x080117d0      0x8  Data  Gb  PoolTempViewBase.o [1]
+touchgfx::TypedText::assertValid() const::string (instance 3)
+                        0x080102a0     0x64  Data  Gb  PoolTempViewBase.o [1]
+touchgfx::TypedText::assertValid() const::string (instance 5)
+                        0x08010650     0x54  Data  Gb  TextAreaWithWildcard.o [8]
+touchgfx::TypedText::fonts
+                        0x20002d6c      0x4  Data  Gb  TypedText.o [8]
+touchgfx::TypedText::getAlignment() const
+                        0x0800f50d     0x54  Code  Gb  TextAreaWithWildcard.o [8]
+touchgfx::TypedText::getFont() const
+                        0x0800f45d     0x5c  Code  Gb  TextAreaWithWildcard.o [8]
+touchgfx::TypedText::getTextDirection() const
+                        0x0800f4b9     0x54  Code  Gb  TextAreaWithWildcard.o [8]
+touchgfx::TypedText::numberOfTypedTexts
+                        0x20002d78      0x2  Data  Gb  TypedText.o [8]
+touchgfx::TypedText::texts
+                        0x20002d68      0x4  Data  Gb  TypedText.o [8]
+touchgfx::TypedText::typedTexts
+                        0x20002d64      0x4  Data  Gb  TypedText.o [8]
+touchgfx::UIEventListener::handleClickEvent(touchgfx::ClickEvent const &)
+                        0x08011a0d      0x2  Code  Gb  Application.o [8]
+touchgfx::UIEventListener::handleDragEvent(touchgfx::DragEvent const &)
+                        0x08011a0f      0x2  Code  Gb  Application.o [8]
+touchgfx::UIEventListener::handleGestureEvent(touchgfx::GestureEvent const &)
+                        0x08011a11      0x2  Code  Gb  Application.o [8]
+touchgfx::UIEventListener::handleKeyEvent(unsigned char)
+                        0x08011a13      0x2  Code  Gb  Application.o [8]
+touchgfx::UIEventListener::handleTickEvent()
+                        0x08011a15      0x2  Code  Gb  Application.o [8]
+touchgfx::Unicode::atoi(unsigned short const *)
+                        0x080091b1     0x20  Code  Gb  Unicode.o [8]
+touchgfx::Unicode::composeString(unsigned short const *&, unsigned short, unsigned short const *, bool, bool, int, bool, int, bool, int &, unsigned short, unsigned short *)
+                        0x080094f9    0x15a  Code  Gb  Unicode.o [8]
+touchgfx::Unicode::itoa(int, unsigned short *, unsigned short, int)
+                        0x08009105     0x68  Code  Gb  Unicode.o [8]
+touchgfx::Unicode::snprintf(unsigned short *, unsigned short, char const *, ...)
+                        0x080094a5      0xe  Code  Gb  Unicode.o [8]
+touchgfx::Unicode::strlen(char const *)
+                        0x080090c1     0x1a  Code  Gb  Unicode.o [8]
+touchgfx::Unicode::strncpy(unsigned short *, char const *, unsigned short)
+                        0x080090db     0x24  Code  Gb  Unicode.o [8]
+touchgfx::Unicode::utoa(unsigned int, unsigned short *, unsigned short, int)
+                        0x0800916d     0x44  Code  Gb  Unicode.o [8]
+touchgfx::Unicode::vsnprintf(unsigned short *, unsigned short, char const *, __va_list)
+                        0x080094b3     0x42  Code  Gb  Unicode.o [8]
+touchgfx::Unicode::vsnprintf(unsigned short *, unsigned short, unsigned short const *, __va_list)
+                        0x080091d1    0x2ce  Code  Gb  Unicode.o [8]
+touchgfx::Vector<touchgfx::Rect, (unsigned short)8>::Vector()
+                        0x080058a5     0x1c  Code  Gb  Application.o [8]
+touchgfx::Vector<touchgfx::Rect, (unsigned short)8>::add(touchgfx::Rect)
+                        0x08006189     0x4c  Code  Gb  Application.o [8]
+touchgfx::Vector<touchgfx::Rect, (unsigned short)8>::add(touchgfx::Rect)::string (instance 2)
+                        0x08010e4c     0x30  Data  Gb  Application.o [8]
+touchgfx::Vector<touchgfx::Rect, (unsigned short)8>::add(touchgfx::Rect)::string (instance 3)
+                        0x0800fcac     0x88  Data  Gb  Application.o [8]
+touchgfx::Vector<touchgfx::Rect, (unsigned short)8>::quickRemoveAt(unsigned short)
+                        0x0800605d     0x52  Code  Gb  Application.o [8]
+touchgfx::View<MainPresenter>::~View()
+                        0x0800cf5f      0x2  Code  Gb  MainViewBase.o [1]
+touchgfx::View<PoolTempPresenter>::~View()
+                        0x08011a09      0x2  Code  Gb  PoolTempViewBase.o [1]
+touchgfx::Widget::Widget() [subobject]
+                        0x0800a533     0x26  Code  Gb  PoolTempViewBase.o [1]
+touchgfx::Widget::getLastChild(short, short, touchgfx::Drawable **)
+                        0x08006337     0x12  Code  Gb  PoolTempViewBase.o [1]
+touchgfx::display       0x20000c48     0x78  Data  Gb  BoardConfiguration.o [1]
+touchgfx::dma           0x2000000c    0xc28  Data  Gb  BoardConfiguration.o [1]
+touchgfx::getHAL<STM32F7HAL>(touchgfx::DMA_Interface &, touchgfx::LCD &, touchgfx::TouchController &, int16_t, int16_t)::hal
+                        0x200029bc     0x78  Data  Lc  BoardConfiguration.o [1]
+touchgfx::getHAL<STM32F7HAL>(touchgfx::DMA_Interface &, touchgfx::LCD &, touchgfx::TouchController &, int16_t, int16_t)::static guard for hal
+                        0x200029b8      0x1  Data  Lc  BoardConfiguration.o [1]
+touchgfx::hw_init()     0x0800c095    0x194  Code  Gb  BoardConfiguration.o [1]
+touchgfx::mcuInstr      0x20000c3c      0xc  Data  Gb  BoardConfiguration.o [1]
+touchgfx::memset(void *, unsigned char, unsigned int)
+                        0x08009675      0xe  Code  Gb  Utils.o [8]
+touchgfx::tc            0x20000c34      0x8  Data  Gb  BoardConfiguration.o [1]
+touchgfx::tim           0x20002c04     0x3c  Data  Gb  STM32F7Instrumentation.o [1]
+touchgfx::touchgfx_init()
+                        0x0800c229     0x64  Code  Gb  BoardConfiguration.o [1]
+tsDriver                0x20002c48      0x4  Data  Lc  stm32746g_discovery_ts.o [1]
+tsOrientation           0x20002c40      0x1  Data  Lc  stm32746g_discovery_ts.o [1]
+tsXBoundary             0x20002c42      0x2  Data  Lc  stm32746g_discovery_ts.o [1]
+tsYBoundary             0x20002c44      0x2  Data  Lc  stm32746g_discovery_ts.o [1]
+typedTextDatabaseArray  0x08011a00      0x4  Data  Gb  TypedTextDatabase.o [1]
+typedText_database_DEFAULT
+                        0x080119fc      0x4  Data  Gb  TypedTextDatabase.o [1]
+ucHeap                  0x20000d00   0x157c  Data  Lc  heap_2.o [1]
+ucMaxSysCallPriority    0x20002288      0x1  Data  Lc  port.o [1]
+ulMaxPRIGROUPValue      0x20002290      0x4  Data  Lc  port.o [1]
+unicodes_verdana_10_4bpp
+                        0x0800b508      0x4  Data  Gb  Table_verdana_10_4bpp.o [1]
+unicodes_verdana_20_4bpp
+                        0x0800b460      0x4  Data  Gb  Table_verdana_20_4bpp.o [1]
+unicodes_verdana_20_4bpp_0
+                        0x0800eabc    0x1d0  Data  Gb  Font_verdana_20_4bpp_0.o [1]
+unicodes_verdana_45_4bpp
+                        0x0800b4b4      0x4  Data  Gb  Table_verdana_45_4bpp.o [1]
+unicodes_verdana_45_4bpp_0
+                        0x08007874    0xfd4  Data  Gb  Font_verdana_45_4bpp_0.o [1]
+uwTick                  0x20002d5c      0x4  Data  Gb  stm32f7xx_hal.o [1]
+uxCriticalNesting       0x2000228c      0x4  Data  Lc  port.o [1]
+uxCurrentNumberOfTasks  0x200028f8      0x4  Data  Lc  tasks.o [1]
+uxListRemove            0x0800662d     0x28  Code  Gb  list.o [1]
+uxPendedTicks           0x20002350      0x4  Data  Lc  tasks.o [1]
+uxSchedulerSuspended    0x20002908      0x4  Data  Lc  tasks.o [1]
+uxTaskNumber            0x20002358      0x4  Data  Lc  tasks.o [1]
+uxTasksDeleted          0x20002334      0x4  Data  Lc  tasks.o [1]
+uxTopReadyPriority      0x20002900      0x4  Data  Lc  tasks.o [1]
+vApplicationIdleHook    0x0800331f      0x8  Code  Gb  OSWrappers.o [1]
+vApplicationMallocFailedHook
+                        0x0800331d      0x2  Code  Gb  OSWrappers.o [1]
+vApplicationStackOverflowHook
+                        0x0800331b      0x2  Code  Gb  OSWrappers.o [1]
+vListInitialise         0x080065c1     0x1a  Code  Gb  list.o [1]
+vListInitialiseItem     0x080065db      0x6  Code  Gb  list.o [1]
+vListInsert             0x080065f9     0x34  Code  Gb  list.o [1]
+vListInsertEnd          0x080065e1     0x18  Code  Gb  list.o [1]
+vPortEnableVFP          0x08007845           Code  Gb  portasm.o [1]
+vPortEnterCritical      0x0800649b     0x3c  Code  Gb  port.o [1]
+vPortExitCritical       0x080064d7     0x28  Code  Gb  port.o [1]
+vPortFree               0x08006709     0x36  Code  Gb  heap_2.o [1]
+vPortStartFirstTask     0x0800782d           Code  Gb  portasm.o [1]
+vPortValidateInterruptPriority
+                        0x0800652d     0x50  Code  Gb  port.o [1]
+vTaskMissedYield        0x080053ff      0xa  Code  Gb  tasks.o [1]
+vTaskPlaceOnEventList   0x08005291     0x4c  Code  Gb  tasks.o [1]
+vTaskPriorityInherit    0x080054dd     0x7e  Code  Gb  tasks.o [1]
+vTaskSetApplicationTaskTag
+                        0x080051c5     0x12  Code  Gb  tasks.o [1]
+vTaskSetTimeOutState    0x08005361     0x28  Code  Gb  tasks.o [1]
+vTaskStartScheduler     0x08004faf     0x6e  Code  Gb  tasks.o [1]
+vTaskSuspendAll         0x08005025      0xc  Code  Gb  tasks.o [1]
+vTaskSwitchContext      0x080051f5     0x9c  Code  Gb  tasks.o [1]
+vTaskSwitchContext{1}{3}{6}::ucExpectedStackBytes
+                        0x080055fc     0x14  Data  Lc  tasks.o [1]
+vsync_q                 0x20002280      0x4  Data  Lc  OSWrappers.o [1]
+xDelayedTaskList1       0x2000290c     0x14  Data  Lc  tasks.o [1]
+xDelayedTaskList2       0x20002920     0x14  Data  Lc  tasks.o [1]
+xEnd                    0x20000cf0      0x8  Data  Lc  heap_2.o [1]
+xFreeBytesRemaining     0x20000cf8      0x4  Data  Lc  heap_2.o [1]
+xNextTaskUnblockTime    0x2000235c      0x4  Data  Lc  tasks.o [1]
+xNumOfOverflows         0x20002354      0x4  Data  Lc  tasks.o [1]
+xPendingReadyList       0x20002308     0x14  Data  Lc  tasks.o [1]
+xPortStartScheduler     0x08006429     0x72  Code  Gb  port.o [1]
+xQueueGenericCreate     0x08004867     0x6c  Code  Gb  queue.o [1]
+xQueueGenericReceive    0x08004b7d    0x158  Code  Gb  queue.o [1]
+xQueueGenericReset      0x080047dd     0x8a  Code  Gb  queue.o [1]
+xQueueGenericSend       0x080048d3    0x14c  Code  Gb  queue.o [1]
+xQueueGenericSendFromISR
+                        0x08004a2b     0xc8  Code  Gb  queue.o [1]
+xQueueGiveFromISR       0x08004af3     0x8a  Code  Gb  queue.o [1]
+xSchedulerRunning       0x2000234c      0x4  Data  Lc  tasks.o [1]
+xStart                  0x20000ce8      0x8  Data  Lc  heap_2.o [1]
+xSuspendedTaskList      0x20002338     0x14  Data  Lc  tasks.o [1]
+xTaskCallApplicationTaskHook
+                        0x080051df     0x16  Code  Gb  tasks.o [1]
+xTaskCheckForTimeOut    0x08005389     0x76  Code  Gb  tasks.o [1]
+xTaskGenericCreate      0x08004dd5    0x1da  Code  Gb  tasks.o [1]
+xTaskIncrementTick      0x080050eb     0xda  Code  Gb  tasks.o [1]
+xTaskPriorityDisinherit
+                        0x0800555b     0x80  Code  Gb  tasks.o [1]
+xTaskRemoveFromEventList
+                        0x080052f7     0x64  Code  Gb  tasks.o [1]
+xTaskResumeAll          0x08005031     0xba  Code  Gb  tasks.o [1]
+xTasksWaitingTermination
+                        0x2000231c     0x14  Data  Lc  tasks.o [1]
+xTickCount              0x200028fc      0x4  Data  Lc  tasks.o [1]
+xYieldPending           0x20002904      0x4  Data  Lc  tasks.o [1]
+
+
+[1] = C:\TouchGFXProjects\Pool_Demo\target\IAR8.x\Debug\Obj
+[2] = command line
+[3] = dl7M_tln.a
+[4] = dlpp7M_tl_nc.a
+[5] = m7M_tls.a
+[6] = rt7M_tl.a
+[7] = shb_l.a
+[8] = touchgfx_core.a
+
+   57 279 bytes of readonly  code memory
+  741 123 bytes of readonly  data memory
+   13 077 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

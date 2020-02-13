@@ -1,0 +1,317 @@
+{
+  "Application": {
+    "Screens": [
+      {
+        "Components": [
+          {
+            "RelativeFilename": "Main_Background.png",
+            "Alpha": 255,
+            "Name": "background",
+            "X": 0,
+            "Y": 0,
+            "Width": 480,
+            "Height": 272,
+            "Type": "Image",
+            "Visible": true,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "InitialStatePressed": false,
+            "Pressed": "__designer\\Blue_Togglebars_Toggle_round_large_button_ON.png",
+            "Released": "__designer\\Blue_Togglebars_Toggle_round_large_button_OFF.png",
+            "Alpha": 255,
+            "Name": "onOffButton",
+            "X": 97,
+            "Y": 136,
+            "Width": 128,
+            "Height": 38,
+            "Type": "ToggleButton",
+            "Visible": true,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Pressed": "adjust_button_pressed.png",
+            "Released": "adjust_button.png",
+            "Alpha": 255,
+            "Name": "buttonAdjust",
+            "X": 345,
+            "Y": 133,
+            "Width": 120,
+            "Height": 44,
+            "Type": "Button",
+            "Visible": true,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "RelativeFilename": "peare_hvid.png",
+            "Alpha": 255,
+            "Name": "bulpWhite",
+            "X": 27,
+            "Y": 117,
+            "Width": 60,
+            "Height": 60,
+            "Type": "Image",
+            "Visible": true,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "RelativeFilename": "peare_gul.png",
+            "Alpha": 255,
+            "Name": "bulbYellow",
+            "X": 27,
+            "Y": 117,
+            "Width": 60,
+            "Height": 60,
+            "Type": "Image",
+            "Visible": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "AdjustClicked",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "TriggerComponent": "buttonAdjust",
+              "Type": "TriggerClicked"
+            },
+            "Action": {
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "PoolTemp",
+              "Type": "ActionGotoScreen"
+            }
+          },
+          {
+            "InteractionName": "toggleBulbColor",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "TriggerComponent": "onOffButton",
+              "Type": "TriggerClicked"
+            },
+            "Action": {
+              "Code": "bulbYellow.setVisible(!bulbYellow.isVisible());\r\nbulbYellow.invalidate();",
+              "Type": "ActionExecuteCode"
+            }
+          },
+          {
+            "InteractionName": "ChangePoolLight",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "TriggerComponent": "onOffButton",
+              "Type": "TriggerClicked"
+            },
+            "Action": {
+              "FunctionName": "updatePoolLight",
+              "Type": "ActionCustom"
+            }
+          }
+        ],
+        "Name": "Main",
+        "OverrideDefaultBufferSize": false,
+        "CanvasBufferSize": 0
+      },
+      {
+        "Components": [
+          {
+            "RelativeFilename": "settings_background.png",
+            "Alpha": 255,
+            "Name": "background",
+            "X": 0,
+            "Y": 0,
+            "Width": 480,
+            "Height": 272,
+            "Type": "Image",
+            "Visible": true,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Pressed": "ok_button_pressed.png",
+            "Released": "ok_button.png",
+            "Alpha": 255,
+            "Name": "buttonOK",
+            "X": 180,
+            "Y": 207,
+            "Width": 120,
+            "Height": 44,
+            "Type": "Button",
+            "Visible": true,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "IsHorizontalSlider": true,
+            "BackgroundUnselected": "__designer\\Blue_Slider_Horizontal_Medium_Slider_Round_back.png",
+            "BackgroundSelected": "__designer\\Blue_Slider_Horizontal_Medium_Slider_Round_fill.png",
+            "Indicator": "__designer\\Blue_Slider_Horizontal_Medium_Indicators_Slider_Round_nob.png",
+            "BackgroundX": 2,
+            "BackgroundY": 19,
+            "IndicatorPos": 2,
+            "IndicatorMax": 309,
+            "IndicatorMin": 0,
+            "ValueMax": 28,
+            "ValueMin": 12,
+            "InitValue": 18,
+            "Name": "slider",
+            "X": 11,
+            "Y": 121,
+            "Width": 357,
+            "Height": 50,
+            "Type": "Slider",
+            "Visible": true,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "TextId": "TextId2",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "Alpha": 255,
+            "AutoSize": false,
+            "LineSpacing": 0,
+            "Wildcard1": {
+              "UseBuffer": true,
+              "BufferSize": 3
+            },
+            "Name": "tempText",
+            "X": 381,
+            "Y": 117,
+            "Width": 115,
+            "Height": 46,
+            "Type": "TextArea",
+            "Visible": true,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "OkClicked",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "TriggerComponent": "buttonOK",
+              "Type": "TriggerClicked"
+            },
+            "Action": {
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "West",
+              "ActionComponent": "Main",
+              "Type": "ActionGotoScreen"
+            }
+          },
+          {
+            "InteractionName": "SliderChanged",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "TriggerComponent": "slider",
+              "Type": "TriggerSliderValueChanged"
+            },
+            "Action": {
+              "FunctionName": "sliderMoved",
+              "Type": "ActionCustom"
+            }
+          }
+        ],
+        "Name": "PoolTemp",
+        "OverrideDefaultBufferSize": false,
+        "CanvasBufferSize": 0
+      }
+    ],
+    "CustomContainerDefinitions": [],
+    "TextEntries": [
+      {
+        "TextEntryId": "TextId1",
+        "IsResource": true
+      },
+      {
+        "TextEntryId": "TextId2",
+        "IsResource": true
+      }
+    ],
+    "Name": "Pool_Demo",
+    "Resolution": {
+      "Width": 480,
+      "Height": 272
+    },
+    "SelectedColorDepth": 16,
+    "StartupScreenName": "Main",
+    "SelectedStartupLanguage": "GB",
+    "Skin": "Blue",
+    "TouchGfxPath": "touchgfx",
+    "UIPath": ".",
+    "ApplicationTemplateName": "ST_STM32F746G_DISCO",
+    "ApplicationTemplateVersion": "1.1.0",
+    "ApplicationTemplateDescription": "ST STM32F746G DISCO Application Template",
+    "AvailableColorDepths": [
+      16,
+      24
+    ],
+    "AvailableLCDs": {
+      "16": "LCD16bpp",
+      "24": "LCD24bpp"
+    },
+    "AvailableSections": [
+      "ExtFlashSection",
+      "IntFlashSection"
+    ],
+    "AvailableResolutions": [
+      {
+        "Width": 480,
+        "Height": 272
+      }
+    ],
+    "PhysicalButtons": [
+      {
+        "Key": 1,
+        "Name": "User Key"
+      }
+    ],
+    "FrameworkFeatures": {
+      "LCD16bpp": {
+        "Id": "LCD16bpp",
+        "IsEnabled": true
+      }
+    },
+    "GenerateAssetsCommand": "make -f simulator/gcc/Makefile assets -j8",
+    "PostGenerateCommand": "touchgfx update_project --project-file=target/IAR/application.ewp && touchgfx update_project --project-file=target/IAR8.x/application.ewp && touchgfx update_project --project-file=target/Keil/application.uvprojx && touchgfx update_project --project-file=simulator/msvs/Application.vcxproj",
+    "CompileSimulatorCommand": "make -f simulator/gcc/Makefile -j8",
+    "RunSimulatorCommand": "build\\bin\\simulator.exe",
+    "CompileTargetCommand": "make -f target/gcc/../gcc/Makefile -j8",
+    "FlashTargetCommand": "make -f target/gcc/Makefile -j8 flash",
+    "LandscapeSkinX": 0,
+    "LandscapeSkinY": 0,
+    "PortraitSkinX": 0,
+    "PortraitSkinY": 0,
+    "DisplayOrientation": "Landscape"
+  },
+  "Version": "4.13.0",
+  "CreatedBy": "4.13.0"
+}
